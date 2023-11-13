@@ -1,0 +1,10 @@
+torchsummary
+torchgeometry
+torch
+torchvision
+opencv-python
+pandas
+numpy
+wandb
+imageio
+matplotlib
