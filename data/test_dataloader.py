@@ -1,5 +1,6 @@
 import os
 from PIL import Image
+from torch.utils.data import Dataset
 
 class UNetTestDataClass(Dataset):
     def __init__(self, images_path, transform):
