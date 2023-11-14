@@ -1,7 +1,7 @@
-python main.py \
+python PolypSegment/main.py \
     --checkpoint-path ./checkpoints/ \
     --pretrained-path ./saved_models/ \
-    --infer-path /kaggle/working/predicted_masks/ \
+    --infer-path /kaggle/working/PolypSegment/predicted_masks/ \
     --images-path /kaggle/input/bkai-igh-neopolyp/train/train/ \
     --masks-path /kaggle/input/bkai-igh-neopolyp/train_gt/train_gt/ \
     --test-path /kaggle/input/bkai-igh-neopolyp/test/test/ \
