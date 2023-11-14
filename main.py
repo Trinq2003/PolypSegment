@@ -21,6 +21,7 @@ from collections import OrderedDict
 import wandb
 
 from data.dataloader import UNetDataClass
+from data.test_dataloader import UNetTestDataClass
 from model.encoder import EncoderBlock
 from model.decoder import DecoderBlock
 from model.bottleneck import BottleneckBlock
@@ -45,8 +46,10 @@ valid_size = args.valid_size
 
 checkpoint_path = args.checkpoint_path
 pretrained_path = args.pretrained_path
+inference_path = args.infer_path
 images_path = args.images_path
 masks_path =  args.masks_path
+test_images_path = args.test_path
 
 loss_epoch_array = []
 train_accuracy = []
@@ -109,5 +112,32 @@ for epoch in range(epochs):
     train_loss_array.append(train_loss_epoch)
     test_loss_array.append(test_loss_epoch)
     wandb.log({"Train loss": train_loss_epoch, "Valid loss": test_loss_epoch})
-
+    train_accuracy.append(test.test(model=model, device=device, dataloader=train_dataloader))
+    valid_accuracy.append(test.test(model=model, device=device, dataloader=valid_dataloader))
+    print("Epoch {}: loss: {:.4f}, train accuracy: {:.4f}, valid accuracy:{:.4f}".format(epoch + 1, 
+                                        train_loss_array[-1], train_accuracy[-1], valid_accuracy[-1]))
+    
+torch.cuda.empty_cache()
 print("="*25 + "END STEP 2" + "="*25)
+
+# Results visualization
+print(f"[PROGRESS] STEP 3: Plotting diagrams...")
+utils.learning_curve_plotting(epochs=epochs, train_loss_array=train_loss_array)
+utils.result_visualization(model=model, train_dataloader=train_dataloader)
+print("="*25 + "END STEP 3" + "="*25)
+
+# Testing
+print(f"[PROGRESS] STEP 4: Testing...")
+test_transform = Compose([Resize((800, 1120), interpolation=InterpolationMode.BILINEAR),
+                     PILToTensor()])
+unet_test_dataset = UNetTestDataClass(images_path=test_images_path, transform=test_transform)
+test_dataloader = DataLoader(unet_test_dataset, batch_size=batch_size, shuffle=True)
+
+for i, (data, path, h, w) in enumerate(test_dataloader):
+    img = data
+    break
+
+utils.prediction_visualization(model=model, img=img)
+utils.save_prediction_image(model=model, test_dataloader=test_dataloader, infer_path=inference_path)
+utils.prediction_to_csv(infer_path=inference_path)
+print("="*25 + "END STEP 4" + "="*25)

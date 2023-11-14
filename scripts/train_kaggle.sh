@@ -1,0 +1,9 @@
+python main.py \
+    --checkpoint-path ./checkpoints/ \
+    --pretrained-path ./saved_models/ \
+    --images-path /kaggle/input/bkai-igh-neopolyp/train/train/ \
+    --masks-path /kaggle/input/bkai-igh-neopolyp/train_gt/train_gt/ \
+    --num-epochs 1 \
+    --lr 2e-4 \
+    --batch-size 4 \
+    --display-step 10 \
