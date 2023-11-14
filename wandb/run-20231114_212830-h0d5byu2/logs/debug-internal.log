@@ -1,0 +1,269 @@
+2023-11-14 21:28:30,315 INFO    StreamThr :55485 [internal.py:wandb_internal():86] W&B internal server running at pid: 55485, started at: 2023-11-14 21:28:30.314508
+2023-11-14 21:28:30,316 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: status
+2023-11-14 21:28:30,498 INFO    WriterThread:55485 [datastore.py:open_for_write():85] open: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/run-h0d5byu2.wandb
+2023-11-14 21:28:30,499 DEBUG   SenderThread:55485 [sender.py:send():380] send: header
+2023-11-14 21:28:30,504 DEBUG   SenderThread:55485 [sender.py:send():380] send: run
+2023-11-14 21:28:35,507 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:28:37,602 INFO    SenderThread:55485 [dir_watcher.py:__init__():211] watching files in: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files
+2023-11-14 21:28:37,603 INFO    SenderThread:55485 [sender.py:_start_run_threads():1122] run started: h0d5byu2 with start time 1699972110.496955
+2023-11-14 21:28:37,603 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: status_report
+2023-11-14 21:28:37,612 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: check_version
+2023-11-14 21:28:37,612 DEBUG   SenderThread:55485 [sender.py:send_request():407] send_request: check_version
+2023-11-14 21:28:41,304 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: run_start
+2023-11-14 21:28:41,324 DEBUG   HandlerThread:55485 [system_info.py:__init__():32] System info init
+2023-11-14 21:28:41,324 DEBUG   HandlerThread:55485 [system_info.py:__init__():47] System info init done
+2023-11-14 21:28:41,324 INFO    HandlerThread:55485 [system_monitor.py:start():194] Starting system monitor
+2023-11-14 21:28:41,325 INFO    SystemMonitor:55485 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-14 21:28:41,325 INFO    HandlerThread:55485 [system_monitor.py:probe():214] Collecting system info
+2023-11-14 21:28:41,326 INFO    SystemMonitor:55485 [interfaces.py:start():190] Started cpu monitoring
+2023-11-14 21:28:41,329 INFO    SystemMonitor:55485 [interfaces.py:start():190] Started disk monitoring
+2023-11-14 21:28:41,330 INFO    SystemMonitor:55485 [interfaces.py:start():190] Started gpu monitoring
+2023-11-14 21:28:41,330 INFO    SystemMonitor:55485 [interfaces.py:start():190] Started memory monitoring
+2023-11-14 21:28:41,331 INFO    SystemMonitor:55485 [interfaces.py:start():190] Started network monitoring
+2023-11-14 21:28:41,337 DEBUG   HandlerThread:55485 [system_info.py:probe():196] Probing system
+2023-11-14 21:28:41,339 DEBUG   HandlerThread:55485 [system_info.py:_probe_git():181] Probing git
+2023-11-14 21:28:41,346 DEBUG   HandlerThread:55485 [system_info.py:_probe_git():189] Probing git done
+2023-11-14 21:28:41,346 DEBUG   HandlerThread:55485 [system_info.py:probe():244] Probing system done
+2023-11-14 21:28:41,346 DEBUG   HandlerThread:55485 [system_monitor.py:probe():223] {'os': 'Linux-6.2.0-36-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2023-11-14T14:28:41.337268', 'startedAt': '2023-11-14T14:28:30.309586', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/wallace/Code/HUST/UNET/main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'git': {'remote': 'https://github.com/Trinq2003/PolypSegment.git', 'commit': '06d34a20b20775dca207d7823131f963d7ea2bde'}, 'email': 'tri.nq210860@sis.hust.edu.vn', 'root': '/home/wallace/Code/HUST/UNET', 'host': 'wallace-IdeaPad-5-Pro-16ARH7', 'username': 'wallace', 'executable': '/home/wallace/miniconda3/envs/deep_learning_project/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2.498416666666667, 'min': 1600.0, 'max': 3300.0}, 'cpu_freq_per_core': [{'current': 2.989, 'min': 1600.0, 'max': 3300.0}, {'current': 1.6, 'min': 1600.0, 'max': 3300.0}, {'current': 3.331, 'min': 1600.0, 'max': 3300.0}, {'current': 4.184, 'min': 1600.0, 'max': 3300.0}, {'current': 4.541, 'min': 1600.0, 'max': 3300.0}, {'current': 1.6, 'min': 1600.0, 'max': 3300.0}, {'current': 2.795, 'min': 1600.0, 'max': 3300.0}, {'current': 3.3, 'min': 1600.0, 'max': 3300.0}, {'current': 3.565, 'min': 1600.0, 'max': 3300.0}, {'current': 3.964, 'min': 1600.0, 'max': 3300.0}, {'current': 3.664, 'min': 1600.0, 'max': 3300.0}, {'current': 3.086, 'min': 1600.0, 'max': 3300.0}], 'disk': {'/': {'total': 195.7966079711914, 'used': 70.78749084472656}}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 13.329597473144531}}
+2023-11-14 21:28:41,346 INFO    HandlerThread:55485 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-14 21:28:41,346 INFO    HandlerThread:55485 [system_monitor.py:probe():227] Publishing system info
+2023-11-14 21:28:41,346 DEBUG   HandlerThread:55485 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-14 21:28:41,346 DEBUG   HandlerThread:55485 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-14 21:28:41,346 DEBUG   HandlerThread:55485 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-11-14 21:28:41,605 INFO    Thread-12 :55485 [dir_watcher.py:_on_file_created():271] file/dir created: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/conda-environment.yaml
+2023-11-14 21:28:41,605 INFO    Thread-12 :55485 [dir_watcher.py:_on_file_created():271] file/dir created: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/requirements.txt
+2023-11-14 21:28:43,177 DEBUG   HandlerThread:55485 [system_info.py:_save_conda():87] Saving conda packages done
+2023-11-14 21:28:43,178 INFO    HandlerThread:55485 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-14 21:28:43,183 DEBUG   SenderThread:55485 [sender.py:send():380] send: files
+2023-11-14 21:28:43,183 INFO    SenderThread:55485 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-11-14 21:28:43,184 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: status_report
+2023-11-14 21:28:43,188 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-14 21:28:43,188 DEBUG   SenderThread:55485 [sender.py:send_request():407] send_request: stop_status
+2023-11-14 21:28:43,189 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-14 21:28:43,604 INFO    Thread-12 :55485 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/conda-environment.yaml
+2023-11-14 21:28:43,605 INFO    Thread-12 :55485 [dir_watcher.py:_on_file_created():271] file/dir created: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/wandb-metadata.json
+2023-11-14 21:28:45,462 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-14 21:28:48,488 DEBUG   SenderThread:55485 [sender.py:send():380] send: telemetry
+2023-11-14 21:28:48,489 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: status_report
+2023-11-14 21:28:48,491 DEBUG   SenderThread:55485 [sender.py:send():380] send: exit
+2023-11-14 21:28:48,491 INFO    SenderThread:55485 [sender.py:send_exit():585] handling exit code: 1
+2023-11-14 21:28:48,491 INFO    SenderThread:55485 [sender.py:send_exit():587] handling runtime: 3
+2023-11-14 21:28:48,492 INFO    SenderThread:55485 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-14 21:28:48,492 INFO    SenderThread:55485 [sender.py:send_exit():593] send defer
+2023-11-14 21:28:48,493 DEBUG   SenderThread:55485 [sender.py:send_request():407] send_request: poll_exit
+2023-11-14 21:28:48,493 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: defer
+2023-11-14 21:28:48,493 INFO    HandlerThread:55485 [handler.py:handle_request_defer():172] handle defer: 0
+2023-11-14 21:28:48,493 DEBUG   SenderThread:55485 [sender.py:send_request():407] send_request: defer
+2023-11-14 21:28:48,493 INFO    SenderThread:55485 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-11-14 21:28:48,493 INFO    SenderThread:55485 [sender.py:transition_state():613] send defer: 1
+2023-11-14 21:28:48,494 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: defer
+2023-11-14 21:28:48,494 INFO    HandlerThread:55485 [handler.py:handle_request_defer():172] handle defer: 1
+2023-11-14 21:28:48,494 DEBUG   SenderThread:55485 [sender.py:send_request():407] send_request: defer
+2023-11-14 21:28:48,494 INFO    SenderThread:55485 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-11-14 21:28:48,494 INFO    SenderThread:55485 [sender.py:transition_state():613] send defer: 2
+2023-11-14 21:28:48,494 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: defer
+2023-11-14 21:28:48,494 INFO    HandlerThread:55485 [handler.py:handle_request_defer():172] handle defer: 2
+2023-11-14 21:28:48,494 INFO    HandlerThread:55485 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-14 21:28:48,494 DEBUG   SystemMonitor:55485 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-14 21:28:48,494 DEBUG   SystemMonitor:55485 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-14 21:28:48,495 INFO    HandlerThread:55485 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-14 21:28:48,495 DEBUG   SystemMonitor:55485 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-14 21:28:48,495 INFO    HandlerThread:55485 [interfaces.py:finish():202] Joined disk monitor
+2023-11-14 21:28:48,541 INFO    HandlerThread:55485 [interfaces.py:finish():202] Joined gpu monitor
+2023-11-14 21:28:48,542 INFO    HandlerThread:55485 [interfaces.py:finish():202] Joined memory monitor
+2023-11-14 21:28:48,542 INFO    HandlerThread:55485 [interfaces.py:finish():202] Joined network monitor
+2023-11-14 21:28:48,542 DEBUG   SenderThread:55485 [sender.py:send_request():407] send_request: defer
+2023-11-14 21:28:48,542 INFO    SenderThread:55485 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-11-14 21:28:48,542 INFO    SenderThread:55485 [sender.py:transition_state():613] send defer: 3
+2023-11-14 21:28:48,542 DEBUG   SenderThread:55485 [sender.py:send():380] send: stats
+2023-11-14 21:28:48,543 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: defer
+2023-11-14 21:28:48,543 INFO    HandlerThread:55485 [handler.py:handle_request_defer():172] handle defer: 3
+2023-11-14 21:28:48,543 DEBUG   SenderThread:55485 [sender.py:send_request():407] send_request: defer
+2023-11-14 21:28:48,543 INFO    SenderThread:55485 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-11-14 21:28:48,543 INFO    SenderThread:55485 [sender.py:transition_state():613] send defer: 4
+2023-11-14 21:28:48,543 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: defer
+2023-11-14 21:28:48,543 INFO    HandlerThread:55485 [handler.py:handle_request_defer():172] handle defer: 4
+2023-11-14 21:28:48,543 DEBUG   SenderThread:55485 [sender.py:send_request():407] send_request: defer
+2023-11-14 21:28:48,543 INFO    SenderThread:55485 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-11-14 21:28:48,543 INFO    SenderThread:55485 [sender.py:transition_state():613] send defer: 5
+2023-11-14 21:28:48,544 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: defer
+2023-11-14 21:28:48,544 INFO    HandlerThread:55485 [handler.py:handle_request_defer():172] handle defer: 5
+2023-11-14 21:28:48,544 DEBUG   SenderThread:55485 [sender.py:send():380] send: summary
+2023-11-14 21:28:48,544 INFO    SenderThread:55485 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-14 21:28:48,544 DEBUG   SenderThread:55485 [sender.py:send_request():407] send_request: defer
+2023-11-14 21:28:48,544 INFO    SenderThread:55485 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-11-14 21:28:48,544 INFO    SenderThread:55485 [sender.py:transition_state():613] send defer: 6
+2023-11-14 21:28:48,544 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: defer
+2023-11-14 21:28:48,544 INFO    HandlerThread:55485 [handler.py:handle_request_defer():172] handle defer: 6
+2023-11-14 21:28:48,545 DEBUG   SenderThread:55485 [sender.py:send_request():407] send_request: defer
+2023-11-14 21:28:48,545 INFO    SenderThread:55485 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-11-14 21:28:48,547 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: status_report
+2023-11-14 21:28:48,608 INFO    Thread-12 :55485 [dir_watcher.py:_on_file_created():271] file/dir created: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/output.log
+2023-11-14 21:28:48,608 INFO    Thread-12 :55485 [dir_watcher.py:_on_file_created():271] file/dir created: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/wandb-summary.json
+2023-11-14 21:28:50,465 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:28:50,609 INFO    Thread-12 :55485 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/output.log
+2023-11-14 21:28:55,468 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:28:56,213 INFO    SenderThread:55485 [sender.py:transition_state():613] send defer: 7
+2023-11-14 21:28:56,213 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: defer
+2023-11-14 21:28:56,213 INFO    HandlerThread:55485 [handler.py:handle_request_defer():172] handle defer: 7
+2023-11-14 21:28:56,213 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: status_report
+2023-11-14 21:28:56,213 DEBUG   SenderThread:55485 [sender.py:send_request():407] send_request: defer
+2023-11-14 21:28:56,213 INFO    SenderThread:55485 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-11-14 21:28:56,612 INFO    Thread-12 :55485 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/config.yaml
+2023-11-14 21:28:58,507 INFO    SenderThread:55485 [sender.py:transition_state():613] send defer: 8
+2023-11-14 21:28:58,508 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: defer
+2023-11-14 21:28:58,508 INFO    HandlerThread:55485 [handler.py:handle_request_defer():172] handle defer: 8
+2023-11-14 21:28:58,508 DEBUG   SenderThread:55485 [sender.py:send_request():407] send_request: defer
+2023-11-14 21:28:58,508 INFO    SenderThread:55485 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-11-14 21:28:58,508 INFO    SenderThread:55485 [job_builder.py:build():281] Attempting to build job artifact
+2023-11-14 21:28:58,508 INFO    SenderThread:55485 [job_builder.py:_get_source_type():393] is repo sourced job
+2023-11-14 21:28:58,509 INFO    SenderThread:55485 [job_builder.py:build():369] adding wandb-job metadata file
+2023-11-14 21:28:58,515 INFO    SenderThread:55485 [sender.py:transition_state():613] send defer: 9
+2023-11-14 21:28:58,515 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: defer
+2023-11-14 21:28:58,515 INFO    HandlerThread:55485 [handler.py:handle_request_defer():172] handle defer: 9
+2023-11-14 21:28:58,515 DEBUG   SenderThread:55485 [sender.py:send():380] send: artifact
+2023-11-14 21:28:58,613 INFO    Thread-12 :55485 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/output.log
+2023-11-14 21:29:00,470 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:29:04,664 WARNING FileStreamThread:55485 [file_stream.py:request_with_retry():668] requests_with_retry encountered retryable exception: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')). func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x7fec886d3ca0>>, timeout=180), args: ('https://api.wandb.ai/files/trinq/PolypSegment/h0d5byu2/file_stream',), kwargs: {'json': {'files': {'wandb-summary.json': {'offset': 0, 'content': ['{"_wandb": {"runtime": 3}}']}}, 'dropped': 0}}
+2023-11-14 21:29:04,684 ERROR   wandb-upload_0:55485 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/trinq/PolypSegment/h0d5byu2/wandb-metadata.json?Expires=1700058526&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=iWDp0D65mxrF%2BgQCfUhGAk4Up5%2FQQ%2BPdXzMWuAIb6C9NuYbtCzSAxvvmoeyK7a%2FyuZkQJMycdImQJR0OdrhGyC1o6MSmfuOcmhzU1Sm7ALcYhP5Y2Q%2Bg3CC%2BuIqYy5eicMuorOaV56o3NGNext34rqJ9LiqH8l396I7w2jcwlnA8uiXnqJLrXi9n6d%2BJBXMaKYA8RtMHN0MZP%2FSJfnyzd3ii%2Frm%2BAbE9bGHSlY5qFB1pVH2%2FpBmjIJYFt6p2bGaaf5U2tf10IDUDw7R%2FQR428St7wzhdAIKogAIZ1U2RrNLfP7AZY7oM9AgqtmXLY1JyuksEYsOMTiEt0NcQ4kLUKg%3D%3D: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2023-11-14 21:29:04,684 ERROR   wandb-upload_0:55485 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '2595'}
+2023-11-14 21:29:04,684 ERROR   wandb-upload_0:55485 [internal_api.py:upload_file():2560] upload_file response body: 
+2023-11-14 21:29:05,472 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:29:10,474 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:29:15,476 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:29:17,938 ERROR   wandb-upload_0:55485 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/trinq/PolypSegment/h0d5byu2/wandb-metadata.json?Expires=1700058526&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=iWDp0D65mxrF%2BgQCfUhGAk4Up5%2FQQ%2BPdXzMWuAIb6C9NuYbtCzSAxvvmoeyK7a%2FyuZkQJMycdImQJR0OdrhGyC1o6MSmfuOcmhzU1Sm7ALcYhP5Y2Q%2Bg3CC%2BuIqYy5eicMuorOaV56o3NGNext34rqJ9LiqH8l396I7w2jcwlnA8uiXnqJLrXi9n6d%2BJBXMaKYA8RtMHN0MZP%2FSJfnyzd3ii%2Frm%2BAbE9bGHSlY5qFB1pVH2%2FpBmjIJYFt6p2bGaaf5U2tf10IDUDw7R%2FQR428St7wzhdAIKogAIZ1U2RrNLfP7AZY7oM9AgqtmXLY1JyuksEYsOMTiEt0NcQ4kLUKg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-11-14 21:29:17,939 ERROR   wandb-upload_0:55485 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '2595'}
+2023-11-14 21:29:17,939 ERROR   wandb-upload_0:55485 [internal_api.py:upload_file():2560] upload_file response body: 
+2023-11-14 21:29:20,479 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:29:25,481 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:29:26,411 WARNING FileStreamThread:55485 [file_stream.py:request_with_retry():668] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')). func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x7fec886d3ca0>>, timeout=180), args: ('https://api.wandb.ai/files/trinq/PolypSegment/h0d5byu2/file_stream',), kwargs: {'json': {'files': {'wandb-summary.json': {'offset': 0, 'content': ['{"_wandb": {"runtime": 3}}']}}, 'dropped': 0}}
+2023-11-14 21:29:29,912 INFO    wandb-upload_0:55485 [upload_job.py:push():131] Uploaded file /tmp/tmpci4nbjplwandb/rvq28vvs-wandb-metadata.json
+2023-11-14 21:29:30,484 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:29:35,487 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:29:36,872 ERROR   wandb-upload_2:55485 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/115686756/638022498/361a8c67feb23ad797b7ba1bd4e36e4f?Expires=1700058569&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=QEX5uHmMouxDD%2B%2By1R7t1c4psfdfgkJFzShoOIO6ZEfWjP9xvQKwBAGuo%2FQ764eTrBZ9NBVxQMilUpdgJ5SB8wIEg8tlMDl9TbgZtBrJv6fZtEsEcFX8E%2BYJ%2BFVoCzNGDm1giB3wbep19e7PtXovELq8psixXXNaXdCtPadU0trPeN%2Bdz8M1%2Bgy6f0IJal7J%2BBwSxtnyroeJeiPhWyCAxhr2VndOngfNajTIb6zL6K6Ac2nE3RsZ2xJVoTO0eerGZfwVk6xI2VS76meZFn29UWEJ7fkRdWjTw%2FpwvijASOHQtY2BgO%2BbUcA7eSFXD%2Ba%2BsLe%2FUQwQ6EjeDN0JMEPQmg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-11-14 21:29:36,872 ERROR   wandb-upload_1:55485 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/115686756/638022498/f23113e15d2aac06b603dfd38ef0287e?Expires=1700058569&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JZbEJQeXplCOcu2CrKo1Nhsj3z9XjxCy92Fs99fGo%2By2hIgXK2XJEWhixV%2FXQZlu8q7eyRAImOnosii131JtyzTSCZAr%2FP5Gusma7rV5nqOU0ka8pG9RhhvFppnDNaqnHbQE9Auw%2BvxChfwmptetDMi6coL3I0oxb2%2F2nOeTytGKwBaRxnBhcJeY6CnRu887TQ4q7xNPQRI4s8qW3zzXDDJaFBPqb2sTMF4fQYRJ7kLbGWwBdPyCNJpXn4%2BWUZSRni0DEqm8rRFtDqK4rizCHJsTfopCFE0vjLZ1opVUU2%2FYJJ%2BHqfMVDNyNoJ3QRnWPanYiHdT%2BDyPUktb4xBjD0w%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-11-14 21:29:36,872 ERROR   wandb-upload_2:55485 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'NhqMZ/6yOteXt7ob1ONuTw==', 'Content-Type': 'application/json', 'Content-Length': '604'}
+2023-11-14 21:29:36,872 ERROR   wandb-upload_2:55485 [internal_api.py:upload_file():2560] upload_file response body: 
+2023-11-14 21:29:36,872 ERROR   wandb-upload_1:55485 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': '8jET4V0qrAa2A9/TjvAofg==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '2244'}
+2023-11-14 21:29:36,872 ERROR   wandb-upload_1:55485 [internal_api.py:upload_file():2560] upload_file response body: 
+2023-11-14 21:29:40,489 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:29:45,491 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:29:46,957 ERROR   wandb-upload_1:55485 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/115686756/638022498/f23113e15d2aac06b603dfd38ef0287e?Expires=1700058569&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JZbEJQeXplCOcu2CrKo1Nhsj3z9XjxCy92Fs99fGo%2By2hIgXK2XJEWhixV%2FXQZlu8q7eyRAImOnosii131JtyzTSCZAr%2FP5Gusma7rV5nqOU0ka8pG9RhhvFppnDNaqnHbQE9Auw%2BvxChfwmptetDMi6coL3I0oxb2%2F2nOeTytGKwBaRxnBhcJeY6CnRu887TQ4q7xNPQRI4s8qW3zzXDDJaFBPqb2sTMF4fQYRJ7kLbGWwBdPyCNJpXn4%2BWUZSRni0DEqm8rRFtDqK4rizCHJsTfopCFE0vjLZ1opVUU2%2FYJJ%2BHqfMVDNyNoJ3QRnWPanYiHdT%2BDyPUktb4xBjD0w%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-11-14 21:29:46,957 ERROR   wandb-upload_1:55485 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': '8jET4V0qrAa2A9/TjvAofg==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '2244'}
+2023-11-14 21:29:46,957 ERROR   wandb-upload_1:55485 [internal_api.py:upload_file():2560] upload_file response body: 
+2023-11-14 21:29:47,366 INFO    wandb-upload_2:55485 [upload_job.py:push():89] Uploaded file /home/wallace/.local/share/wandb/artifacts/staging/tmpxypth6h8
+2023-11-14 21:29:50,493 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:29:55,495 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:30:00,498 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:30:05,500 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:30:10,503 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:30:15,504 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:30:20,507 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:30:25,508 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:30:30,510 DEBUG   HandlerThread:55485 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-14 21:30:31,444 WARNING StreamThr :55485 [internal.py:is_dead():414] Internal process exiting, parent pid 55441 disappeared
+2023-11-14 21:30:31,444 ERROR   StreamThr :55485 [internal.py:wandb_internal():152] Internal process shutdown.
+2023-11-14 21:30:31,510 INFO    HandlerThread:55485 [handler.py:finish():866] shutting down handler
+2023-11-14 21:30:31,538 INFO    WriterThread:55485 [datastore.py:close():294] close: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/run-h0d5byu2.wandb
+2023-11-14 21:48:05,591 ERROR   wandb-upload_1:55485 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/115686756/638022498/f23113e15d2aac06b603dfd38ef0287e?Expires=1700058569&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JZbEJQeXplCOcu2CrKo1Nhsj3z9XjxCy92Fs99fGo%2By2hIgXK2XJEWhixV%2FXQZlu8q7eyRAImOnosii131JtyzTSCZAr%2FP5Gusma7rV5nqOU0ka8pG9RhhvFppnDNaqnHbQE9Auw%2BvxChfwmptetDMi6coL3I0oxb2%2F2nOeTytGKwBaRxnBhcJeY6CnRu887TQ4q7xNPQRI4s8qW3zzXDDJaFBPqb2sTMF4fQYRJ7kLbGWwBdPyCNJpXn4%2BWUZSRni0DEqm8rRFtDqK4rizCHJsTfopCFE0vjLZ1opVUU2%2FYJJ%2BHqfMVDNyNoJ3QRnWPanYiHdT%2BDyPUktb4xBjD0w%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Read timed out. (read timeout=None)
+2023-11-14 21:48:05,592 ERROR   wandb-upload_1:55485 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': '8jET4V0qrAa2A9/TjvAofg==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '2244'}
+2023-11-14 21:48:05,592 ERROR   wandb-upload_1:55485 [internal_api.py:upload_file():2560] upload_file response body: 
+2023-11-14 21:48:05,592 INFO    wandb-upload_1:55485 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/urllib3/connectionpool.py", line 468, in _make_request
+    self._validate_conn(conn)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1097, in _validate_conn
+    conn.connect()
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/urllib3/connection.py", line 642, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/urllib3/connection.py", line 783, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 471, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 515, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/urllib3/connectionpool.py", line 845, in urlopen
+    retries = retries.increment(
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/urllib3/util/retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/urllib3/connectionpool.py", line 791, in urlopen
+    response = self._make_request(
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/urllib3/connectionpool.py", line 492, in _make_request
+    raise new_e
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/urllib3/connectionpool.py", line 371, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Read timed out. (read timeout=None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 2549, in upload_file
+    response = self._upload_file_session.put(
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/requests/adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Read timed out. (read timeout=None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 2580, in upload_file
+    raise _e.with_traceback(sys.exc_info()[2])
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 2549, in upload_file
+    response = self._upload_file_session.put(
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/requests/adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+wandb.sdk.lib.retry.TransientError: None
+2023-11-14 22:04:45,016 ERROR   wandb-upload_1:55485 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/115686756/638022498/f23113e15d2aac06b603dfd38ef0287e?Expires=1700058569&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JZbEJQeXplCOcu2CrKo1Nhsj3z9XjxCy92Fs99fGo%2By2hIgXK2XJEWhixV%2FXQZlu8q7eyRAImOnosii131JtyzTSCZAr%2FP5Gusma7rV5nqOU0ka8pG9RhhvFppnDNaqnHbQE9Auw%2BvxChfwmptetDMi6coL3I0oxb2%2F2nOeTytGKwBaRxnBhcJeY6CnRu887TQ4q7xNPQRI4s8qW3zzXDDJaFBPqb2sTMF4fQYRJ7kLbGWwBdPyCNJpXn4%2BWUZSRni0DEqm8rRFtDqK4rizCHJsTfopCFE0vjLZ1opVUU2%2FYJJ%2BHqfMVDNyNoJ3QRnWPanYiHdT%2BDyPUktb4xBjD0w%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Read timed out. (read timeout=None)
+2023-11-14 22:04:45,017 ERROR   wandb-upload_1:55485 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': '8jET4V0qrAa2A9/TjvAofg==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '2244'}
+2023-11-14 22:04:45,017 ERROR   wandb-upload_1:55485 [internal_api.py:upload_file():2560] upload_file response body: 
+2023-11-14 22:04:58,271 INFO    wandb-upload_1:55485 [upload_job.py:push():89] Uploaded file /home/wallace/.local/share/wandb/artifacts/staging/tmpkw677ss3
+2023-11-14 22:05:02,136 INFO    SenderThread:55485 [sender.py:send_artifact():1456] sent artifact job-https___github.com_Trinq2003_PolypSegment.git_main.py - {'id': 'QXJ0aWZhY3Q6NjM4MDIyNDk4', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjExNTY4Njc1Ng==', 'latestArtifact': None}}
+2023-11-14 22:05:02,136 INFO    SenderThread:55485 [sender.py:finish():1534] shutting down sender
+2023-11-14 22:05:02,136 INFO    SenderThread:55485 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-11-14 22:05:02,616 INFO    SenderThread:55485 [dir_watcher.py:finish():388] scan: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files
+2023-11-14 22:05:02,617 INFO    SenderThread:55485 [dir_watcher.py:finish():402] scan save: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/requirements.txt requirements.txt
+2023-11-14 22:05:02,617 INFO    SenderThread:55485 [dir_watcher.py:finish():402] scan save: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/wandb-summary.json wandb-summary.json
+2023-11-14 22:05:02,619 INFO    SenderThread:55485 [dir_watcher.py:finish():402] scan save: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/config.yaml config.yaml
+2023-11-14 22:05:02,619 INFO    SenderThread:55485 [dir_watcher.py:finish():402] scan save: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/wandb-metadata.json wandb-metadata.json
+2023-11-14 22:05:02,619 INFO    SenderThread:55485 [dir_watcher.py:finish():402] scan save: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/output.log output.log
+2023-11-14 22:05:02,620 INFO    SenderThread:55485 [dir_watcher.py:finish():402] scan save: /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/conda-environment.yaml conda-environment.yaml
+2023-11-14 22:05:02,620 INFO    SenderThread:55485 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-14 22:05:02,620 INFO    SenderThread:55485 [file_pusher.py:join():181] waiting for file pusher
+2023-11-14 22:05:03,673 INFO    wandb-upload_0:55485 [upload_job.py:push():131] Uploaded file /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/requirements.txt
+2023-11-14 22:05:04,575 INFO    wandb-upload_2:55485 [upload_job.py:push():131] Uploaded file /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/config.yaml
+2023-11-14 22:05:06,396 INFO    wandb-upload_3:55485 [upload_job.py:push():131] Uploaded file /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/output.log
+2023-11-14 22:05:06,396 INFO    wandb-upload_4:55485 [upload_job.py:push():131] Uploaded file /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/conda-environment.yaml
+2023-11-14 22:05:07,549 INFO    wandb-upload_1:55485 [upload_job.py:push():131] Uploaded file /home/wallace/Code/HUST/UNET/wandb/run-20231114_212830-h0d5byu2/files/wandb-summary.json
+2023-11-14 22:05:08,128 INFO    SenderThread:55485 [file_stream.py:finish():595] file stream finish called
+2023-11-14 22:05:08,546 INFO    SenderThread:55485 [file_stream.py:finish():599] file stream finish is done

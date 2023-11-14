@@ -1,7 +1,7 @@
 import torch.nn as nn
-from encoder import EncoderBlock
-from decoder import DecoderBlock
-from bottleneck import BottleneckBlock
+from model.encoder import EncoderBlock
+from model.decoder import DecoderBlock
+from model.bottleneck import BottleneckBlock
 
 class UNet(nn.Module):
     def __init__(self, n_class=3):

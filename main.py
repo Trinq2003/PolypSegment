@@ -27,27 +27,26 @@ from model.bottleneck import BottleneckBlock
 from model.unet import UNet
 from model.CEDiceloss import CEDiceLoss
 
-from utilities import utils, test, train
+from utilities import utils, test, train, arg_parser
 
 # Set device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+args = arg_parser.parser.parse_args()
+
 # Set hyperparameters
 num_classes = 3
-epochs = 15
+epochs = args.num_epochs
+learning_rate = args.lr
+batch_size = args.batch_size
+display_step = args.display_step
+train_size = args.train_size
+valid_size = args.valid_size
 
-# Hyperparameters for training 
-learning_rate = 2e-04
-batch_size = 4
-display_step = 50
-train_size = 0.8
-valid_size = 0.2
-batch_size = 8
-
-checkpoint_path = './saved_models/'
-pretrained_path = "./checkpoints/"
-images_path = "./data/train/train/"
-masks_path =  "./data/train_gt/train_gt/"
+checkpoint_path = args.checkpoint_path
+pretrained_path = args.pretrained_path
+images_path = args.images_path
+masks_path =  args.masks_path
 
 loss_epoch_array = []
 train_accuracy = []

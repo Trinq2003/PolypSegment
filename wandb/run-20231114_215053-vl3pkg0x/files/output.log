@@ -1,0 +1,28 @@
+
+Start epoch #1, learning rate for this epoch: [0.0002]
+Traceback (most recent call last):
+  File "/home/wallace/Code/HUST/UNET/main.py", line 98, in <module>
+    (train_loss_epoch, test_loss_epoch) = train.train(model= model, device= device, loss_function= loss_function, optimizer= optimizer, \
+  File "/home/wallace/Code/HUST/UNET/utilities/train.py", line 22, in train
+    outputs = model(data)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/wallace/Code/HUST/UNET/model/unet.py", line 37, in forward
+    n8 = self.dec3(n7, s2)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/wallace/Code/HUST/UNET/model/decoder.py", line 24, in forward
+    x = self.bn1(x)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+    return F.batch_norm(
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/nn/functional.py", line 2478, in batch_norm
+    return torch.batch_norm(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 110.00 MiB. GPU 0 has a total capacty of 3.81 GiB of which 26.19 MiB is free. Including non-PyTorch memory, this process has 3.77 GiB memory in use. Of the allocated memory 3.52 GiB is allocated by PyTorch, and 168.88 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

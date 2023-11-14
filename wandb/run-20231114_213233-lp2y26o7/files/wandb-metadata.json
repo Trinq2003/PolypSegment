@@ -1,0 +1,108 @@
+{
+    "os": "Linux-6.2.0-36-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2023-11-14T14:33:44.156365",
+    "startedAt": "2023-11-14T14:32:33.515723",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/wallace/Code/HUST/UNET/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/Trinq2003/PolypSegment.git",
+        "commit": "06d34a20b20775dca207d7823131f963d7ea2bde"
+    },
+    "email": "tri.nq210860@sis.hust.edu.vn",
+    "root": "/home/wallace/Code/HUST/UNET",
+    "host": "wallace-IdeaPad-5-Pro-16ARH7",
+    "username": "wallace",
+    "executable": "/home/wallace/miniconda3/envs/deep_learning_project/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3.6800833333333336,
+        "min": 1600.0,
+        "max": 3300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2.121,
+            "min": 1600.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2.053,
+            "min": 1600.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2.068,
+            "min": 1600.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2.663,
+            "min": 1600.0,
+            "max": 3300.0
+        },
+        {
+            "current": 4.54,
+            "min": 1600.0,
+            "max": 3300.0
+        },
+        {
+            "current": 4.54,
+            "min": 1600.0,
+            "max": 3300.0
+        },
+        {
+            "current": 4.203,
+            "min": 1600.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3.957,
+            "min": 1600.0,
+            "max": 3300.0
+        },
+        {
+            "current": 4.539,
+            "min": 1600.0,
+            "max": 3300.0
+        },
+        {
+            "current": 4.539,
+            "min": 1600.0,
+            "max": 3300.0
+        },
+        {
+            "current": 4.54,
+            "min": 1600.0,
+            "max": 3300.0
+        },
+        {
+            "current": 4.539,
+            "min": 1600.0,
+            "max": 3300.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 195.7966079711914,
+            "used": 70.78864288330078
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 13.329597473144531
+    }
+}
