@@ -1,6 +1,9 @@
 import argparse
 parser = argparse.ArgumentParser()
 
+# Model
+parser.add_argument("--model", help="The name of used model", default='ResUnetPlusPlus')
+
 # Dataset
 parser.add_argument("--checkpoint-path", help="Check point directory", default='./checkpoints/')
 parser.add_argument("--pretrained-path", help="Saved model directory", default='./saved_models/')

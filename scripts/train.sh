@@ -1,4 +1,5 @@
 python main.py \
+    --model ResUnetPlusPlus \
     --checkpoint-path ./checkpoints/unet_model.pth \
     --pretrained-path ./saved_models/ \
     --infer-path ./predicted_masks/ \

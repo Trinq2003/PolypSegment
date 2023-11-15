@@ -23,10 +23,8 @@ import wandb
 
 from data.dataloader import UNetDataClass
 from data.test_dataloader import UNetTestDataClass
-from model.encoder import EncoderBlock
-from model.decoder import DecoderBlock
-from model.bottleneck import BottleneckBlock
-from model.unet import UNet
+from model.modules import *
+from model.model import UNet, ResUnet, ResUnetPlusPlus
 from model.CEDiceloss import CEDiceLoss
 
 from utilities import utils, test, train, arg_parser
@@ -37,6 +35,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 args = arg_parser.parser.parse_args()
 
 # Set hyperparameters
+model_name = args.model
+
 num_classes = 3
 epochs = args.num_epochs
 learning_rate = args.lr
@@ -78,7 +78,13 @@ print("="*25 + "END STEP 1" + "="*25)
 
 # Model
 print(f"[PROGRESS] STEP 2: Initializing model...")
-model = UNet()
+if (model_name == "UNet"):
+    model = UNet()
+elif (model_name == "ResUnet"):
+    model = ResUnet(channel=3, filters=[64, 128, 256, 512])
+elif (model_name == "ResUnetPlusPlus"):
+    model = ResUnetPlusPlus(channel=3, filters=[64, 128, 256, 512])
+
 model.apply(utils.weights_init)
 moedl = nn.DataParallel(model)
 model.to(device)
