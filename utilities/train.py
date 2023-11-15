@@ -1,5 +1,6 @@
 import time
 import torch
+from utilities import utils
 from torch.optim import lr_scheduler
 
 # Train function for each epoch
@@ -19,7 +20,15 @@ def train(model, device, loss_function, optimizer, train_dataloader, valid_datal
         data, targets = data.to(device), targets.to(device)
 
         optimizer.zero_grad()
-        outputs = model(data)
+        try:
+            outputs = model(data)
+        except RuntimeError as exception:
+            if "out of memory" in str(exception):
+                print(f"WARNING: out of memory, retrying with 2Gb of free GPU memory...")
+                utils.wait_until_enough_gpu_memory()
+                outputs = model(data)
+            else:
+                raise exception
 
         # Backpropagation, compute gradients
         loss = loss_function(outputs, targets.long())

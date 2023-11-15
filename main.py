@@ -17,6 +17,7 @@ from torch.optim import lr_scheduler
 from torch import Tensor
 from torch.utils.data import Dataset, DataLoader, random_split
 from torchvision.transforms import Resize, PILToTensor, ToPILImage, Compose, InterpolationMode
+from pynvml import nvmlInit, nvmlDeviceGetHandleByIndex, nvmlDeviceGetMemoryInfo
 from collections import OrderedDict
 import wandb
 
@@ -61,7 +62,7 @@ last_loss = 9999999999999
 
 # Dataloader
 print(f"[PROGRESS] STEP 1: Loading data...")
-transform = Compose([Resize((800, 1120), interpolation=InterpolationMode.BILINEAR),
+transform = Compose([Resize((256, 256), interpolation=InterpolationMode.BILINEAR),
                      PILToTensor()])
 unet_dataset = UNetDataClass(images_path, masks_path, transform)
 print(f"[INFO] Size of dataset: {len(unet_dataset)}")
@@ -101,8 +102,8 @@ for epoch in range(epochs):
     train_loss_epoch = 0
     test_loss_epoch = 0
     (train_loss_epoch, test_loss_epoch) = train.train(model= model, device= device, loss_function= loss_function, optimizer= optimizer, \
-                                                      train_dataloader= train_dataloader, valid_dataloader= valid_dataloader, \
-                                                      epoch= epoch, display_step= display_step, learing_rate_scheduler= learing_rate_scheduler)
+                                                    train_dataloader= train_dataloader, valid_dataloader= valid_dataloader, \
+                                                    epoch= epoch, display_step= display_step, learing_rate_scheduler= learing_rate_scheduler)
     
     if test_loss_epoch < last_loss:
         utils.save_model(model, optimizer, checkpoint_path)
@@ -116,19 +117,18 @@ for epoch in range(epochs):
     valid_accuracy.append(test.test(model=model, device=device, dataloader=valid_dataloader))
     print("Epoch {}: loss: {:.4f}, train accuracy: {:.4f}, valid accuracy:{:.4f}".format(epoch + 1, 
                                         train_loss_array[-1], train_accuracy[-1], valid_accuracy[-1]))
-    
-torch.cuda.empty_cache()
+    torch.cuda.empty_cache()
 print("="*25 + "END STEP 2" + "="*25)
 
 # Results visualization
 print(f"[PROGRESS] STEP 3: Plotting diagrams...")
 utils.learning_curve_plotting(epochs=epochs, train_loss_array=train_loss_array)
-utils.result_visualization(model=model, train_dataloader=train_dataloader)
+utils.result_visualization(model=model, device=device, train_dataloader=train_dataloader)
 print("="*25 + "END STEP 3" + "="*25)
 
 # Testing
 print(f"[PROGRESS] STEP 4: Testing...")
-test_transform = Compose([Resize((800, 1120), interpolation=InterpolationMode.BILINEAR),
+test_transform = Compose([Resize((256, 256), interpolation=InterpolationMode.BILINEAR),
                      PILToTensor()])
 unet_test_dataset = UNetTestDataClass(images_path=test_images_path, transform=test_transform)
 test_dataloader = DataLoader(unet_test_dataset, batch_size=batch_size, shuffle=True)
@@ -137,7 +137,7 @@ for i, (data, path, h, w) in enumerate(test_dataloader):
     img = data
     break
 
-utils.prediction_visualization(model=model, img=img)
-utils.save_prediction_image(model=model, test_dataloader=test_dataloader, infer_path=inference_path)
+# utils.prediction_visualization(model=model, device=device, img=img)
+utils.save_prediction_image(model=model, device=device, test_dataloader=test_dataloader, infer_path=inference_path)
 utils.prediction_to_csv(infer_path=inference_path)
 print("="*25 + "END STEP 4" + "="*25)

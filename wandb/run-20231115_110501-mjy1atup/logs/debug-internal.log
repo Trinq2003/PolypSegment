@@ -1,0 +1,289 @@
+2023-11-15 11:05:01,246 INFO    StreamThr :11989 [internal.py:wandb_internal():86] W&B internal server running at pid: 11989, started at: 2023-11-15 11:05:01.245596
+2023-11-15 11:05:01,247 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status
+2023-11-15 11:05:01,248 INFO    WriterThread:11989 [datastore.py:open_for_write():85] open: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/run-mjy1atup.wandb
+2023-11-15 11:05:01,248 DEBUG   SenderThread:11989 [sender.py:send():380] send: header
+2023-11-15 11:05:01,250 DEBUG   SenderThread:11989 [sender.py:send():380] send: run
+2023-11-15 11:05:02,344 INFO    SenderThread:11989 [dir_watcher.py:__init__():211] watching files in: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files
+2023-11-15 11:05:02,344 INFO    SenderThread:11989 [sender.py:_start_run_threads():1122] run started: mjy1atup with start time 1700021101.245619
+2023-11-15 11:05:02,348 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: check_version
+2023-11-15 11:05:02,348 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: check_version
+2023-11-15 11:05:03,919 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: run_start
+2023-11-15 11:05:03,936 DEBUG   HandlerThread:11989 [system_info.py:__init__():32] System info init
+2023-11-15 11:05:03,936 DEBUG   HandlerThread:11989 [system_info.py:__init__():47] System info init done
+2023-11-15 11:05:03,936 INFO    HandlerThread:11989 [system_monitor.py:start():194] Starting system monitor
+2023-11-15 11:05:03,936 INFO    SystemMonitor:11989 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-15 11:05:03,938 INFO    HandlerThread:11989 [system_monitor.py:probe():214] Collecting system info
+2023-11-15 11:05:03,938 INFO    SystemMonitor:11989 [interfaces.py:start():190] Started cpu monitoring
+2023-11-15 11:05:03,938 INFO    SystemMonitor:11989 [interfaces.py:start():190] Started disk monitoring
+2023-11-15 11:05:03,939 INFO    SystemMonitor:11989 [interfaces.py:start():190] Started gpu monitoring
+2023-11-15 11:05:03,940 INFO    SystemMonitor:11989 [interfaces.py:start():190] Started memory monitoring
+2023-11-15 11:05:03,940 INFO    SystemMonitor:11989 [interfaces.py:start():190] Started network monitoring
+2023-11-15 11:05:03,946 DEBUG   HandlerThread:11989 [system_info.py:probe():196] Probing system
+2023-11-15 11:05:03,948 DEBUG   HandlerThread:11989 [system_info.py:_probe_git():181] Probing git
+2023-11-15 11:05:03,954 DEBUG   HandlerThread:11989 [system_info.py:_probe_git():189] Probing git done
+2023-11-15 11:05:03,954 DEBUG   HandlerThread:11989 [system_info.py:probe():244] Probing system done
+2023-11-15 11:05:03,954 DEBUG   HandlerThread:11989 [system_monitor.py:probe():223] {'os': 'Linux-6.2.0-36-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2023-11-15T04:05:03.946399', 'startedAt': '2023-11-15T04:05:01.242474', 'docker': None, 'cuda': None, 'args': ('--checkpoint-path', './checkpoints/unet_model.pth', '--pretrained-path', './saved_models/', '--infer-path', './predicted_masks/', '--images-path', './data/train/train/', '--masks-path', './data/train_gt/train_gt/', '--test-path', './data/test/test/', '--num-epochs', '1', '--lr', '2e-4', '--batch-size', '4', '--display-step', '10'), 'state': 'running', 'program': '/home/wallace/Code/HUST/UNET/main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'git': {'remote': 'https://github.com/Trinq2003/PolypSegment.git', 'commit': 'eb4beab4a922cf3d57082d2e3c45260103e1fdee'}, 'email': 'tri.nq210860@sis.hust.edu.vn', 'root': '/home/wallace/Code/HUST/UNET', 'host': 'wallace-IdeaPad-5-Pro-16ARH7', 'username': 'wallace', 'executable': '/home/wallace/miniconda3/envs/deep_learning_project/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2.37475, 'min': 1600.0, 'max': 3300.0}, 'cpu_freq_per_core': [{'current': 2.298, 'min': 1600.0, 'max': 3300.0}, {'current': 1.521, 'min': 1600.0, 'max': 3300.0}, {'current': 2.522, 'min': 1600.0, 'max': 3300.0}, {'current': 1.6, 'min': 1600.0, 'max': 3300.0}, {'current': 2.799, 'min': 1600.0, 'max': 3300.0}, {'current': 1.802, 'min': 1600.0, 'max': 3300.0}, {'current': 1.6, 'min': 1600.0, 'max': 3300.0}, {'current': 1.981, 'min': 1600.0, 'max': 3300.0}, {'current': 1.917, 'min': 1600.0, 'max': 3300.0}, {'current': 1.603, 'min': 1600.0, 'max': 3300.0}, {'current': 3.513, 'min': 1600.0, 'max': 3300.0}, {'current': 3.641, 'min': 1600.0, 'max': 3300.0}], 'disk': {'/': {'total': 195.7966079711914, 'used': 71.35877990722656}}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 13.329593658447266}}
+2023-11-15 11:05:03,954 INFO    HandlerThread:11989 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-15 11:05:03,954 INFO    HandlerThread:11989 [system_monitor.py:probe():227] Publishing system info
+2023-11-15 11:05:03,954 DEBUG   HandlerThread:11989 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-15 11:05:03,954 DEBUG   HandlerThread:11989 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-15 11:05:03,954 DEBUG   HandlerThread:11989 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-11-15 11:05:04,345 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_created():271] file/dir created: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/conda-environment.yaml
+2023-11-15 11:05:04,345 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_created():271] file/dir created: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/requirements.txt
+2023-11-15 11:05:05,690 DEBUG   HandlerThread:11989 [system_info.py:_save_conda():87] Saving conda packages done
+2023-11-15 11:05:05,691 INFO    HandlerThread:11989 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-15 11:05:05,692 DEBUG   SenderThread:11989 [sender.py:send():380] send: files
+2023-11-15 11:05:05,693 INFO    SenderThread:11989 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-11-15 11:05:05,699 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-15 11:05:05,700 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: stop_status
+2023-11-15 11:05:05,701 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-15 11:05:06,182 DEBUG   SenderThread:11989 [sender.py:send():380] send: telemetry
+2023-11-15 11:05:06,345 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/conda-environment.yaml
+2023-11-15 11:05:06,346 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_created():271] file/dir created: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/wandb-metadata.json
+2023-11-15 11:05:06,346 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_created():271] file/dir created: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:05:06,740 INFO    wandb-upload_0:11989 [upload_job.py:push():131] Uploaded file /tmp/tmppbsq0ky1wandb/z2ayvwrx-wandb-metadata.json
+2023-11-15 11:05:07,183 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:05:08,346 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:05:12,308 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:05:12,347 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:05:16,348 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:05:17,517 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:05:20,350 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:05:20,698 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-15 11:05:20,699 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-15 11:05:20,699 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: stop_status
+2023-11-15 11:05:22,928 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:05:24,351 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:05:28,130 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:05:28,352 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:05:32,354 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:05:33,335 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:05:34,355 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/config.yaml
+2023-11-15 11:05:35,698 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-15 11:05:35,699 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-15 11:05:35,699 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: stop_status
+2023-11-15 11:05:36,355 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:05:39,131 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:05:42,357 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:05:45,080 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:05:46,359 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:05:50,331 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:05:50,361 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:05:50,699 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-15 11:05:50,699 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: stop_status
+2023-11-15 11:05:50,701 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-15 11:05:54,362 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:05:55,635 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:05:58,363 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:06:00,906 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:06:02,365 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:06:03,940 DEBUG   SystemMonitor:11989 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-15 11:06:03,942 DEBUG   SenderThread:11989 [sender.py:send():380] send: stats
+2023-11-15 11:06:05,699 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-15 11:06:05,699 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: stop_status
+2023-11-15 11:06:05,701 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-15 11:06:06,043 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:06:06,366 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:06:10,367 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:06:11,762 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:06:16,369 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:06:16,975 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:06:20,371 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:06:20,699 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-15 11:06:20,699 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-15 11:06:20,700 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: stop_status
+2023-11-15 11:06:22,185 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:06:24,372 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:06:27,783 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:06:28,374 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:06:32,375 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:06:33,055 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:06:33,943 DEBUG   SenderThread:11989 [sender.py:send():380] send: stats
+2023-11-15 11:06:35,700 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-15 11:06:35,700 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-15 11:06:35,701 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: stop_status
+2023-11-15 11:06:38,129 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:06:39,890 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-15 11:06:39,891 DEBUG   SenderThread:11989 [sender.py:send():380] send: history
+2023-11-15 11:06:39,891 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: summary_record
+2023-11-15 11:06:39,892 INFO    SenderThread:11989 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-15 11:06:40,378 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_created():271] file/dir created: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/wandb-summary.json
+2023-11-15 11:06:43,893 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:06:48,893 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:06:50,699 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-15 11:06:50,699 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: stop_status
+2023-11-15 11:06:50,701 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-15 11:06:54,352 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:06:59,353 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:07:03,943 DEBUG   SenderThread:11989 [sender.py:send():380] send: stats
+2023-11-15 11:07:04,946 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:07:05,699 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-15 11:07:05,700 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: stop_status
+2023-11-15 11:07:05,742 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-15 11:07:10,028 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:07:15,029 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:07:20,030 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:07:20,700 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-15 11:07:20,700 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-15 11:07:20,702 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: stop_status
+2023-11-15 11:07:22,394 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:07:25,285 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:07:30,287 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:07:33,945 DEBUG   SenderThread:11989 [sender.py:send():380] send: stats
+2023-11-15 11:07:35,700 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-15 11:07:35,701 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: stop_status
+2023-11-15 11:07:35,742 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-15 11:07:36,026 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:07:41,028 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:07:46,030 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:07:50,700 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-15 11:07:50,701 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: stop_status
+2023-11-15 11:07:50,742 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-15 11:07:51,168 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:07:56,171 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:08:01,174 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:08:03,946 DEBUG   SenderThread:11989 [sender.py:send():380] send: stats
+2023-11-15 11:08:05,701 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-15 11:08:05,701 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: stop_status
+2023-11-15 11:08:05,743 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-15 11:08:07,113 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:08:10,538 DEBUG   SenderThread:11989 [sender.py:send():380] send: exit
+2023-11-15 11:08:10,538 INFO    SenderThread:11989 [sender.py:send_exit():585] handling exit code: 1
+2023-11-15 11:08:10,538 INFO    SenderThread:11989 [sender.py:send_exit():587] handling runtime: 186
+2023-11-15 11:08:10,539 INFO    SenderThread:11989 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-15 11:08:10,539 INFO    SenderThread:11989 [sender.py:send_exit():593] send defer
+2023-11-15 11:08:10,539 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 11:08:10,539 INFO    HandlerThread:11989 [handler.py:handle_request_defer():172] handle defer: 0
+2023-11-15 11:08:10,539 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: defer
+2023-11-15 11:08:10,539 INFO    SenderThread:11989 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-11-15 11:08:10,539 INFO    SenderThread:11989 [sender.py:transition_state():613] send defer: 1
+2023-11-15 11:08:10,540 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 11:08:10,540 INFO    HandlerThread:11989 [handler.py:handle_request_defer():172] handle defer: 1
+2023-11-15 11:08:10,540 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: defer
+2023-11-15 11:08:10,540 INFO    SenderThread:11989 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-11-15 11:08:10,540 INFO    SenderThread:11989 [sender.py:transition_state():613] send defer: 2
+2023-11-15 11:08:10,540 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 11:08:10,540 INFO    HandlerThread:11989 [handler.py:handle_request_defer():172] handle defer: 2
+2023-11-15 11:08:10,540 INFO    HandlerThread:11989 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-15 11:08:10,540 INFO    HandlerThread:11989 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-15 11:08:10,540 DEBUG   SystemMonitor:11989 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-15 11:08:10,540 DEBUG   SystemMonitor:11989 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-15 11:08:10,541 INFO    HandlerThread:11989 [interfaces.py:finish():202] Joined disk monitor
+2023-11-15 11:08:10,602 INFO    HandlerThread:11989 [interfaces.py:finish():202] Joined gpu monitor
+2023-11-15 11:08:10,602 INFO    HandlerThread:11989 [interfaces.py:finish():202] Joined memory monitor
+2023-11-15 11:08:10,602 INFO    HandlerThread:11989 [interfaces.py:finish():202] Joined network monitor
+2023-11-15 11:08:10,602 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: defer
+2023-11-15 11:08:10,603 INFO    SenderThread:11989 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-11-15 11:08:10,603 INFO    SenderThread:11989 [sender.py:transition_state():613] send defer: 3
+2023-11-15 11:08:10,603 DEBUG   SenderThread:11989 [sender.py:send():380] send: stats
+2023-11-15 11:08:10,603 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 11:08:10,603 INFO    HandlerThread:11989 [handler.py:handle_request_defer():172] handle defer: 3
+2023-11-15 11:08:10,603 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: defer
+2023-11-15 11:08:10,603 INFO    SenderThread:11989 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-11-15 11:08:10,603 INFO    SenderThread:11989 [sender.py:transition_state():613] send defer: 4
+2023-11-15 11:08:10,603 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 11:08:10,603 INFO    HandlerThread:11989 [handler.py:handle_request_defer():172] handle defer: 4
+2023-11-15 11:08:10,603 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: defer
+2023-11-15 11:08:10,604 INFO    SenderThread:11989 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-11-15 11:08:10,604 INFO    SenderThread:11989 [sender.py:transition_state():613] send defer: 5
+2023-11-15 11:08:10,604 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 11:08:10,604 INFO    HandlerThread:11989 [handler.py:handle_request_defer():172] handle defer: 5
+2023-11-15 11:08:10,604 DEBUG   SenderThread:11989 [sender.py:send():380] send: summary
+2023-11-15 11:08:10,604 INFO    SenderThread:11989 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-15 11:08:10,604 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: defer
+2023-11-15 11:08:10,604 INFO    SenderThread:11989 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-11-15 11:08:10,604 INFO    SenderThread:11989 [sender.py:transition_state():613] send defer: 6
+2023-11-15 11:08:10,604 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 11:08:10,604 INFO    HandlerThread:11989 [handler.py:handle_request_defer():172] handle defer: 6
+2023-11-15 11:08:10,604 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: defer
+2023-11-15 11:08:10,605 INFO    SenderThread:11989 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-11-15 11:08:10,605 INFO    SenderThread:11989 [sender.py:transition_state():613] send defer: 7
+2023-11-15 11:08:10,605 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:08:10,605 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 11:08:10,605 INFO    HandlerThread:11989 [handler.py:handle_request_defer():172] handle defer: 7
+2023-11-15 11:08:10,605 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: defer
+2023-11-15 11:08:10,605 INFO    SenderThread:11989 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-11-15 11:08:11,427 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/wandb-summary.json
+2023-11-15 11:08:11,539 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-15 11:08:12,427 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:08:12,547 INFO    SenderThread:11989 [sender.py:transition_state():613] send defer: 8
+2023-11-15 11:08:12,547 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: poll_exit
+2023-11-15 11:08:12,547 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 11:08:12,547 INFO    HandlerThread:11989 [handler.py:handle_request_defer():172] handle defer: 8
+2023-11-15 11:08:12,548 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: defer
+2023-11-15 11:08:12,548 INFO    SenderThread:11989 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-11-15 11:08:12,548 INFO    SenderThread:11989 [job_builder.py:build():281] Attempting to build job artifact
+2023-11-15 11:08:12,548 INFO    SenderThread:11989 [job_builder.py:_get_source_type():393] is repo sourced job
+2023-11-15 11:08:12,549 INFO    SenderThread:11989 [job_builder.py:build():369] adding wandb-job metadata file
+2023-11-15 11:08:12,555 INFO    SenderThread:11989 [sender.py:transition_state():613] send defer: 9
+2023-11-15 11:08:12,555 DEBUG   SenderThread:11989 [sender.py:send():380] send: artifact
+2023-11-15 11:08:12,556 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 11:08:12,556 INFO    HandlerThread:11989 [handler.py:handle_request_defer():172] handle defer: 9
+2023-11-15 11:08:13,428 INFO    Thread-12 :11989 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:08:14,508 INFO    SenderThread:11989 [sender.py:send_artifact():1456] sent artifact job-https___github.com_Trinq2003_PolypSegment.git_main.py - {'id': 'QXJ0aWZhY3Q6NjM4NzA0NTM0', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjExNTY4Njc1Ng==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjM4NzA0NTM0', 'versionIndex': 4}}}
+2023-11-15 11:08:14,508 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: defer
+2023-11-15 11:08:14,508 INFO    SenderThread:11989 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-11-15 11:08:14,508 INFO    SenderThread:11989 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-11-15 11:08:15,430 INFO    SenderThread:11989 [dir_watcher.py:finish():388] scan: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files
+2023-11-15 11:08:15,430 INFO    SenderThread:11989 [dir_watcher.py:finish():402] scan save: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/requirements.txt requirements.txt
+2023-11-15 11:08:15,431 INFO    SenderThread:11989 [dir_watcher.py:finish():402] scan save: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/wandb-summary.json wandb-summary.json
+2023-11-15 11:08:15,434 INFO    SenderThread:11989 [dir_watcher.py:finish():402] scan save: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/config.yaml config.yaml
+2023-11-15 11:08:15,436 INFO    SenderThread:11989 [dir_watcher.py:finish():402] scan save: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/wandb-metadata.json wandb-metadata.json
+2023-11-15 11:08:15,436 INFO    SenderThread:11989 [dir_watcher.py:finish():402] scan save: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log output.log
+2023-11-15 11:08:15,437 INFO    SenderThread:11989 [dir_watcher.py:finish():402] scan save: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/conda-environment.yaml conda-environment.yaml
+2023-11-15 11:08:15,439 INFO    SenderThread:11989 [sender.py:transition_state():613] send defer: 10
+2023-11-15 11:08:15,443 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 11:08:15,443 INFO    HandlerThread:11989 [handler.py:handle_request_defer():172] handle defer: 10
+2023-11-15 11:08:15,443 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: defer
+2023-11-15 11:08:15,443 INFO    SenderThread:11989 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-11-15 11:08:15,443 INFO    SenderThread:11989 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-15 11:08:16,258 INFO    wandb-upload_1:11989 [upload_job.py:push():131] Uploaded file /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/wandb-summary.json
+2023-11-15 11:08:16,542 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-15 11:08:16,768 INFO    wandb-upload_3:11989 [upload_job.py:push():131] Uploaded file /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/output.log
+2023-11-15 11:08:16,803 INFO    wandb-upload_0:11989 [upload_job.py:push():131] Uploaded file /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/requirements.txt
+2023-11-15 11:08:17,170 INFO    wandb-upload_2:11989 [upload_job.py:push():131] Uploaded file /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/config.yaml
+2023-11-15 11:08:17,171 INFO    wandb-upload_4:11989 [upload_job.py:push():131] Uploaded file /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/files/conda-environment.yaml
+2023-11-15 11:08:17,373 INFO    Thread-11 (_thread_body):11989 [sender.py:transition_state():613] send defer: 11
+2023-11-15 11:08:17,373 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 11:08:17,373 INFO    HandlerThread:11989 [handler.py:handle_request_defer():172] handle defer: 11
+2023-11-15 11:08:17,374 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: defer
+2023-11-15 11:08:17,374 INFO    SenderThread:11989 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-11-15 11:08:17,374 INFO    SenderThread:11989 [file_pusher.py:join():181] waiting for file pusher
+2023-11-15 11:08:17,374 INFO    SenderThread:11989 [sender.py:transition_state():613] send defer: 12
+2023-11-15 11:08:17,375 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 11:08:17,375 INFO    HandlerThread:11989 [handler.py:handle_request_defer():172] handle defer: 12
+2023-11-15 11:08:17,375 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: defer
+2023-11-15 11:08:17,375 INFO    SenderThread:11989 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-11-15 11:08:17,375 INFO    SenderThread:11989 [file_stream.py:finish():595] file stream finish called
+2023-11-15 11:08:17,690 INFO    SenderThread:11989 [file_stream.py:finish():599] file stream finish is done
+2023-11-15 11:08:17,690 INFO    SenderThread:11989 [sender.py:transition_state():613] send defer: 13
+2023-11-15 11:08:17,691 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 11:08:17,691 INFO    HandlerThread:11989 [handler.py:handle_request_defer():172] handle defer: 13
+2023-11-15 11:08:17,691 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 11:08:17,691 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: defer
+2023-11-15 11:08:17,692 INFO    SenderThread:11989 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-11-15 11:08:17,692 INFO    SenderThread:11989 [sender.py:transition_state():613] send defer: 14
+2023-11-15 11:08:17,692 DEBUG   SenderThread:11989 [sender.py:send():380] send: final
+2023-11-15 11:08:17,692 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 11:08:17,693 INFO    HandlerThread:11989 [handler.py:handle_request_defer():172] handle defer: 14
+2023-11-15 11:08:17,693 DEBUG   SenderThread:11989 [sender.py:send():380] send: footer
+2023-11-15 11:08:17,693 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: defer
+2023-11-15 11:08:17,693 INFO    SenderThread:11989 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-11-15 11:08:17,694 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-15 11:08:17,694 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: poll_exit
+2023-11-15 11:08:17,695 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: server_info
+2023-11-15 11:08:17,695 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: server_info
+2023-11-15 11:08:17,697 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: get_summary
+2023-11-15 11:08:17,697 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: sampled_history
+2023-11-15 11:08:17,698 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-15 11:08:17,698 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: job_info
+2023-11-15 11:08:18,398 DEBUG   SenderThread:11989 [sender.py:send_request():407] send_request: job_info
+2023-11-15 11:08:18,399 INFO    MainThread:11989 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-11-15 11:08:18,399 INFO    MainThread:11989 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-11-15 11:08:18,399 INFO    MainThread:11989 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2023-11-15 11:08:18,400 DEBUG   HandlerThread:11989 [handler.py:handle_request():146] handle_request: shutdown
+2023-11-15 11:08:18,400 INFO    HandlerThread:11989 [handler.py:finish():866] shutting down handler
+2023-11-15 11:08:18,699 INFO    WriterThread:11989 [datastore.py:close():294] close: /home/wallace/Code/HUST/UNET/wandb/run-20231115_110501-mjy1atup/run-mjy1atup.wandb
+2023-11-15 11:08:19,399 INFO    SenderThread:11989 [sender.py:finish():1534] shutting down sender
+2023-11-15 11:08:19,400 INFO    SenderThread:11989 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-15 11:08:19,400 INFO    SenderThread:11989 [file_pusher.py:join():181] waiting for file pusher

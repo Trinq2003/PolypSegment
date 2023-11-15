@@ -1,5 +1,7 @@
+import gc
 import os
 import cv2
+import time
 import numpy as np
 import pandas as pd
 import torch
@@ -7,6 +9,27 @@ import torch.nn as nn
 import matplotlib.pyplot as plt
 import torch.nn.functional as F
 from torchvision.transforms import Resize, ToPILImage, InterpolationMode
+from pynvml import nvmlInit, nvmlDeviceGetHandleByIndex, nvmlDeviceGetMemoryInfo
+
+def clear_gpu_memory():
+    # torch.cuda.memory_summary(device=None, abbreviated=False)
+    torch.cuda.empty_cache()
+    gc.collect()
+    del variables
+
+def wait_until_enough_gpu_memory(min_memory_available= 2*1024*1024*1024, max_retries=10, sleep_time=5):
+    nvmlInit()
+    handle = nvmlDeviceGetHandleByIndex(torch.cuda.current_device())
+
+    for _ in range(max_retries):
+        info = nvmlDeviceGetMemoryInfo(handle)
+        if info.free >= min_memory_available:
+            break
+        print(f"Waiting for {min_memory_available} bytes of free GPU memory. Retrying in {sleep_time} seconds...")
+        clear_gpu_memory()
+        time.sleep(sleep_time)
+    else:
+        raise RuntimeError(f"Failed to acquire {min_memory_available} bytes of free GPU memory after {max_retries} retries.")
 
 def weights_init(model):
     if isinstance(model, nn.Linear):
@@ -39,10 +62,10 @@ def learning_curve_plotting(epochs, train_loss_array):
     plt.legend()
     plt.show()
 
-def result_visualization(model, train_dataloader):
+def result_visualization(model, device, train_dataloader):
     for i, (data, label) in enumerate(train_dataloader):
-        img = data
-        mask = label
+        img = data.to(device)
+        mask = label.to(device)
         break
     fig, arr = plt.subplots(4, 3, figsize=(16, 12))
     arr[0][0].set_title('Image')
@@ -54,32 +77,32 @@ def result_visualization(model, train_dataloader):
         predict = model(img)
 
     for i in range(4):
-        arr[i][0].imshow(img[i].permute(1, 2, 0));
+        arr[i][0].imshow((img[i].cpu()).permute(1, 2, 0));
         
-        arr[i][1].imshow(F.one_hot(mask[i]).float())
+        arr[i][1].imshow(F.one_hot(mask[i].cpu()).float())
         
         arr[i][2].imshow(F.one_hot(torch.argmax(predict[i], 0).cpu()).float())
 
-def prediction_visualization(model, img):
+def prediction_visualization(model, device, img):
     fig, arr = plt.subplots(5, 2, figsize=(16, 12))
     arr[0][0].set_title('Image');
     arr[0][1].set_title('Predict');
 
     model.eval()
     with torch.no_grad():
-        predict = model(img)
+        predict = model(img.to(device))
 
     for i in range(5):
-        arr[i][0].imshow(img[i].permute(1, 2, 0));
+        arr[i][0].imshow((img[i].cpu()).permute(1, 2, 0));
         arr[i][1].imshow(F.one_hot(torch.argmax(predict[i], 0).cpu()).float())
 
-def save_prediction_image(model, test_dataloader, infer_path):
+def save_prediction_image(model, device, test_dataloader, infer_path):
     model.eval()
     if not os.path.isdir(infer_path):
         os.mkdir(infer_path)
     for _, (img, path, H, W) in enumerate(test_dataloader):
         a = path
-        b = img
+        b = img.to(device)
         h = H
         w = W
         

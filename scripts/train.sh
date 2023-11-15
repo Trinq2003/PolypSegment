@@ -1,11 +1,11 @@
 python main.py \
-    --checkpoint-path ./checkpoints/ \
+    --checkpoint-path ./checkpoints/unet_model.pth \
     --pretrained-path ./saved_models/ \
     --infer-path ./predicted_masks/ \
     --images-path ./data/train/train/ \
     --masks-path ./data/train_gt/train_gt/ \
     --test-path ./data/test/test/ \
-    --num-epochs 1 \
+    --num-epochs 50 \
     --lr 2e-4 \
     --batch-size 4 \
     --display-step 10 \

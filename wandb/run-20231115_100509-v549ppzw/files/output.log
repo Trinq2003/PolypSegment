@@ -1,0 +1,35 @@
+
+Start epoch #1, learning rate for this epoch: [0.0002]
+Train Epoch: 1 [40/800 (5.0%)]	Loss: 1.8343
+Train Epoch: 1 [80/800 (10.0%)]	Loss: 1.8411
+Train Epoch: 1 [120/800 (15.0%)]	Loss: 1.6576
+Train Epoch: 1 [160/800 (20.0%)]	Loss: 1.6766
+Train Epoch: 1 [200/800 (25.0%)]	Loss: 1.5698
+Train Epoch: 1 [240/800 (30.0%)]	Loss: 1.8510
+Train Epoch: 1 [280/800 (35.0%)]	Loss: 1.6176
+Train Epoch: 1 [320/800 (40.0%)]	Loss: 1.6016
+Train Epoch: 1 [360/800 (45.0%)]	Loss: 1.6174
+Train Epoch: 1 [400/800 (50.0%)]	Loss: 1.7502
+Train Epoch: 1 [440/800 (55.0%)]	Loss: 1.5904
+Train Epoch: 1 [480/800 (60.0%)]	Loss: 1.3655
+Train Epoch: 1 [520/800 (65.0%)]	Loss: 1.5670
+Train Epoch: 1 [560/800 (70.0%)]	Loss: 1.5396
+Train Epoch: 1 [600/800 (75.0%)]	Loss: 1.5081
+Train Epoch: 1 [640/800 (80.0%)]	Loss: 1.5280
+Train Epoch: 1 [680/800 (85.0%)]	Loss: 1.5773
+Train Epoch: 1 [720/800 (90.0%)]	Loss: 1.5842
+Train Epoch: 1 [760/800 (95.0%)]	Loss: 1.3904
+Train Epoch: 1 [800/800 (100.0%)]	Loss: 1.5175
+Done epoch #1, time for this epoch: 156.2445194721222s
+Traceback (most recent call last):
+  File "/home/wallace/Code/HUST/UNET/main.py", line 109, in <module>
+    utils.save_model(model, optimizer, checkpoint_path)
+  File "/home/wallace/Code/HUST/UNET/utilities/utils.py", line 44, in save_model
+    torch.save(checkpoint, path)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/serialization.py", line 618, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/serialization.py", line 492, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/serialization.py", line 463, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(self.name))
+RuntimeError: [enforce fail at inline_container.cc:462] . invalid file name: ./checkpoints/

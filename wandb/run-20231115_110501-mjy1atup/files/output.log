@@ -1,0 +1,54 @@
+
+Start epoch #1, learning rate for this epoch: [0.0002]
+Train Epoch: 1 [40/800 (5.0%)]	Loss: 1.9520
+Train Epoch: 1 [80/800 (10.0%)]	Loss: 1.7438
+Train Epoch: 1 [120/800 (15.0%)]	Loss: 1.6587
+Train Epoch: 1 [160/800 (20.0%)]	Loss: 1.5153
+Train Epoch: 1 [200/800 (25.0%)]	Loss: 1.6946
+Train Epoch: 1 [240/800 (30.0%)]	Loss: 1.5484
+Train Epoch: 1 [280/800 (35.0%)]	Loss: 1.5749
+Train Epoch: 1 [320/800 (40.0%)]	Loss: 1.6823
+Train Epoch: 1 [360/800 (45.0%)]	Loss: 1.6076
+Train Epoch: 1 [400/800 (50.0%)]	Loss: 1.4541
+Train Epoch: 1 [440/800 (55.0%)]	Loss: 1.5999
+Train Epoch: 1 [480/800 (60.0%)]	Loss: 1.4865
+Train Epoch: 1 [520/800 (65.0%)]	Loss: 1.6091
+Train Epoch: 1 [560/800 (70.0%)]	Loss: 1.4066
+Train Epoch: 1 [600/800 (75.0%)]	Loss: 1.3370
+Train Epoch: 1 [640/800 (80.0%)]	Loss: 1.4418
+Train Epoch: 1 [680/800 (85.0%)]	Loss: 1.3881
+Train Epoch: 1 [720/800 (90.0%)]	Loss: 1.4832
+Train Epoch: 1 [760/800 (95.0%)]	Loss: 1.6583
+Train Epoch: 1 [800/800 (100.0%)]	Loss: 1.4123
+Done epoch #1, time for this epoch: 85.35332584381104s
+Epoch 1: loss: 1.6060, train accuracy: 5747831.8750, valid accuracy:5759747.0000
+=========================END STEP 2=========================
+[PROGRESS] STEP 3: Plotting diagrams...
+=========================END STEP 3=========================
+[PROGRESS] STEP 4: Testing...
+Traceback (most recent call last):
+  File "/home/wallace/Code/HUST/UNET/main.py", line 140, in <module>
+    utils.prediction_visualization(model=model, img=img)
+  File "/home/wallace/Code/HUST/UNET/utilities/utils.py", line 93, in prediction_visualization
+    predict = model(img)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/wallace/Code/HUST/UNET/model/unet.py", line 28, in forward
+    n1, s1 = self.enc1(image)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/wallace/Code/HUST/UNET/model/encoder.py", line 18, in forward
+    x = self.conv1(x)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 460, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 456, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Input type (torch.FloatTensor) and weight type (torch.cuda.FloatTensor) should be the same or input should be a MKLDNN tensor and weight is a dense tensor

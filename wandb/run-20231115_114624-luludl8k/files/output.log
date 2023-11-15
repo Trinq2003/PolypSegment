@@ -1,0 +1,1356 @@
+
+Start epoch #1, learning rate for this epoch: [0.0002]
+Train Epoch: 1 [40/800 (5.0%)]	Loss: 2.0898
+Train Epoch: 1 [80/800 (10.0%)]	Loss: 1.7993
+Train Epoch: 1 [120/800 (15.0%)]	Loss: 1.7823
+Train Epoch: 1 [160/800 (20.0%)]	Loss: 1.6518
+Train Epoch: 1 [200/800 (25.0%)]	Loss: 1.6827
+Train Epoch: 1 [240/800 (30.0%)]	Loss: 1.7175
+Train Epoch: 1 [280/800 (35.0%)]	Loss: 1.6491
+Train Epoch: 1 [320/800 (40.0%)]	Loss: 1.6729
+Train Epoch: 1 [360/800 (45.0%)]	Loss: 1.7029
+Train Epoch: 1 [400/800 (50.0%)]	Loss: 1.6046
+Train Epoch: 1 [440/800 (55.0%)]	Loss: 1.4695
+Train Epoch: 1 [480/800 (60.0%)]	Loss: 1.5402
+Train Epoch: 1 [520/800 (65.0%)]	Loss: 1.6351
+Train Epoch: 1 [560/800 (70.0%)]	Loss: 1.5585
+Train Epoch: 1 [600/800 (75.0%)]	Loss: 1.6469
+Train Epoch: 1 [640/800 (80.0%)]	Loss: 1.6188
+Train Epoch: 1 [680/800 (85.0%)]	Loss: 1.7174
+Train Epoch: 1 [720/800 (90.0%)]	Loss: 1.3919
+Train Epoch: 1 [760/800 (95.0%)]	Loss: 1.4948
+Train Epoch: 1 [800/800 (100.0%)]	Loss: 1.4637
+Done epoch #1, time for this epoch: 84.8837640285492s
+Epoch 1: loss: 1.6715, train accuracy: 5284869.5000, valid accuracy:5226808.0000
+Start epoch #2, learning rate for this epoch: [0.0002]
+Train Epoch: 2 [40/800 (5.0%)]	Loss: 1.6627
+Train Epoch: 2 [80/800 (10.0%)]	Loss: 1.3626
+Train Epoch: 2 [120/800 (15.0%)]	Loss: 1.7885
+Train Epoch: 2 [160/800 (20.0%)]	Loss: 1.5083
+Train Epoch: 2 [200/800 (25.0%)]	Loss: 1.6719
+Train Epoch: 2 [240/800 (30.0%)]	Loss: 1.5303
+Train Epoch: 2 [280/800 (35.0%)]	Loss: 1.4063
+Train Epoch: 2 [320/800 (40.0%)]	Loss: 1.7208
+Train Epoch: 2 [360/800 (45.0%)]	Loss: 1.7219
+Train Epoch: 2 [400/800 (50.0%)]	Loss: 1.3935
+Train Epoch: 2 [440/800 (55.0%)]	Loss: 1.3589
+Train Epoch: 2 [480/800 (60.0%)]	Loss: 1.3208
+Train Epoch: 2 [520/800 (65.0%)]	Loss: 1.3089
+Train Epoch: 2 [560/800 (70.0%)]	Loss: 1.6666
+Train Epoch: 2 [600/800 (75.0%)]	Loss: 1.3241
+Train Epoch: 2 [640/800 (80.0%)]	Loss: 1.6012
+Train Epoch: 2 [680/800 (85.0%)]	Loss: 1.4246
+Train Epoch: 2 [720/800 (90.0%)]	Loss: 1.5123
+Train Epoch: 2 [760/800 (95.0%)]	Loss: 1.3120
+Train Epoch: 2 [800/800 (100.0%)]	Loss: 1.2762
+Done epoch #2, time for this epoch: 85.6598813533783s
+Epoch 2: loss: 1.4644, train accuracy: 5520338.6250, valid accuracy:5459748.0000
+Start epoch #3, learning rate for this epoch: [0.0002]
+Train Epoch: 3 [40/800 (5.0%)]	Loss: 1.2341
+Train Epoch: 3 [80/800 (10.0%)]	Loss: 1.4283
+Train Epoch: 3 [120/800 (15.0%)]	Loss: 1.4117
+Train Epoch: 3 [160/800 (20.0%)]	Loss: 1.3960
+Train Epoch: 3 [200/800 (25.0%)]	Loss: 1.4202
+Train Epoch: 3 [240/800 (30.0%)]	Loss: 1.4598
+Train Epoch: 3 [280/800 (35.0%)]	Loss: 1.3779
+Train Epoch: 3 [320/800 (40.0%)]	Loss: 1.2261
+Train Epoch: 3 [360/800 (45.0%)]	Loss: 1.4942
+Train Epoch: 3 [400/800 (50.0%)]	Loss: 1.4254
+Train Epoch: 3 [440/800 (55.0%)]	Loss: 1.5355
+Train Epoch: 3 [480/800 (60.0%)]	Loss: 1.3376
+Train Epoch: 3 [520/800 (65.0%)]	Loss: 1.3517
+Train Epoch: 3 [560/800 (70.0%)]	Loss: 1.4997
+Train Epoch: 3 [600/800 (75.0%)]	Loss: 1.2913
+Train Epoch: 3 [640/800 (80.0%)]	Loss: 1.3645
+Train Epoch: 3 [680/800 (85.0%)]	Loss: 1.4820
+Train Epoch: 3 [720/800 (90.0%)]	Loss: 1.2274
+Train Epoch: 3 [760/800 (95.0%)]	Loss: 1.1944
+Train Epoch: 3 [800/800 (100.0%)]	Loss: 1.2303
+Done epoch #3, time for this epoch: 86.3179121017456s
+Epoch 3: loss: 1.3838, train accuracy: 6121497.7500, valid accuracy:6102230.5000
+Start epoch #4, learning rate for this epoch: [0.0002]
+Train Epoch: 4 [40/800 (5.0%)]	Loss: 1.4815
+Train Epoch: 4 [80/800 (10.0%)]	Loss: 1.2357
+Train Epoch: 4 [120/800 (15.0%)]	Loss: 1.4271
+Train Epoch: 4 [160/800 (20.0%)]	Loss: 1.1919
+Train Epoch: 4 [200/800 (25.0%)]	Loss: 1.3624
+Train Epoch: 4 [240/800 (30.0%)]	Loss: 1.2420
+Train Epoch: 4 [280/800 (35.0%)]	Loss: 1.3286
+Train Epoch: 4 [320/800 (40.0%)]	Loss: 1.4342
+Train Epoch: 4 [360/800 (45.0%)]	Loss: 1.1825
+Train Epoch: 4 [400/800 (50.0%)]	Loss: 1.1575
+Train Epoch: 4 [440/800 (55.0%)]	Loss: 1.1636
+Train Epoch: 4 [480/800 (60.0%)]	Loss: 1.1949
+Train Epoch: 4 [520/800 (65.0%)]	Loss: 1.3237
+Train Epoch: 4 [560/800 (70.0%)]	Loss: 1.3767
+Train Epoch: 4 [600/800 (75.0%)]	Loss: 1.4548
+Train Epoch: 4 [640/800 (80.0%)]	Loss: 1.3394
+Train Epoch: 4 [680/800 (85.0%)]	Loss: 1.4098
+Train Epoch: 4 [720/800 (90.0%)]	Loss: 1.3532
+Train Epoch: 4 [760/800 (95.0%)]	Loss: 1.3590
+Train Epoch: 4 [800/800 (100.0%)]	Loss: 1.1415
+Done epoch #4, time for this epoch: 86.4269437789917s
+Epoch 4: loss: 1.3453, train accuracy: 5971435.3750, valid accuracy:5936585.0000
+Start epoch #5, learning rate for this epoch: [0.00012]
+Train Epoch: 5 [40/800 (5.0%)]	Loss: 1.1137
+Train Epoch: 5 [80/800 (10.0%)]	Loss: 1.2243
+Train Epoch: 5 [120/800 (15.0%)]	Loss: 1.4766
+Train Epoch: 5 [160/800 (20.0%)]	Loss: 1.2213
+Train Epoch: 5 [200/800 (25.0%)]	Loss: 1.3008
+Train Epoch: 5 [240/800 (30.0%)]	Loss: 1.2337
+Train Epoch: 5 [280/800 (35.0%)]	Loss: 1.2101
+Train Epoch: 5 [320/800 (40.0%)]	Loss: 1.3347
+Train Epoch: 5 [360/800 (45.0%)]	Loss: 1.2901
+Train Epoch: 5 [400/800 (50.0%)]	Loss: 1.4021
+Train Epoch: 5 [440/800 (55.0%)]	Loss: 1.3741
+Train Epoch: 5 [480/800 (60.0%)]	Loss: 1.2932
+Train Epoch: 5 [520/800 (65.0%)]	Loss: 1.1297
+Train Epoch: 5 [560/800 (70.0%)]	Loss: 1.5257
+Train Epoch: 5 [600/800 (75.0%)]	Loss: 1.0920
+Train Epoch: 5 [640/800 (80.0%)]	Loss: 1.1285
+Train Epoch: 5 [680/800 (85.0%)]	Loss: 1.2853
+Train Epoch: 5 [720/800 (90.0%)]	Loss: 1.4083
+Train Epoch: 5 [760/800 (95.0%)]	Loss: 1.1659
+Train Epoch: 5 [800/800 (100.0%)]	Loss: 1.3472
+Done epoch #5, time for this epoch: 86.70686841011047s
+Epoch 5: loss: 1.3066, train accuracy: 6078491.3750, valid accuracy:6055704.5000
+Start epoch #6, learning rate for this epoch: [0.00012]
+Train Epoch: 6 [40/800 (5.0%)]	Loss: 1.3592
+Train Epoch: 6 [80/800 (10.0%)]	Loss: 1.6509
+Train Epoch: 6 [120/800 (15.0%)]	Loss: 1.2340
+Train Epoch: 6 [160/800 (20.0%)]	Loss: 1.4231
+Train Epoch: 6 [200/800 (25.0%)]	Loss: 1.5420
+Train Epoch: 6 [240/800 (30.0%)]	Loss: 1.2602
+Train Epoch: 6 [280/800 (35.0%)]	Loss: 1.5815
+Train Epoch: 6 [320/800 (40.0%)]	Loss: 1.5466
+Train Epoch: 6 [360/800 (45.0%)]	Loss: 1.4061
+Train Epoch: 6 [400/800 (50.0%)]	Loss: 1.7146
+Train Epoch: 6 [440/800 (55.0%)]	Loss: 1.4074
+Train Epoch: 6 [480/800 (60.0%)]	Loss: 1.1283
+Train Epoch: 6 [520/800 (65.0%)]	Loss: 1.3587
+Train Epoch: 6 [560/800 (70.0%)]	Loss: 1.1251
+Train Epoch: 6 [600/800 (75.0%)]	Loss: 1.2509
+Train Epoch: 6 [640/800 (80.0%)]	Loss: 1.3021
+Train Epoch: 6 [680/800 (85.0%)]	Loss: 1.0292
+Train Epoch: 6 [720/800 (90.0%)]	Loss: 1.1155
+Train Epoch: 6 [760/800 (95.0%)]	Loss: 1.2422
+Train Epoch: 6 [800/800 (100.0%)]	Loss: 1.5607
+Done epoch #6, time for this epoch: 86.53818130493164s
+Epoch 6: loss: 1.2788, train accuracy: 6018875.0000, valid accuracy:5988536.0000
+Start epoch #7, learning rate for this epoch: [0.00012]
+Train Epoch: 7 [40/800 (5.0%)]	Loss: 1.2618
+Train Epoch: 7 [80/800 (10.0%)]	Loss: 1.3473
+Train Epoch: 7 [120/800 (15.0%)]	Loss: 1.3205
+Train Epoch: 7 [160/800 (20.0%)]	Loss: 1.1658
+Train Epoch: 7 [200/800 (25.0%)]	Loss: 1.1823
+Train Epoch: 7 [240/800 (30.0%)]	Loss: 1.2065
+Train Epoch: 7 [280/800 (35.0%)]	Loss: 1.1271
+Train Epoch: 7 [320/800 (40.0%)]	Loss: 1.6167
+Train Epoch: 7 [360/800 (45.0%)]	Loss: 1.3462
+Train Epoch: 7 [400/800 (50.0%)]	Loss: 1.2464
+Train Epoch: 7 [440/800 (55.0%)]	Loss: 1.0727
+Train Epoch: 7 [480/800 (60.0%)]	Loss: 1.2946
+Train Epoch: 7 [520/800 (65.0%)]	Loss: 1.1304
+Train Epoch: 7 [560/800 (70.0%)]	Loss: 1.0762
+Train Epoch: 7 [600/800 (75.0%)]	Loss: 1.1598
+Train Epoch: 7 [640/800 (80.0%)]	Loss: 1.4482
+Train Epoch: 7 [680/800 (85.0%)]	Loss: 1.3470
+Train Epoch: 7 [720/800 (90.0%)]	Loss: 1.2600
+Train Epoch: 7 [760/800 (95.0%)]	Loss: 1.4307
+Train Epoch: 7 [800/800 (100.0%)]	Loss: 0.9899
+Done epoch #7, time for this epoch: 87.23729181289673s
+Epoch 7: loss: 1.2650, train accuracy: 5784608.3750, valid accuracy:5749258.5000
+Start epoch #8, learning rate for this epoch: [0.00012]
+Train Epoch: 8 [40/800 (5.0%)]	Loss: 1.5572
+Train Epoch: 8 [80/800 (10.0%)]	Loss: 1.0352
+Train Epoch: 8 [120/800 (15.0%)]	Loss: 1.1687
+Train Epoch: 8 [160/800 (20.0%)]	Loss: 1.2691
+Train Epoch: 8 [200/800 (25.0%)]	Loss: 1.3030
+Train Epoch: 8 [240/800 (30.0%)]	Loss: 1.0698
+Train Epoch: 8 [280/800 (35.0%)]	Loss: 1.1789
+Train Epoch: 8 [320/800 (40.0%)]	Loss: 1.1244
+Train Epoch: 8 [360/800 (45.0%)]	Loss: 1.3840
+Train Epoch: 8 [400/800 (50.0%)]	Loss: 1.3748
+Train Epoch: 8 [440/800 (55.0%)]	Loss: 1.1948
+Train Epoch: 8 [480/800 (60.0%)]	Loss: 1.2781
+Train Epoch: 8 [520/800 (65.0%)]	Loss: 1.3028
+Train Epoch: 8 [560/800 (70.0%)]	Loss: 1.0662
+Train Epoch: 8 [600/800 (75.0%)]	Loss: 1.6575
+Train Epoch: 8 [640/800 (80.0%)]	Loss: 0.9947
+Train Epoch: 8 [680/800 (85.0%)]	Loss: 1.4090
+Train Epoch: 8 [720/800 (90.0%)]	Loss: 1.3748
+Train Epoch: 8 [760/800 (95.0%)]	Loss: 1.2643
+Train Epoch: 8 [800/800 (100.0%)]	Loss: 1.4516
+Done epoch #8, time for this epoch: 86.92667388916016s
+Epoch 8: loss: 1.2508, train accuracy: 6105679.8750, valid accuracy:6086338.5000
+Start epoch #9, learning rate for this epoch: [7.2e-05]
+Train Epoch: 9 [40/800 (5.0%)]	Loss: 1.4045
+Train Epoch: 9 [80/800 (10.0%)]	Loss: 1.1528
+Train Epoch: 9 [120/800 (15.0%)]	Loss: 1.0191
+Train Epoch: 9 [160/800 (20.0%)]	Loss: 1.0473
+Train Epoch: 9 [200/800 (25.0%)]	Loss: 1.3067
+Train Epoch: 9 [240/800 (30.0%)]	Loss: 1.0768
+Train Epoch: 9 [280/800 (35.0%)]	Loss: 1.0757
+Train Epoch: 9 [320/800 (40.0%)]	Loss: 1.1028
+Train Epoch: 9 [360/800 (45.0%)]	Loss: 1.1070
+Train Epoch: 9 [400/800 (50.0%)]	Loss: 0.9845
+Train Epoch: 9 [440/800 (55.0%)]	Loss: 1.0957
+Train Epoch: 9 [480/800 (60.0%)]	Loss: 1.2366
+Train Epoch: 9 [520/800 (65.0%)]	Loss: 1.4521
+Train Epoch: 9 [560/800 (70.0%)]	Loss: 1.0977
+Train Epoch: 9 [600/800 (75.0%)]	Loss: 1.4356
+Train Epoch: 9 [640/800 (80.0%)]	Loss: 1.1830
+Train Epoch: 9 [680/800 (85.0%)]	Loss: 1.1895
+Train Epoch: 9 [720/800 (90.0%)]	Loss: 0.9391
+Train Epoch: 9 [760/800 (95.0%)]	Loss: 1.0154
+Train Epoch: 9 [800/800 (100.0%)]	Loss: 1.1222
+Done epoch #9, time for this epoch: 87.02332401275635s
+Epoch 9: loss: 1.2210, train accuracy: 6138250.5000, valid accuracy:6109687.5000
+Start epoch #10, learning rate for this epoch: [7.2e-05]
+Train Epoch: 10 [40/800 (5.0%)]	Loss: 1.1954
+Train Epoch: 10 [80/800 (10.0%)]	Loss: 1.2518
+Train Epoch: 10 [120/800 (15.0%)]	Loss: 1.0491
+Train Epoch: 10 [160/800 (20.0%)]	Loss: 1.3156
+Train Epoch: 10 [200/800 (25.0%)]	Loss: 1.2184
+Train Epoch: 10 [240/800 (30.0%)]	Loss: 1.1368
+Train Epoch: 10 [280/800 (35.0%)]	Loss: 1.0837
+Train Epoch: 10 [320/800 (40.0%)]	Loss: 1.0874
+Train Epoch: 10 [360/800 (45.0%)]	Loss: 1.2332
+Train Epoch: 10 [400/800 (50.0%)]	Loss: 1.2289
+Train Epoch: 10 [440/800 (55.0%)]	Loss: 1.2743
+Train Epoch: 10 [480/800 (60.0%)]	Loss: 1.3979
+Train Epoch: 10 [520/800 (65.0%)]	Loss: 1.3193
+Train Epoch: 10 [560/800 (70.0%)]	Loss: 1.3042
+Train Epoch: 10 [600/800 (75.0%)]	Loss: 1.1657
+Train Epoch: 10 [640/800 (80.0%)]	Loss: 1.3017
+Train Epoch: 10 [680/800 (85.0%)]	Loss: 1.0719
+Train Epoch: 10 [720/800 (90.0%)]	Loss: 1.0984
+Train Epoch: 10 [760/800 (95.0%)]	Loss: 1.3528
+Train Epoch: 10 [800/800 (100.0%)]	Loss: 1.0987
+Done epoch #10, time for this epoch: 87.2163336277008s
+Epoch 10: loss: 1.2026, train accuracy: 6220645.8750, valid accuracy:6186915.5000
+Start epoch #11, learning rate for this epoch: [7.2e-05]
+Train Epoch: 11 [40/800 (5.0%)]	Loss: 1.0618
+Train Epoch: 11 [80/800 (10.0%)]	Loss: 1.0665
+Train Epoch: 11 [120/800 (15.0%)]	Loss: 1.1322
+Train Epoch: 11 [160/800 (20.0%)]	Loss: 1.0179
+Train Epoch: 11 [200/800 (25.0%)]	Loss: 1.1642
+Train Epoch: 11 [240/800 (30.0%)]	Loss: 1.2208
+Train Epoch: 11 [280/800 (35.0%)]	Loss: 1.4293
+Train Epoch: 11 [320/800 (40.0%)]	Loss: 1.3790
+Train Epoch: 11 [360/800 (45.0%)]	Loss: 1.0244
+Train Epoch: 11 [400/800 (50.0%)]	Loss: 1.5170
+Train Epoch: 11 [440/800 (55.0%)]	Loss: 1.3696
+Train Epoch: 11 [480/800 (60.0%)]	Loss: 1.3905
+Train Epoch: 11 [520/800 (65.0%)]	Loss: 1.2235
+Train Epoch: 11 [560/800 (70.0%)]	Loss: 1.2894
+Train Epoch: 11 [600/800 (75.0%)]	Loss: 1.4017
+Train Epoch: 11 [640/800 (80.0%)]	Loss: 1.2089
+Train Epoch: 11 [680/800 (85.0%)]	Loss: 1.0060
+Train Epoch: 11 [720/800 (90.0%)]	Loss: 1.1437
+Train Epoch: 11 [760/800 (95.0%)]	Loss: 1.2616
+Train Epoch: 11 [800/800 (100.0%)]	Loss: 1.2459
+Done epoch #11, time for this epoch: 86.91285419464111s
+Epoch 11: loss: 1.1889, train accuracy: 6197985.5000, valid accuracy:6160680.5000
+Start epoch #12, learning rate for this epoch: [7.2e-05]
+Train Epoch: 12 [40/800 (5.0%)]	Loss: 1.0526
+Train Epoch: 12 [80/800 (10.0%)]	Loss: 1.0713
+Train Epoch: 12 [120/800 (15.0%)]	Loss: 1.2169
+Train Epoch: 12 [160/800 (20.0%)]	Loss: 0.9590
+Train Epoch: 12 [200/800 (25.0%)]	Loss: 1.0481
+Train Epoch: 12 [240/800 (30.0%)]	Loss: 1.0136
+Train Epoch: 12 [280/800 (35.0%)]	Loss: 1.1330
+Train Epoch: 12 [320/800 (40.0%)]	Loss: 1.5111
+Train Epoch: 12 [360/800 (45.0%)]	Loss: 1.1427
+Train Epoch: 12 [400/800 (50.0%)]	Loss: 1.0281
+Train Epoch: 12 [440/800 (55.0%)]	Loss: 1.1720
+Train Epoch: 12 [480/800 (60.0%)]	Loss: 1.3025
+Train Epoch: 12 [520/800 (65.0%)]	Loss: 1.2964
+Train Epoch: 12 [560/800 (70.0%)]	Loss: 1.0545
+Train Epoch: 12 [600/800 (75.0%)]	Loss: 0.9853
+Train Epoch: 12 [640/800 (80.0%)]	Loss: 1.3351
+Train Epoch: 12 [680/800 (85.0%)]	Loss: 1.2377
+Train Epoch: 12 [720/800 (90.0%)]	Loss: 1.0225
+Train Epoch: 12 [760/800 (95.0%)]	Loss: 1.2810
+Train Epoch: 12 [800/800 (100.0%)]	Loss: 1.0349
+Done epoch #12, time for this epoch: 87.06556558609009s
+Epoch 12: loss: 1.1851, train accuracy: 6115367.5000, valid accuracy:6080802.0000
+Start epoch #13, learning rate for this epoch: [4.32e-05]
+Train Epoch: 13 [40/800 (5.0%)]	Loss: 1.0728
+Train Epoch: 13 [80/800 (10.0%)]	Loss: 1.4050
+Train Epoch: 13 [120/800 (15.0%)]	Loss: 1.0435
+Train Epoch: 13 [160/800 (20.0%)]	Loss: 1.4172
+Train Epoch: 13 [200/800 (25.0%)]	Loss: 0.8939
+Train Epoch: 13 [240/800 (30.0%)]	Loss: 1.0534
+Train Epoch: 13 [280/800 (35.0%)]	Loss: 1.1877
+Train Epoch: 13 [320/800 (40.0%)]	Loss: 1.1437
+Train Epoch: 13 [360/800 (45.0%)]	Loss: 1.1969
+Train Epoch: 13 [400/800 (50.0%)]	Loss: 1.0458
+Train Epoch: 13 [440/800 (55.0%)]	Loss: 1.1355
+Train Epoch: 13 [480/800 (60.0%)]	Loss: 1.0708
+Train Epoch: 13 [520/800 (65.0%)]	Loss: 1.0593
+Train Epoch: 13 [560/800 (70.0%)]	Loss: 1.0130
+Train Epoch: 13 [600/800 (75.0%)]	Loss: 1.1273
+Train Epoch: 13 [640/800 (80.0%)]	Loss: 1.1727
+Train Epoch: 13 [680/800 (85.0%)]	Loss: 0.9616
+Train Epoch: 13 [720/800 (90.0%)]	Loss: 0.9051
+Train Epoch: 13 [760/800 (95.0%)]	Loss: 1.1240
+Train Epoch: 13 [800/800 (100.0%)]	Loss: 1.2234
+Done epoch #13, time for this epoch: 86.744225025177s
+Epoch 13: loss: 1.1663, train accuracy: 6226086.8750, valid accuracy:6186880.5000
+Start epoch #14, learning rate for this epoch: [4.32e-05]
+Train Epoch: 14 [40/800 (5.0%)]	Loss: 0.9343
+Train Epoch: 14 [80/800 (10.0%)]	Loss: 0.9757
+Train Epoch: 14 [120/800 (15.0%)]	Loss: 1.0565
+Train Epoch: 14 [160/800 (20.0%)]	Loss: 1.1112
+Train Epoch: 14 [200/800 (25.0%)]	Loss: 0.8842
+Train Epoch: 14 [240/800 (30.0%)]	Loss: 1.0335
+Train Epoch: 14 [280/800 (35.0%)]	Loss: 1.5102
+Train Epoch: 14 [320/800 (40.0%)]	Loss: 1.0761
+Train Epoch: 14 [360/800 (45.0%)]	Loss: 1.0616
+Train Epoch: 14 [400/800 (50.0%)]	Loss: 1.0196
+Train Epoch: 14 [440/800 (55.0%)]	Loss: 1.1586
+Train Epoch: 14 [480/800 (60.0%)]	Loss: 1.1063
+Train Epoch: 14 [520/800 (65.0%)]	Loss: 1.1229
+Train Epoch: 14 [560/800 (70.0%)]	Loss: 1.0327
+Train Epoch: 14 [600/800 (75.0%)]	Loss: 1.3787
+Train Epoch: 14 [640/800 (80.0%)]	Loss: 0.8094
+Train Epoch: 14 [680/800 (85.0%)]	Loss: 1.0074
+Train Epoch: 14 [720/800 (90.0%)]	Loss: 1.0358
+Train Epoch: 14 [760/800 (95.0%)]	Loss: 1.1546
+Train Epoch: 14 [800/800 (100.0%)]	Loss: 1.1132
+Done epoch #14, time for this epoch: 86.99653005599976s
+Epoch 14: loss: 1.1515, train accuracy: 6257562.7500, valid accuracy:6214675.0000
+Start epoch #15, learning rate for this epoch: [4.32e-05]
+Train Epoch: 15 [40/800 (5.0%)]	Loss: 1.0318
+Train Epoch: 15 [80/800 (10.0%)]	Loss: 1.8190
+Train Epoch: 15 [120/800 (15.0%)]	Loss: 1.0512
+Train Epoch: 15 [160/800 (20.0%)]	Loss: 1.1250
+Train Epoch: 15 [200/800 (25.0%)]	Loss: 1.1884
+Train Epoch: 15 [240/800 (30.0%)]	Loss: 1.0999
+Train Epoch: 15 [280/800 (35.0%)]	Loss: 1.0655
+Train Epoch: 15 [320/800 (40.0%)]	Loss: 1.1671
+Train Epoch: 15 [360/800 (45.0%)]	Loss: 1.2067
+Train Epoch: 15 [400/800 (50.0%)]	Loss: 1.0403
+Train Epoch: 15 [440/800 (55.0%)]	Loss: 1.2221
+Train Epoch: 15 [480/800 (60.0%)]	Loss: 1.1765
+Train Epoch: 15 [520/800 (65.0%)]	Loss: 1.0375
+Train Epoch: 15 [560/800 (70.0%)]	Loss: 0.9345
+Train Epoch: 15 [600/800 (75.0%)]	Loss: 0.9822
+Train Epoch: 15 [640/800 (80.0%)]	Loss: 1.2554
+Train Epoch: 15 [680/800 (85.0%)]	Loss: 0.8972
+Train Epoch: 15 [720/800 (90.0%)]	Loss: 0.9429
+Train Epoch: 15 [760/800 (95.0%)]	Loss: 1.0087
+Train Epoch: 15 [800/800 (100.0%)]	Loss: 1.0287
+Done epoch #15, time for this epoch: 86.89811968803406s
+Epoch 15: loss: 1.1461, train accuracy: 6243658.1250, valid accuracy:6203303.5000
+Start epoch #16, learning rate for this epoch: [4.32e-05]
+Train Epoch: 16 [40/800 (5.0%)]	Loss: 1.6925
+Train Epoch: 16 [80/800 (10.0%)]	Loss: 1.1054
+Train Epoch: 16 [120/800 (15.0%)]	Loss: 1.1462
+Train Epoch: 16 [160/800 (20.0%)]	Loss: 1.2367
+Train Epoch: 16 [200/800 (25.0%)]	Loss: 0.9762
+Train Epoch: 16 [240/800 (30.0%)]	Loss: 0.8880
+Train Epoch: 16 [280/800 (35.0%)]	Loss: 1.2426
+Train Epoch: 16 [320/800 (40.0%)]	Loss: 1.2805
+Train Epoch: 16 [360/800 (45.0%)]	Loss: 1.1605
+Train Epoch: 16 [400/800 (50.0%)]	Loss: 1.3943
+Train Epoch: 16 [440/800 (55.0%)]	Loss: 1.5250
+Train Epoch: 16 [480/800 (60.0%)]	Loss: 1.4340
+Train Epoch: 16 [520/800 (65.0%)]	Loss: 1.2190
+Train Epoch: 16 [560/800 (70.0%)]	Loss: 1.2608
+Train Epoch: 16 [600/800 (75.0%)]	Loss: 1.1418
+Train Epoch: 16 [640/800 (80.0%)]	Loss: 1.3092
+Train Epoch: 16 [680/800 (85.0%)]	Loss: 1.0716
+Train Epoch: 16 [720/800 (90.0%)]	Loss: 1.2216
+Train Epoch: 16 [760/800 (95.0%)]	Loss: 1.2817
+Train Epoch: 16 [800/800 (100.0%)]	Loss: 1.1570
+Done epoch #16, time for this epoch: 86.87819957733154s
+Epoch 16: loss: 1.1491, train accuracy: 6193811.8750, valid accuracy:6144210.0000
+Start epoch #17, learning rate for this epoch: [2.592e-05]
+Train Epoch: 17 [40/800 (5.0%)]	Loss: 1.0241
+Train Epoch: 17 [80/800 (10.0%)]	Loss: 0.8920
+Train Epoch: 17 [120/800 (15.0%)]	Loss: 0.9929
+Train Epoch: 17 [160/800 (20.0%)]	Loss: 1.3203
+Train Epoch: 17 [200/800 (25.0%)]	Loss: 1.1492
+Train Epoch: 17 [240/800 (30.0%)]	Loss: 0.9856
+Train Epoch: 17 [280/800 (35.0%)]	Loss: 0.9251
+Train Epoch: 17 [320/800 (40.0%)]	Loss: 1.0001
+Train Epoch: 17 [360/800 (45.0%)]	Loss: 0.9567
+Train Epoch: 17 [400/800 (50.0%)]	Loss: 0.9579
+Train Epoch: 17 [440/800 (55.0%)]	Loss: 0.9811
+Train Epoch: 17 [480/800 (60.0%)]	Loss: 1.1844
+Train Epoch: 17 [520/800 (65.0%)]	Loss: 1.2196
+Train Epoch: 17 [560/800 (70.0%)]	Loss: 1.0415
+Train Epoch: 17 [600/800 (75.0%)]	Loss: 1.1321
+Train Epoch: 17 [640/800 (80.0%)]	Loss: 1.8991
+Train Epoch: 17 [680/800 (85.0%)]	Loss: 1.1007
+Train Epoch: 17 [720/800 (90.0%)]	Loss: 1.7540
+Train Epoch: 17 [760/800 (95.0%)]	Loss: 1.0380
+Train Epoch: 17 [800/800 (100.0%)]	Loss: 1.0230
+Done epoch #17, time for this epoch: 86.93418455123901s
+Epoch 17: loss: 1.1244, train accuracy: 6257796.3750, valid accuracy:6221159.5000
+Start epoch #18, learning rate for this epoch: [2.592e-05]
+Train Epoch: 18 [40/800 (5.0%)]	Loss: 1.3364
+Train Epoch: 18 [80/800 (10.0%)]	Loss: 1.3651
+Train Epoch: 18 [120/800 (15.0%)]	Loss: 1.1580
+Train Epoch: 18 [160/800 (20.0%)]	Loss: 1.0863
+Train Epoch: 18 [200/800 (25.0%)]	Loss: 1.0962
+Train Epoch: 18 [240/800 (30.0%)]	Loss: 1.3311
+Train Epoch: 18 [280/800 (35.0%)]	Loss: 0.8128
+Train Epoch: 18 [320/800 (40.0%)]	Loss: 1.0468
+Train Epoch: 18 [360/800 (45.0%)]	Loss: 1.0798
+Train Epoch: 18 [400/800 (50.0%)]	Loss: 1.3389
+Train Epoch: 18 [440/800 (55.0%)]	Loss: 1.1233
+Train Epoch: 18 [480/800 (60.0%)]	Loss: 0.9234
+Train Epoch: 18 [520/800 (65.0%)]	Loss: 1.0014
+Train Epoch: 18 [560/800 (70.0%)]	Loss: 1.4131
+Train Epoch: 18 [600/800 (75.0%)]	Loss: 1.0665
+Train Epoch: 18 [640/800 (80.0%)]	Loss: 1.5814
+Train Epoch: 18 [680/800 (85.0%)]	Loss: 1.1392
+Train Epoch: 18 [720/800 (90.0%)]	Loss: 1.2091
+Train Epoch: 18 [760/800 (95.0%)]	Loss: 0.8926
+Train Epoch: 18 [800/800 (100.0%)]	Loss: 1.0510
+Done epoch #18, time for this epoch: 86.87122368812561s
+Epoch 18: loss: 1.1195, train accuracy: 6302027.0000, valid accuracy:6275802.0000
+Start epoch #19, learning rate for this epoch: [2.592e-05]
+Train Epoch: 19 [40/800 (5.0%)]	Loss: 1.3660
+Train Epoch: 19 [80/800 (10.0%)]	Loss: 0.8596
+Train Epoch: 19 [120/800 (15.0%)]	Loss: 1.3334
+Train Epoch: 19 [160/800 (20.0%)]	Loss: 0.9965
+Train Epoch: 19 [200/800 (25.0%)]	Loss: 0.9929
+Train Epoch: 19 [240/800 (30.0%)]	Loss: 1.1433
+Train Epoch: 19 [280/800 (35.0%)]	Loss: 0.9734
+Train Epoch: 19 [320/800 (40.0%)]	Loss: 1.2705
+Train Epoch: 19 [360/800 (45.0%)]	Loss: 1.1212
+Train Epoch: 19 [400/800 (50.0%)]	Loss: 1.0153
+Train Epoch: 19 [440/800 (55.0%)]	Loss: 1.0326
+Train Epoch: 19 [480/800 (60.0%)]	Loss: 1.3328
+Train Epoch: 19 [520/800 (65.0%)]	Loss: 0.9256
+Train Epoch: 19 [560/800 (70.0%)]	Loss: 1.2621
+Train Epoch: 19 [600/800 (75.0%)]	Loss: 1.0357
+Train Epoch: 19 [640/800 (80.0%)]	Loss: 1.2183
+Train Epoch: 19 [680/800 (85.0%)]	Loss: 1.1996
+Train Epoch: 19 [720/800 (90.0%)]	Loss: 1.2131
+Train Epoch: 19 [760/800 (95.0%)]	Loss: 1.0475
+Train Epoch: 19 [800/800 (100.0%)]	Loss: 1.1655
+Done epoch #19, time for this epoch: 86.86134362220764s
+Epoch 19: loss: 1.1249, train accuracy: 6281295.8750, valid accuracy:6249907.5000
+Start epoch #20, learning rate for this epoch: [2.592e-05]
+Train Epoch: 20 [40/800 (5.0%)]	Loss: 1.1337
+Train Epoch: 20 [80/800 (10.0%)]	Loss: 1.1586
+Train Epoch: 20 [120/800 (15.0%)]	Loss: 0.9967
+Train Epoch: 20 [160/800 (20.0%)]	Loss: 1.2106
+Train Epoch: 20 [200/800 (25.0%)]	Loss: 1.0620
+Train Epoch: 20 [240/800 (30.0%)]	Loss: 1.1954
+Train Epoch: 20 [280/800 (35.0%)]	Loss: 1.0657
+Train Epoch: 20 [320/800 (40.0%)]	Loss: 1.0504
+Train Epoch: 20 [360/800 (45.0%)]	Loss: 0.9947
+Train Epoch: 20 [400/800 (50.0%)]	Loss: 1.1002
+Train Epoch: 20 [440/800 (55.0%)]	Loss: 0.9829
+Train Epoch: 20 [480/800 (60.0%)]	Loss: 1.1615
+Train Epoch: 20 [520/800 (65.0%)]	Loss: 1.5650
+Train Epoch: 20 [560/800 (70.0%)]	Loss: 1.0457
+Train Epoch: 20 [600/800 (75.0%)]	Loss: 0.9647
+Train Epoch: 20 [640/800 (80.0%)]	Loss: 0.9321
+Train Epoch: 20 [680/800 (85.0%)]	Loss: 1.5181
+Train Epoch: 20 [720/800 (90.0%)]	Loss: 1.1398
+Train Epoch: 20 [760/800 (95.0%)]	Loss: 1.3295
+Train Epoch: 20 [800/800 (100.0%)]	Loss: 0.9002
+Done epoch #20, time for this epoch: 87.14705443382263s
+Epoch 20: loss: 1.1102, train accuracy: 6229777.6250, valid accuracy:6179167.5000
+Start epoch #21, learning rate for this epoch: [1.5552e-05]
+Train Epoch: 21 [40/800 (5.0%)]	Loss: 1.4557
+Train Epoch: 21 [80/800 (10.0%)]	Loss: 1.2141
+Train Epoch: 21 [120/800 (15.0%)]	Loss: 1.0936
+Train Epoch: 21 [160/800 (20.0%)]	Loss: 1.0201
+Train Epoch: 21 [200/800 (25.0%)]	Loss: 1.2147
+Train Epoch: 21 [240/800 (30.0%)]	Loss: 1.0010
+Train Epoch: 21 [280/800 (35.0%)]	Loss: 1.0449
+Train Epoch: 21 [320/800 (40.0%)]	Loss: 0.8071
+Train Epoch: 21 [360/800 (45.0%)]	Loss: 1.2319
+Train Epoch: 21 [400/800 (50.0%)]	Loss: 0.9984
+Train Epoch: 21 [440/800 (55.0%)]	Loss: 0.9382
+Train Epoch: 21 [480/800 (60.0%)]	Loss: 0.9858
+Train Epoch: 21 [520/800 (65.0%)]	Loss: 0.8971
+Train Epoch: 21 [560/800 (70.0%)]	Loss: 1.2067
+Train Epoch: 21 [600/800 (75.0%)]	Loss: 1.1776
+Train Epoch: 21 [640/800 (80.0%)]	Loss: 0.9955
+Train Epoch: 21 [680/800 (85.0%)]	Loss: 0.9594
+Train Epoch: 21 [720/800 (90.0%)]	Loss: 0.9393
+Train Epoch: 21 [760/800 (95.0%)]	Loss: 0.8884
+Train Epoch: 21 [800/800 (100.0%)]	Loss: 0.8481
+Done epoch #21, time for this epoch: 87.3826334476471s
+Epoch 21: loss: 1.1024, train accuracy: 6263219.3750, valid accuracy:6224625.5000
+Start epoch #22, learning rate for this epoch: [1.5552e-05]
+Train Epoch: 22 [40/800 (5.0%)]	Loss: 0.8898
+Train Epoch: 22 [80/800 (10.0%)]	Loss: 1.0002
+Train Epoch: 22 [120/800 (15.0%)]	Loss: 1.1486
+Train Epoch: 22 [160/800 (20.0%)]	Loss: 0.9875
+Train Epoch: 22 [200/800 (25.0%)]	Loss: 1.3365
+Train Epoch: 22 [240/800 (30.0%)]	Loss: 1.0273
+Train Epoch: 22 [280/800 (35.0%)]	Loss: 0.9586
+Train Epoch: 22 [320/800 (40.0%)]	Loss: 1.0570
+Train Epoch: 22 [360/800 (45.0%)]	Loss: 1.0987
+Train Epoch: 22 [400/800 (50.0%)]	Loss: 1.0215
+Train Epoch: 22 [440/800 (55.0%)]	Loss: 0.9788
+Train Epoch: 22 [480/800 (60.0%)]	Loss: 0.8342
+Train Epoch: 22 [520/800 (65.0%)]	Loss: 1.1810
+Train Epoch: 22 [560/800 (70.0%)]	Loss: 1.2249
+Train Epoch: 22 [600/800 (75.0%)]	Loss: 0.9088
+Train Epoch: 22 [640/800 (80.0%)]	Loss: 1.1311
+Train Epoch: 22 [680/800 (85.0%)]	Loss: 1.0660
+Train Epoch: 22 [720/800 (90.0%)]	Loss: 1.0149
+Train Epoch: 22 [760/800 (95.0%)]	Loss: 0.9773
+Train Epoch: 22 [800/800 (100.0%)]	Loss: 0.9747
+Done epoch #22, time for this epoch: 86.76509618759155s
+Epoch 22: loss: 1.0859, train accuracy: 6275409.8750, valid accuracy:6239272.0000
+Start epoch #23, learning rate for this epoch: [1.5552e-05]
+Train Epoch: 23 [40/800 (5.0%)]	Loss: 1.0112
+Train Epoch: 23 [80/800 (10.0%)]	Loss: 1.0289
+Train Epoch: 23 [120/800 (15.0%)]	Loss: 0.9997
+Train Epoch: 23 [160/800 (20.0%)]	Loss: 0.9408
+Train Epoch: 23 [200/800 (25.0%)]	Loss: 1.1301
+Train Epoch: 23 [240/800 (30.0%)]	Loss: 1.1988
+Train Epoch: 23 [280/800 (35.0%)]	Loss: 1.2234
+Train Epoch: 23 [320/800 (40.0%)]	Loss: 0.9073
+Train Epoch: 23 [360/800 (45.0%)]	Loss: 1.0067
+Train Epoch: 23 [400/800 (50.0%)]	Loss: 1.1792
+Train Epoch: 23 [440/800 (55.0%)]	Loss: 0.9125
+Train Epoch: 23 [480/800 (60.0%)]	Loss: 0.9343
+Train Epoch: 23 [520/800 (65.0%)]	Loss: 1.0558
+Train Epoch: 23 [560/800 (70.0%)]	Loss: 1.0304
+Train Epoch: 23 [600/800 (75.0%)]	Loss: 1.1493
+Train Epoch: 23 [640/800 (80.0%)]	Loss: 1.0219
+Train Epoch: 23 [680/800 (85.0%)]	Loss: 1.0125
+Train Epoch: 23 [720/800 (90.0%)]	Loss: 0.9566
+Train Epoch: 23 [760/800 (95.0%)]	Loss: 0.9576
+Train Epoch: 23 [800/800 (100.0%)]	Loss: 1.1573
+Done epoch #23, time for this epoch: 87.24623703956604s
+Epoch 23: loss: 1.0932, train accuracy: 6275093.3750, valid accuracy:6242386.5000
+Start epoch #24, learning rate for this epoch: [1.5552e-05]
+Train Epoch: 24 [40/800 (5.0%)]	Loss: 0.8709
+Train Epoch: 24 [80/800 (10.0%)]	Loss: 1.1559
+Train Epoch: 24 [120/800 (15.0%)]	Loss: 1.0392
+Train Epoch: 24 [160/800 (20.0%)]	Loss: 1.6113
+Train Epoch: 24 [200/800 (25.0%)]	Loss: 1.1121
+Train Epoch: 24 [240/800 (30.0%)]	Loss: 1.1266
+Train Epoch: 24 [280/800 (35.0%)]	Loss: 0.9115
+Train Epoch: 24 [320/800 (40.0%)]	Loss: 1.1363
+Train Epoch: 24 [360/800 (45.0%)]	Loss: 0.8833
+Train Epoch: 24 [400/800 (50.0%)]	Loss: 1.0507
+Train Epoch: 24 [440/800 (55.0%)]	Loss: 0.9240
+Train Epoch: 24 [480/800 (60.0%)]	Loss: 0.9140
+Train Epoch: 24 [520/800 (65.0%)]	Loss: 1.2453
+Train Epoch: 24 [560/800 (70.0%)]	Loss: 1.2566
+Train Epoch: 24 [600/800 (75.0%)]	Loss: 0.9470
+Train Epoch: 24 [640/800 (80.0%)]	Loss: 1.0869
+Train Epoch: 24 [680/800 (85.0%)]	Loss: 1.8668
+Train Epoch: 24 [720/800 (90.0%)]	Loss: 1.2251
+Train Epoch: 24 [760/800 (95.0%)]	Loss: 1.1212
+Train Epoch: 24 [800/800 (100.0%)]	Loss: 1.3868
+Done epoch #24, time for this epoch: 86.90409588813782s
+Epoch 24: loss: 1.0918, train accuracy: 6287512.0000, valid accuracy:6246849.5000
+Start epoch #25, learning rate for this epoch: [9.3312e-06]
+Train Epoch: 25 [40/800 (5.0%)]	Loss: 0.9295
+Train Epoch: 25 [80/800 (10.0%)]	Loss: 1.0740
+Train Epoch: 25 [120/800 (15.0%)]	Loss: 0.9626
+Train Epoch: 25 [160/800 (20.0%)]	Loss: 1.1485
+Train Epoch: 25 [200/800 (25.0%)]	Loss: 0.9879
+Train Epoch: 25 [240/800 (30.0%)]	Loss: 0.9999
+Train Epoch: 25 [280/800 (35.0%)]	Loss: 1.2062
+Train Epoch: 25 [320/800 (40.0%)]	Loss: 0.9980
+Train Epoch: 25 [360/800 (45.0%)]	Loss: 1.2092
+Train Epoch: 25 [400/800 (50.0%)]	Loss: 0.8527
+Train Epoch: 25 [440/800 (55.0%)]	Loss: 0.9713
+Train Epoch: 25 [480/800 (60.0%)]	Loss: 1.2284
+Train Epoch: 25 [520/800 (65.0%)]	Loss: 0.9519
+Train Epoch: 25 [560/800 (70.0%)]	Loss: 1.0765
+Train Epoch: 25 [600/800 (75.0%)]	Loss: 0.9630
+Train Epoch: 25 [640/800 (80.0%)]	Loss: 1.1411
+Train Epoch: 25 [680/800 (85.0%)]	Loss: 0.9942
+Train Epoch: 25 [720/800 (90.0%)]	Loss: 1.0595
+Train Epoch: 25 [760/800 (95.0%)]	Loss: 1.1897
+Train Epoch: 25 [800/800 (100.0%)]	Loss: 1.5104
+Done epoch #25, time for this epoch: 86.91125130653381s
+Epoch 25: loss: 1.0812, train accuracy: 6266999.3750, valid accuracy:6236696.5000
+Start epoch #26, learning rate for this epoch: [9.3312e-06]
+Train Epoch: 26 [40/800 (5.0%)]	Loss: 0.8802
+Train Epoch: 26 [80/800 (10.0%)]	Loss: 1.0427
+Train Epoch: 26 [120/800 (15.0%)]	Loss: 0.9277
+Train Epoch: 26 [160/800 (20.0%)]	Loss: 1.2419
+Train Epoch: 26 [200/800 (25.0%)]	Loss: 1.0631
+Train Epoch: 26 [240/800 (30.0%)]	Loss: 1.0494
+Train Epoch: 26 [280/800 (35.0%)]	Loss: 1.2974
+Train Epoch: 26 [320/800 (40.0%)]	Loss: 1.0657
+Train Epoch: 26 [360/800 (45.0%)]	Loss: 1.3499
+Train Epoch: 26 [400/800 (50.0%)]	Loss: 1.0738
+Train Epoch: 26 [440/800 (55.0%)]	Loss: 1.3054
+Train Epoch: 26 [480/800 (60.0%)]	Loss: 1.1169
+Train Epoch: 26 [520/800 (65.0%)]	Loss: 1.1238
+Train Epoch: 26 [560/800 (70.0%)]	Loss: 1.0214
+Train Epoch: 26 [600/800 (75.0%)]	Loss: 0.9217
+Train Epoch: 26 [640/800 (80.0%)]	Loss: 0.8938
+Train Epoch: 26 [680/800 (85.0%)]	Loss: 1.2421
+Train Epoch: 26 [720/800 (90.0%)]	Loss: 1.2038
+Train Epoch: 26 [760/800 (95.0%)]	Loss: 0.8168
+Train Epoch: 26 [800/800 (100.0%)]	Loss: 1.1827
+Done epoch #26, time for this epoch: 86.738445520401s
+Epoch 26: loss: 1.0721, train accuracy: 6293193.5000, valid accuracy:6253875.0000
+Start epoch #27, learning rate for this epoch: [9.3312e-06]
+Train Epoch: 27 [40/800 (5.0%)]	Loss: 1.0845
+Train Epoch: 27 [80/800 (10.0%)]	Loss: 1.3895
+Train Epoch: 27 [120/800 (15.0%)]	Loss: 1.2838
+Train Epoch: 27 [160/800 (20.0%)]	Loss: 1.0572
+Train Epoch: 27 [200/800 (25.0%)]	Loss: 0.9490
+Train Epoch: 27 [240/800 (30.0%)]	Loss: 0.8300
+Train Epoch: 27 [280/800 (35.0%)]	Loss: 1.0754
+Train Epoch: 27 [320/800 (40.0%)]	Loss: 0.8192
+Train Epoch: 27 [360/800 (45.0%)]	Loss: 1.0103
+Train Epoch: 27 [400/800 (50.0%)]	Loss: 1.6324
+Train Epoch: 27 [440/800 (55.0%)]	Loss: 1.3993
+Train Epoch: 27 [480/800 (60.0%)]	Loss: 0.8539
+Train Epoch: 27 [520/800 (65.0%)]	Loss: 0.8822
+Train Epoch: 27 [560/800 (70.0%)]	Loss: 0.9999
+Train Epoch: 27 [600/800 (75.0%)]	Loss: 0.9694
+Train Epoch: 27 [640/800 (80.0%)]	Loss: 0.9929
+Train Epoch: 27 [680/800 (85.0%)]	Loss: 0.8945
+Train Epoch: 27 [720/800 (90.0%)]	Loss: 0.9477
+Train Epoch: 27 [760/800 (95.0%)]	Loss: 0.7905
+Train Epoch: 27 [800/800 (100.0%)]	Loss: 1.1332
+Done epoch #27, time for this epoch: 86.77120471000671s
+Epoch 27: loss: 1.0734, train accuracy: 6298376.3750, valid accuracy:6264956.5000
+Start epoch #28, learning rate for this epoch: [9.3312e-06]
+Train Epoch: 28 [40/800 (5.0%)]	Loss: 0.9825
+Train Epoch: 28 [80/800 (10.0%)]	Loss: 0.9729
+Train Epoch: 28 [120/800 (15.0%)]	Loss: 0.8918
+Train Epoch: 28 [160/800 (20.0%)]	Loss: 0.8949
+Train Epoch: 28 [200/800 (25.0%)]	Loss: 1.0132
+Train Epoch: 28 [240/800 (30.0%)]	Loss: 0.8810
+Train Epoch: 28 [280/800 (35.0%)]	Loss: 0.9318
+Train Epoch: 28 [320/800 (40.0%)]	Loss: 0.9716
+Train Epoch: 28 [360/800 (45.0%)]	Loss: 1.0561
+Train Epoch: 28 [400/800 (50.0%)]	Loss: 1.0857
+Train Epoch: 28 [440/800 (55.0%)]	Loss: 1.2983
+Train Epoch: 28 [480/800 (60.0%)]	Loss: 1.0208
+Train Epoch: 28 [520/800 (65.0%)]	Loss: 0.9642
+Train Epoch: 28 [560/800 (70.0%)]	Loss: 1.0153
+Train Epoch: 28 [600/800 (75.0%)]	Loss: 1.2654
+Train Epoch: 28 [640/800 (80.0%)]	Loss: 1.1374
+Train Epoch: 28 [680/800 (85.0%)]	Loss: 1.1795
+Train Epoch: 28 [720/800 (90.0%)]	Loss: 1.0945
+Train Epoch: 28 [760/800 (95.0%)]	Loss: 0.9942
+Train Epoch: 28 [800/800 (100.0%)]	Loss: 1.0263
+Done epoch #28, time for this epoch: 86.84795832633972s
+Epoch 28: loss: 1.0725, train accuracy: 6277551.1250, valid accuracy:6239113.5000
+Start epoch #29, learning rate for this epoch: [5.59872e-06]
+Train Epoch: 29 [40/800 (5.0%)]	Loss: 1.0955
+Train Epoch: 29 [80/800 (10.0%)]	Loss: 1.2021
+Train Epoch: 29 [120/800 (15.0%)]	Loss: 0.7862
+Train Epoch: 29 [160/800 (20.0%)]	Loss: 1.0505
+Train Epoch: 29 [200/800 (25.0%)]	Loss: 0.9616
+Train Epoch: 29 [240/800 (30.0%)]	Loss: 1.1624
+Train Epoch: 29 [280/800 (35.0%)]	Loss: 0.9715
+Train Epoch: 29 [320/800 (40.0%)]	Loss: 0.8989
+Train Epoch: 29 [360/800 (45.0%)]	Loss: 1.2424
+Train Epoch: 29 [400/800 (50.0%)]	Loss: 1.3063
+Train Epoch: 29 [440/800 (55.0%)]	Loss: 1.3092
+Train Epoch: 29 [480/800 (60.0%)]	Loss: 1.2311
+Train Epoch: 29 [520/800 (65.0%)]	Loss: 1.0705
+Train Epoch: 29 [560/800 (70.0%)]	Loss: 0.9338
+Train Epoch: 29 [600/800 (75.0%)]	Loss: 1.0150
+Train Epoch: 29 [640/800 (80.0%)]	Loss: 1.0255
+Train Epoch: 29 [680/800 (85.0%)]	Loss: 1.0472
+Train Epoch: 29 [720/800 (90.0%)]	Loss: 0.9356
+Train Epoch: 29 [760/800 (95.0%)]	Loss: 1.0955
+Train Epoch: 29 [800/800 (100.0%)]	Loss: 0.8867
+Done epoch #29, time for this epoch: 86.82739543914795s
+Epoch 29: loss: 1.0698, train accuracy: 6283000.0000, valid accuracy:6244799.5000
+Start epoch #30, learning rate for this epoch: [5.59872e-06]
+Train Epoch: 30 [40/800 (5.0%)]	Loss: 0.9689
+Train Epoch: 30 [80/800 (10.0%)]	Loss: 1.1584
+Train Epoch: 30 [120/800 (15.0%)]	Loss: 1.1215
+Train Epoch: 30 [160/800 (20.0%)]	Loss: 0.9599
+Train Epoch: 30 [200/800 (25.0%)]	Loss: 1.2833
+Train Epoch: 30 [240/800 (30.0%)]	Loss: 0.9560
+Train Epoch: 30 [280/800 (35.0%)]	Loss: 1.2121
+Train Epoch: 30 [320/800 (40.0%)]	Loss: 0.9771
+Train Epoch: 30 [360/800 (45.0%)]	Loss: 1.2546
+Train Epoch: 30 [400/800 (50.0%)]	Loss: 1.0802
+Train Epoch: 30 [440/800 (55.0%)]	Loss: 0.9444
+Train Epoch: 30 [480/800 (60.0%)]	Loss: 0.9424
+Train Epoch: 30 [520/800 (65.0%)]	Loss: 0.8076
+Train Epoch: 30 [560/800 (70.0%)]	Loss: 1.0294
+Train Epoch: 30 [600/800 (75.0%)]	Loss: 1.2583
+Train Epoch: 30 [640/800 (80.0%)]	Loss: 0.8882
+Train Epoch: 30 [680/800 (85.0%)]	Loss: 0.9219
+Train Epoch: 30 [720/800 (90.0%)]	Loss: 1.0752
+Train Epoch: 30 [760/800 (95.0%)]	Loss: 0.8720
+Train Epoch: 30 [800/800 (100.0%)]	Loss: 0.9854
+Done epoch #30, time for this epoch: 86.83937549591064s
+Epoch 30: loss: 1.0676, train accuracy: 6258926.8750, valid accuracy:6219713.0000
+Start epoch #31, learning rate for this epoch: [5.59872e-06]
+Train Epoch: 31 [40/800 (5.0%)]	Loss: 1.0451
+Train Epoch: 31 [80/800 (10.0%)]	Loss: 0.9574
+Train Epoch: 31 [120/800 (15.0%)]	Loss: 1.0564
+Train Epoch: 31 [160/800 (20.0%)]	Loss: 1.3608
+Train Epoch: 31 [200/800 (25.0%)]	Loss: 1.0702
+Train Epoch: 31 [240/800 (30.0%)]	Loss: 0.9371
+Train Epoch: 31 [280/800 (35.0%)]	Loss: 0.9277
+Train Epoch: 31 [320/800 (40.0%)]	Loss: 1.0663
+Train Epoch: 31 [360/800 (45.0%)]	Loss: 1.3409
+Train Epoch: 31 [400/800 (50.0%)]	Loss: 1.0701
+Train Epoch: 31 [440/800 (55.0%)]	Loss: 1.2283
+Train Epoch: 31 [480/800 (60.0%)]	Loss: 1.0459
+Train Epoch: 31 [520/800 (65.0%)]	Loss: 1.3214
+Train Epoch: 31 [560/800 (70.0%)]	Loss: 1.1686
+Train Epoch: 31 [600/800 (75.0%)]	Loss: 1.1730
+Train Epoch: 31 [640/800 (80.0%)]	Loss: 1.1207
+Train Epoch: 31 [680/800 (85.0%)]	Loss: 0.8594
+Train Epoch: 31 [720/800 (90.0%)]	Loss: 1.0287
+Train Epoch: 31 [760/800 (95.0%)]	Loss: 0.9704
+Train Epoch: 31 [800/800 (100.0%)]	Loss: 1.1116
+Done epoch #31, time for this epoch: 87.47436499595642s
+Epoch 31: loss: 1.0698, train accuracy: 6283983.8750, valid accuracy:6246348.0000
+Start epoch #32, learning rate for this epoch: [5.59872e-06]
+Train Epoch: 32 [40/800 (5.0%)]	Loss: 1.3385
+Train Epoch: 32 [80/800 (10.0%)]	Loss: 1.0384
+Train Epoch: 32 [120/800 (15.0%)]	Loss: 0.9169
+Train Epoch: 32 [160/800 (20.0%)]	Loss: 1.3551
+Train Epoch: 32 [200/800 (25.0%)]	Loss: 1.0205
+Train Epoch: 32 [240/800 (30.0%)]	Loss: 0.7435
+Train Epoch: 32 [280/800 (35.0%)]	Loss: 1.0745
+Train Epoch: 32 [320/800 (40.0%)]	Loss: 1.0459
+Train Epoch: 32 [360/800 (45.0%)]	Loss: 0.8523
+Train Epoch: 32 [400/800 (50.0%)]	Loss: 0.9685
+Train Epoch: 32 [440/800 (55.0%)]	Loss: 0.7524
+Train Epoch: 32 [480/800 (60.0%)]	Loss: 1.0018
+Train Epoch: 32 [520/800 (65.0%)]	Loss: 1.1688
+Train Epoch: 32 [560/800 (70.0%)]	Loss: 1.1976
+Train Epoch: 32 [600/800 (75.0%)]	Loss: 1.1495
+Train Epoch: 32 [640/800 (80.0%)]	Loss: 0.9120
+Train Epoch: 32 [680/800 (85.0%)]	Loss: 0.9643
+Train Epoch: 32 [720/800 (90.0%)]	Loss: 0.7784
+Train Epoch: 32 [760/800 (95.0%)]	Loss: 1.3206
+Train Epoch: 32 [800/800 (100.0%)]	Loss: 0.9350
+Done epoch #32, time for this epoch: 86.79501295089722s
+Epoch 32: loss: 1.0651, train accuracy: 6251835.1250, valid accuracy:6207413.5000
+Start epoch #33, learning rate for this epoch: [3.359232e-06]
+Train Epoch: 33 [40/800 (5.0%)]	Loss: 1.1743
+Train Epoch: 33 [80/800 (10.0%)]	Loss: 1.1651
+Train Epoch: 33 [120/800 (15.0%)]	Loss: 1.0698
+Train Epoch: 33 [160/800 (20.0%)]	Loss: 0.7998
+Train Epoch: 33 [200/800 (25.0%)]	Loss: 1.1368
+Train Epoch: 33 [240/800 (30.0%)]	Loss: 1.1529
+Train Epoch: 33 [280/800 (35.0%)]	Loss: 1.0931
+Train Epoch: 33 [320/800 (40.0%)]	Loss: 1.1712
+Train Epoch: 33 [360/800 (45.0%)]	Loss: 0.9617
+Train Epoch: 33 [400/800 (50.0%)]	Loss: 1.0860
+Train Epoch: 33 [440/800 (55.0%)]	Loss: 0.9034
+Train Epoch: 33 [480/800 (60.0%)]	Loss: 1.1587
+Train Epoch: 33 [520/800 (65.0%)]	Loss: 1.0970
+Train Epoch: 33 [560/800 (70.0%)]	Loss: 1.1284
+Train Epoch: 33 [600/800 (75.0%)]	Loss: 0.8866
+Train Epoch: 33 [640/800 (80.0%)]	Loss: 1.1269
+Train Epoch: 33 [680/800 (85.0%)]	Loss: 1.0454
+Train Epoch: 33 [720/800 (90.0%)]	Loss: 1.0837
+Train Epoch: 33 [760/800 (95.0%)]	Loss: 1.0176
+Train Epoch: 33 [800/800 (100.0%)]	Loss: 1.1560
+Done epoch #33, time for this epoch: 87.2875669002533s
+Epoch 33: loss: 1.0564, train accuracy: 6281192.3750, valid accuracy:6243065.5000
+Start epoch #34, learning rate for this epoch: [3.359232e-06]
+Train Epoch: 34 [40/800 (5.0%)]	Loss: 1.0257
+Train Epoch: 34 [80/800 (10.0%)]	Loss: 0.9357
+Train Epoch: 34 [120/800 (15.0%)]	Loss: 0.8017
+Train Epoch: 34 [160/800 (20.0%)]	Loss: 1.0876
+Train Epoch: 34 [200/800 (25.0%)]	Loss: 1.0494
+Train Epoch: 34 [240/800 (30.0%)]	Loss: 1.1047
+Train Epoch: 34 [280/800 (35.0%)]	Loss: 0.9061
+Train Epoch: 34 [320/800 (40.0%)]	Loss: 1.0023
+Train Epoch: 34 [360/800 (45.0%)]	Loss: 1.1785
+Train Epoch: 34 [400/800 (50.0%)]	Loss: 1.0414
+Train Epoch: 34 [440/800 (55.0%)]	Loss: 1.2686
+Train Epoch: 34 [480/800 (60.0%)]	Loss: 1.2654
+Train Epoch: 34 [520/800 (65.0%)]	Loss: 1.0504
+Train Epoch: 34 [560/800 (70.0%)]	Loss: 1.1451
+Train Epoch: 34 [600/800 (75.0%)]	Loss: 0.9797
+Train Epoch: 34 [640/800 (80.0%)]	Loss: 1.0031
+Train Epoch: 34 [680/800 (85.0%)]	Loss: 0.9108
+Train Epoch: 34 [720/800 (90.0%)]	Loss: 1.3060
+Train Epoch: 34 [760/800 (95.0%)]	Loss: 1.1733
+Train Epoch: 34 [800/800 (100.0%)]	Loss: 0.9397
+Done epoch #34, time for this epoch: 87.27530670166016s
+Epoch 34: loss: 1.0563, train accuracy: 6289175.5000, valid accuracy:6254265.0000
+Start epoch #35, learning rate for this epoch: [3.359232e-06]
+Train Epoch: 35 [40/800 (5.0%)]	Loss: 1.1533
+Train Epoch: 35 [80/800 (10.0%)]	Loss: 1.2368
+Train Epoch: 35 [120/800 (15.0%)]	Loss: 0.9234
+Train Epoch: 35 [160/800 (20.0%)]	Loss: 1.1850
+Train Epoch: 35 [200/800 (25.0%)]	Loss: 1.1140
+Train Epoch: 35 [240/800 (30.0%)]	Loss: 1.0770
+Train Epoch: 35 [280/800 (35.0%)]	Loss: 0.8633
+Train Epoch: 35 [320/800 (40.0%)]	Loss: 1.5068
+Train Epoch: 35 [360/800 (45.0%)]	Loss: 0.9924
+Train Epoch: 35 [400/800 (50.0%)]	Loss: 1.0299
+Train Epoch: 35 [440/800 (55.0%)]	Loss: 1.8589
+Train Epoch: 35 [480/800 (60.0%)]	Loss: 0.8430
+Train Epoch: 35 [520/800 (65.0%)]	Loss: 0.9046
+Train Epoch: 35 [560/800 (70.0%)]	Loss: 1.0618
+Train Epoch: 35 [600/800 (75.0%)]	Loss: 0.8436
+Train Epoch: 35 [640/800 (80.0%)]	Loss: 0.9549
+Train Epoch: 35 [680/800 (85.0%)]	Loss: 0.9134
+Train Epoch: 35 [720/800 (90.0%)]	Loss: 0.9571
+Train Epoch: 35 [760/800 (95.0%)]	Loss: 1.0967
+Train Epoch: 35 [800/800 (100.0%)]	Loss: 1.1770
+Done epoch #35, time for this epoch: 87.60577917098999s
+Epoch 35: loss: 1.0567, train accuracy: 6266843.3750, valid accuracy:6226354.5000
+Start epoch #36, learning rate for this epoch: [3.359232e-06]
+Train Epoch: 36 [40/800 (5.0%)]	Loss: 0.8249
+Train Epoch: 36 [80/800 (10.0%)]	Loss: 1.0091
+Train Epoch: 36 [120/800 (15.0%)]	Loss: 0.9727
+Train Epoch: 36 [160/800 (20.0%)]	Loss: 1.0837
+Train Epoch: 36 [200/800 (25.0%)]	Loss: 0.9729
+Train Epoch: 36 [240/800 (30.0%)]	Loss: 0.9497
+Train Epoch: 36 [280/800 (35.0%)]	Loss: 0.7644
+Train Epoch: 36 [320/800 (40.0%)]	Loss: 0.9026
+Train Epoch: 36 [360/800 (45.0%)]	Loss: 1.2328
+Train Epoch: 36 [400/800 (50.0%)]	Loss: 0.8949
+Train Epoch: 36 [440/800 (55.0%)]	Loss: 0.9446
+Train Epoch: 36 [480/800 (60.0%)]	Loss: 1.5121
+Train Epoch: 36 [520/800 (65.0%)]	Loss: 0.9782
+Train Epoch: 36 [560/800 (70.0%)]	Loss: 1.3182
+Train Epoch: 36 [600/800 (75.0%)]	Loss: 0.9845
+Train Epoch: 36 [640/800 (80.0%)]	Loss: 0.9420
+Train Epoch: 36 [680/800 (85.0%)]	Loss: 1.4375
+Train Epoch: 36 [720/800 (90.0%)]	Loss: 1.0392
+Train Epoch: 36 [760/800 (95.0%)]	Loss: 1.2165
+Train Epoch: 36 [800/800 (100.0%)]	Loss: 0.9549
+Done epoch #36, time for this epoch: 87.5263774394989s
+Epoch 36: loss: 1.0525, train accuracy: 6300885.3750, valid accuracy:6257746.0000
+Start epoch #37, learning rate for this epoch: [2.0155392e-06]
+Train Epoch: 37 [40/800 (5.0%)]	Loss: 0.8749
+Train Epoch: 37 [80/800 (10.0%)]	Loss: 0.8501
+Train Epoch: 37 [120/800 (15.0%)]	Loss: 1.0941
+Train Epoch: 37 [160/800 (20.0%)]	Loss: 0.8777
+Train Epoch: 37 [200/800 (25.0%)]	Loss: 1.0188
+Train Epoch: 37 [240/800 (30.0%)]	Loss: 1.1171
+Train Epoch: 37 [280/800 (35.0%)]	Loss: 0.9692
+Train Epoch: 37 [320/800 (40.0%)]	Loss: 1.1496
+Train Epoch: 37 [360/800 (45.0%)]	Loss: 1.0257
+Train Epoch: 37 [400/800 (50.0%)]	Loss: 1.6026
+Train Epoch: 37 [440/800 (55.0%)]	Loss: 0.7826
+Train Epoch: 37 [480/800 (60.0%)]	Loss: 0.9049
+Train Epoch: 37 [520/800 (65.0%)]	Loss: 0.8935
+Train Epoch: 37 [560/800 (70.0%)]	Loss: 1.1241
+Train Epoch: 37 [600/800 (75.0%)]	Loss: 1.0228
+Train Epoch: 37 [640/800 (80.0%)]	Loss: 0.9420
+Train Epoch: 37 [680/800 (85.0%)]	Loss: 0.9479
+Train Epoch: 37 [720/800 (90.0%)]	Loss: 1.0464
+Train Epoch: 37 [760/800 (95.0%)]	Loss: 1.0110
+Train Epoch: 37 [800/800 (100.0%)]	Loss: 1.1024
+Done epoch #37, time for this epoch: 87.13259029388428s
+Epoch 37: loss: 1.0540, train accuracy: 6284612.3750, valid accuracy:6243789.0000
+Start epoch #38, learning rate for this epoch: [2.0155392e-06]
+Train Epoch: 38 [40/800 (5.0%)]	Loss: 0.8340
+Train Epoch: 38 [80/800 (10.0%)]	Loss: 0.9680
+Train Epoch: 38 [120/800 (15.0%)]	Loss: 0.9455
+Train Epoch: 38 [160/800 (20.0%)]	Loss: 0.9103
+Train Epoch: 38 [200/800 (25.0%)]	Loss: 1.5328
+Train Epoch: 38 [240/800 (30.0%)]	Loss: 1.1210
+Train Epoch: 38 [280/800 (35.0%)]	Loss: 0.9140
+Train Epoch: 38 [320/800 (40.0%)]	Loss: 1.2952
+Train Epoch: 38 [360/800 (45.0%)]	Loss: 1.0049
+Train Epoch: 38 [400/800 (50.0%)]	Loss: 0.8989
+Train Epoch: 38 [440/800 (55.0%)]	Loss: 1.0388
+Train Epoch: 38 [480/800 (60.0%)]	Loss: 0.9486
+Train Epoch: 38 [520/800 (65.0%)]	Loss: 1.6162
+Train Epoch: 38 [560/800 (70.0%)]	Loss: 1.3409
+Train Epoch: 38 [600/800 (75.0%)]	Loss: 0.8665
+Train Epoch: 38 [640/800 (80.0%)]	Loss: 1.5026
+Train Epoch: 38 [680/800 (85.0%)]	Loss: 1.2037
+Train Epoch: 38 [720/800 (90.0%)]	Loss: 1.1747
+Train Epoch: 38 [760/800 (95.0%)]	Loss: 0.9705
+Train Epoch: 38 [800/800 (100.0%)]	Loss: 0.9814
+Done epoch #38, time for this epoch: 87.07694244384766s
+Epoch 38: loss: 1.0560, train accuracy: 6280085.7500, valid accuracy:6239892.5000
+Start epoch #39, learning rate for this epoch: [2.0155392e-06]
+Train Epoch: 39 [40/800 (5.0%)]	Loss: 1.0239
+Train Epoch: 39 [80/800 (10.0%)]	Loss: 1.2675
+Train Epoch: 39 [120/800 (15.0%)]	Loss: 1.4367
+Train Epoch: 39 [160/800 (20.0%)]	Loss: 0.8816
+Train Epoch: 39 [200/800 (25.0%)]	Loss: 0.8748
+Train Epoch: 39 [240/800 (30.0%)]	Loss: 0.8603
+Train Epoch: 39 [280/800 (35.0%)]	Loss: 1.0694
+Train Epoch: 39 [320/800 (40.0%)]	Loss: 1.1649
+Train Epoch: 39 [360/800 (45.0%)]	Loss: 0.8793
+Train Epoch: 39 [400/800 (50.0%)]	Loss: 1.3222
+Train Epoch: 39 [440/800 (55.0%)]	Loss: 1.3478
+Train Epoch: 39 [480/800 (60.0%)]	Loss: 1.3117
+Train Epoch: 39 [520/800 (65.0%)]	Loss: 0.9766
+Train Epoch: 39 [560/800 (70.0%)]	Loss: 0.9543
+Train Epoch: 39 [600/800 (75.0%)]	Loss: 1.0290
+Train Epoch: 39 [640/800 (80.0%)]	Loss: 0.8978
+Train Epoch: 39 [680/800 (85.0%)]	Loss: 2.0195
+Train Epoch: 39 [720/800 (90.0%)]	Loss: 0.8443
+Train Epoch: 39 [760/800 (95.0%)]	Loss: 1.1890
+Train Epoch: 39 [800/800 (100.0%)]	Loss: 1.0411
+Done epoch #39, time for this epoch: 87.31021499633789s
+Epoch 39: loss: 1.0530, train accuracy: 6290564.2500, valid accuracy:6251736.0000
+Start epoch #40, learning rate for this epoch: [2.0155392e-06]
+Train Epoch: 40 [40/800 (5.0%)]	Loss: 0.8886
+Train Epoch: 40 [80/800 (10.0%)]	Loss: 1.3278
+Train Epoch: 40 [120/800 (15.0%)]	Loss: 0.9958
+Train Epoch: 40 [160/800 (20.0%)]	Loss: 0.9027
+Train Epoch: 40 [200/800 (25.0%)]	Loss: 1.0996
+Train Epoch: 40 [240/800 (30.0%)]	Loss: 0.8962
+Train Epoch: 40 [280/800 (35.0%)]	Loss: 0.9456
+Train Epoch: 40 [320/800 (40.0%)]	Loss: 0.8692
+Train Epoch: 40 [360/800 (45.0%)]	Loss: 1.1762
+Train Epoch: 40 [400/800 (50.0%)]	Loss: 0.7898
+Train Epoch: 40 [440/800 (55.0%)]	Loss: 1.3501
+Train Epoch: 40 [480/800 (60.0%)]	Loss: 0.7642
+Train Epoch: 40 [520/800 (65.0%)]	Loss: 1.1383
+Train Epoch: 40 [560/800 (70.0%)]	Loss: 1.0562
+Train Epoch: 40 [600/800 (75.0%)]	Loss: 0.8049
+Train Epoch: 40 [640/800 (80.0%)]	Loss: 1.1542
+Train Epoch: 40 [680/800 (85.0%)]	Loss: 0.9617
+Train Epoch: 40 [720/800 (90.0%)]	Loss: 0.8079
+Train Epoch: 40 [760/800 (95.0%)]	Loss: 1.1939
+Train Epoch: 40 [800/800 (100.0%)]	Loss: 1.0168
+Done epoch #40, time for this epoch: 87.07461762428284s
+Epoch 40: loss: 1.0476, train accuracy: 6259718.2500, valid accuracy:6212113.5000
+Start epoch #41, learning rate for this epoch: [1.20932352e-06]
+Train Epoch: 41 [40/800 (5.0%)]	Loss: 1.4832
+Train Epoch: 41 [80/800 (10.0%)]	Loss: 1.2423
+Train Epoch: 41 [120/800 (15.0%)]	Loss: 1.1275
+Train Epoch: 41 [160/800 (20.0%)]	Loss: 1.2184
+Train Epoch: 41 [200/800 (25.0%)]	Loss: 1.0958
+Train Epoch: 41 [240/800 (30.0%)]	Loss: 0.9301
+Train Epoch: 41 [280/800 (35.0%)]	Loss: 0.9727
+Train Epoch: 41 [320/800 (40.0%)]	Loss: 1.0573
+Train Epoch: 41 [360/800 (45.0%)]	Loss: 1.3963
+Train Epoch: 41 [400/800 (50.0%)]	Loss: 1.0100
+Train Epoch: 41 [440/800 (55.0%)]	Loss: 0.9376
+Train Epoch: 41 [480/800 (60.0%)]	Loss: 1.4881
+Train Epoch: 41 [520/800 (65.0%)]	Loss: 1.0252
+Train Epoch: 41 [560/800 (70.0%)]	Loss: 0.9355
+Train Epoch: 41 [600/800 (75.0%)]	Loss: 1.0791
+Train Epoch: 41 [640/800 (80.0%)]	Loss: 1.4664
+Train Epoch: 41 [680/800 (85.0%)]	Loss: 0.9177
+Train Epoch: 41 [720/800 (90.0%)]	Loss: 1.1290
+Train Epoch: 41 [760/800 (95.0%)]	Loss: 1.0239
+Train Epoch: 41 [800/800 (100.0%)]	Loss: 0.9870
+Done epoch #41, time for this epoch: 87.36470317840576s
+Epoch 41: loss: 1.0491, train accuracy: 6259595.6250, valid accuracy:6216470.5000
+Start epoch #42, learning rate for this epoch: [1.20932352e-06]
+Train Epoch: 42 [40/800 (5.0%)]	Loss: 0.9970
+Train Epoch: 42 [80/800 (10.0%)]	Loss: 0.9368
+Train Epoch: 42 [120/800 (15.0%)]	Loss: 1.1694
+Train Epoch: 42 [160/800 (20.0%)]	Loss: 1.3495
+Train Epoch: 42 [200/800 (25.0%)]	Loss: 1.1623
+Train Epoch: 42 [240/800 (30.0%)]	Loss: 1.2045
+Train Epoch: 42 [280/800 (35.0%)]	Loss: 1.5389
+Train Epoch: 42 [320/800 (40.0%)]	Loss: 1.2533
+Train Epoch: 42 [360/800 (45.0%)]	Loss: 0.8833
+Train Epoch: 42 [400/800 (50.0%)]	Loss: 1.4211
+Train Epoch: 42 [440/800 (55.0%)]	Loss: 0.9363
+Train Epoch: 42 [480/800 (60.0%)]	Loss: 0.8849
+Train Epoch: 42 [520/800 (65.0%)]	Loss: 1.3293
+Train Epoch: 42 [560/800 (70.0%)]	Loss: 0.9835
+Train Epoch: 42 [600/800 (75.0%)]	Loss: 1.2062
+Train Epoch: 42 [640/800 (80.0%)]	Loss: 0.9078
+Train Epoch: 42 [680/800 (85.0%)]	Loss: 1.1392
+Train Epoch: 42 [720/800 (90.0%)]	Loss: 0.9077
+Train Epoch: 42 [760/800 (95.0%)]	Loss: 1.0376
+Train Epoch: 42 [800/800 (100.0%)]	Loss: 0.9865
+Done epoch #42, time for this epoch: 87.2701907157898s
+Epoch 42: loss: 1.0467, train accuracy: 6270665.0000, valid accuracy:6227089.5000
+Start epoch #43, learning rate for this epoch: [1.20932352e-06]
+Train Epoch: 43 [40/800 (5.0%)]	Loss: 0.8173
+Train Epoch: 43 [80/800 (10.0%)]	Loss: 0.8098
+Train Epoch: 43 [120/800 (15.0%)]	Loss: 1.1684
+Train Epoch: 43 [160/800 (20.0%)]	Loss: 0.7903
+Train Epoch: 43 [200/800 (25.0%)]	Loss: 0.9279
+Train Epoch: 43 [240/800 (30.0%)]	Loss: 0.8699
+Train Epoch: 43 [280/800 (35.0%)]	Loss: 0.9581
+Train Epoch: 43 [320/800 (40.0%)]	Loss: 1.2067
+Train Epoch: 43 [360/800 (45.0%)]	Loss: 1.1026
+Train Epoch: 43 [400/800 (50.0%)]	Loss: 0.9079
+Train Epoch: 43 [440/800 (55.0%)]	Loss: 0.9275
+Train Epoch: 43 [480/800 (60.0%)]	Loss: 1.0973
+Train Epoch: 43 [520/800 (65.0%)]	Loss: 1.1369
+Train Epoch: 43 [560/800 (70.0%)]	Loss: 1.1496
+Train Epoch: 43 [600/800 (75.0%)]	Loss: 1.0476
+Train Epoch: 43 [640/800 (80.0%)]	Loss: 0.7187
+Train Epoch: 43 [680/800 (85.0%)]	Loss: 0.8282
+Train Epoch: 43 [720/800 (90.0%)]	Loss: 0.9664
+Train Epoch: 43 [760/800 (95.0%)]	Loss: 1.2581
+Train Epoch: 43 [800/800 (100.0%)]	Loss: 0.9935
+Done epoch #43, time for this epoch: 87.13205814361572s
+Epoch 43: loss: 1.0508, train accuracy: 6278552.0000, valid accuracy:6239018.0000
+Start epoch #44, learning rate for this epoch: [1.20932352e-06]
+Train Epoch: 44 [40/800 (5.0%)]	Loss: 1.1905
+Train Epoch: 44 [80/800 (10.0%)]	Loss: 0.8381
+Train Epoch: 44 [120/800 (15.0%)]	Loss: 1.3981
+Train Epoch: 44 [160/800 (20.0%)]	Loss: 1.1036
+Train Epoch: 44 [200/800 (25.0%)]	Loss: 1.0321
+Train Epoch: 44 [240/800 (30.0%)]	Loss: 0.8288
+Train Epoch: 44 [280/800 (35.0%)]	Loss: 0.8864
+Train Epoch: 44 [320/800 (40.0%)]	Loss: 0.9572
+Train Epoch: 44 [360/800 (45.0%)]	Loss: 1.3895
+Train Epoch: 44 [400/800 (50.0%)]	Loss: 1.1107
+Train Epoch: 44 [440/800 (55.0%)]	Loss: 0.8479
+Train Epoch: 44 [480/800 (60.0%)]	Loss: 1.1386
+Train Epoch: 44 [520/800 (65.0%)]	Loss: 1.0266
+Train Epoch: 44 [560/800 (70.0%)]	Loss: 1.0814
+Train Epoch: 44 [600/800 (75.0%)]	Loss: 1.1611
+Train Epoch: 44 [640/800 (80.0%)]	Loss: 0.9265
+Train Epoch: 44 [680/800 (85.0%)]	Loss: 1.1707
+Train Epoch: 44 [720/800 (90.0%)]	Loss: 0.8439
+Train Epoch: 44 [760/800 (95.0%)]	Loss: 1.1654
+Train Epoch: 44 [800/800 (100.0%)]	Loss: 1.0046
+Done epoch #44, time for this epoch: 87.64190030097961s
+Epoch 44: loss: 1.0550, train accuracy: 6293839.3750, valid accuracy:6252584.5000
+Start epoch #45, learning rate for this epoch: [7.25594112e-07]
+Train Epoch: 45 [40/800 (5.0%)]	Loss: 1.2752
+Train Epoch: 45 [80/800 (10.0%)]	Loss: 0.9979
+Train Epoch: 45 [120/800 (15.0%)]	Loss: 0.9374
+Train Epoch: 45 [160/800 (20.0%)]	Loss: 1.0539
+Train Epoch: 45 [200/800 (25.0%)]	Loss: 1.5517
+Train Epoch: 45 [240/800 (30.0%)]	Loss: 1.0803
+Train Epoch: 45 [280/800 (35.0%)]	Loss: 1.0380
+Train Epoch: 45 [320/800 (40.0%)]	Loss: 0.9342
+Train Epoch: 45 [360/800 (45.0%)]	Loss: 0.9853
+Train Epoch: 45 [400/800 (50.0%)]	Loss: 0.9034
+Train Epoch: 45 [440/800 (55.0%)]	Loss: 1.3293
+Train Epoch: 45 [480/800 (60.0%)]	Loss: 0.9940
+Train Epoch: 45 [520/800 (65.0%)]	Loss: 0.9322
+Train Epoch: 45 [560/800 (70.0%)]	Loss: 0.8631
+Train Epoch: 45 [600/800 (75.0%)]	Loss: 1.0237
+Train Epoch: 45 [640/800 (80.0%)]	Loss: 1.1202
+Train Epoch: 45 [680/800 (85.0%)]	Loss: 1.0592
+Train Epoch: 45 [720/800 (90.0%)]	Loss: 0.9482
+Train Epoch: 45 [760/800 (95.0%)]	Loss: 0.8479
+Train Epoch: 45 [800/800 (100.0%)]	Loss: 1.6758
+Done epoch #45, time for this epoch: 87.57058262825012s
+Epoch 45: loss: 1.0481, train accuracy: 6298958.0000, valid accuracy:6259025.5000
+Start epoch #46, learning rate for this epoch: [7.25594112e-07]
+Train Epoch: 46 [40/800 (5.0%)]	Loss: 0.7975
+Train Epoch: 46 [80/800 (10.0%)]	Loss: 0.9898
+Train Epoch: 46 [120/800 (15.0%)]	Loss: 1.1221
+Train Epoch: 46 [160/800 (20.0%)]	Loss: 1.0717
+Train Epoch: 46 [200/800 (25.0%)]	Loss: 0.9348
+Train Epoch: 46 [240/800 (30.0%)]	Loss: 0.9609
+Train Epoch: 46 [280/800 (35.0%)]	Loss: 0.7868
+Train Epoch: 46 [320/800 (40.0%)]	Loss: 0.7925
+Train Epoch: 46 [360/800 (45.0%)]	Loss: 1.2590
+Train Epoch: 46 [400/800 (50.0%)]	Loss: 1.1905
+Train Epoch: 46 [440/800 (55.0%)]	Loss: 1.1928
+Train Epoch: 46 [480/800 (60.0%)]	Loss: 1.0092
+Train Epoch: 46 [520/800 (65.0%)]	Loss: 1.1925
+Train Epoch: 46 [560/800 (70.0%)]	Loss: 0.8300
+Train Epoch: 46 [600/800 (75.0%)]	Loss: 0.9913
+Train Epoch: 46 [640/800 (80.0%)]	Loss: 1.4564
+Train Epoch: 46 [680/800 (85.0%)]	Loss: 0.7324
+Train Epoch: 46 [720/800 (90.0%)]	Loss: 1.0273
+Train Epoch: 46 [760/800 (95.0%)]	Loss: 0.9437
+Train Epoch: 46 [800/800 (100.0%)]	Loss: 0.9517
+Done epoch #46, time for this epoch: 87.45158648490906s
+Epoch 46: loss: 1.0513, train accuracy: 6296302.8750, valid accuracy:6256576.0000
+Start epoch #47, learning rate for this epoch: [7.25594112e-07]
+Train Epoch: 47 [40/800 (5.0%)]	Loss: 1.1866
+Train Epoch: 47 [80/800 (10.0%)]	Loss: 0.9322
+Train Epoch: 47 [120/800 (15.0%)]	Loss: 1.2175
+Train Epoch: 47 [160/800 (20.0%)]	Loss: 0.9326
+Train Epoch: 47 [200/800 (25.0%)]	Loss: 1.1215
+Train Epoch: 47 [240/800 (30.0%)]	Loss: 0.9204
+Train Epoch: 47 [280/800 (35.0%)]	Loss: 1.0375
+Train Epoch: 47 [320/800 (40.0%)]	Loss: 1.3087
+Train Epoch: 47 [360/800 (45.0%)]	Loss: 0.9294
+Train Epoch: 47 [400/800 (50.0%)]	Loss: 1.0693
+Train Epoch: 47 [440/800 (55.0%)]	Loss: 0.9663
+Train Epoch: 47 [480/800 (60.0%)]	Loss: 0.8942
+Train Epoch: 47 [520/800 (65.0%)]	Loss: 1.2154
+Train Epoch: 47 [560/800 (70.0%)]	Loss: 1.0047
+Train Epoch: 47 [600/800 (75.0%)]	Loss: 1.2037
+Train Epoch: 47 [640/800 (80.0%)]	Loss: 0.8722
+Train Epoch: 47 [680/800 (85.0%)]	Loss: 1.1128
+Train Epoch: 47 [720/800 (90.0%)]	Loss: 1.0079
+Train Epoch: 47 [760/800 (95.0%)]	Loss: 0.8289
+Train Epoch: 47 [800/800 (100.0%)]	Loss: 1.0231
+Done epoch #47, time for this epoch: 87.3688542842865s
+Epoch 47: loss: 1.0517, train accuracy: 6282865.0000, valid accuracy:6242622.5000
+Start epoch #48, learning rate for this epoch: [7.25594112e-07]
+Train Epoch: 48 [40/800 (5.0%)]	Loss: 0.8686
+Train Epoch: 48 [80/800 (10.0%)]	Loss: 0.8252
+Train Epoch: 48 [120/800 (15.0%)]	Loss: 0.9570
+Train Epoch: 48 [160/800 (20.0%)]	Loss: 1.1175
+Train Epoch: 48 [200/800 (25.0%)]	Loss: 0.9165
+Train Epoch: 48 [240/800 (30.0%)]	Loss: 1.1441
+Train Epoch: 48 [280/800 (35.0%)]	Loss: 1.1527
+Train Epoch: 48 [320/800 (40.0%)]	Loss: 0.7546
+Train Epoch: 48 [360/800 (45.0%)]	Loss: 0.9794
+Train Epoch: 48 [400/800 (50.0%)]	Loss: 1.1496
+Train Epoch: 48 [440/800 (55.0%)]	Loss: 1.0034
+Train Epoch: 48 [480/800 (60.0%)]	Loss: 0.8771
+Train Epoch: 48 [520/800 (65.0%)]	Loss: 1.0000
+Train Epoch: 48 [560/800 (70.0%)]	Loss: 1.0317
+Train Epoch: 48 [600/800 (75.0%)]	Loss: 1.2002
+Train Epoch: 48 [640/800 (80.0%)]	Loss: 1.2548
+Train Epoch: 48 [680/800 (85.0%)]	Loss: 0.8639
+Train Epoch: 48 [720/800 (90.0%)]	Loss: 0.9050
+Train Epoch: 48 [760/800 (95.0%)]	Loss: 1.0065
+Train Epoch: 48 [800/800 (100.0%)]	Loss: 1.0196
+Done epoch #48, time for this epoch: 87.31763935089111s
+Epoch 48: loss: 1.0494, train accuracy: 6274479.8750, valid accuracy:6232888.5000
+Start epoch #49, learning rate for this epoch: [4.353564672e-07]
+Train Epoch: 49 [40/800 (5.0%)]	Loss: 0.9818
+Train Epoch: 49 [80/800 (10.0%)]	Loss: 1.2243
+Train Epoch: 49 [120/800 (15.0%)]	Loss: 1.3276
+Train Epoch: 49 [160/800 (20.0%)]	Loss: 1.1941
+Train Epoch: 49 [200/800 (25.0%)]	Loss: 1.2580
+Train Epoch: 49 [240/800 (30.0%)]	Loss: 1.0772
+Train Epoch: 49 [280/800 (35.0%)]	Loss: 1.0618
+Train Epoch: 49 [320/800 (40.0%)]	Loss: 1.1084
+Train Epoch: 49 [360/800 (45.0%)]	Loss: 1.0816
+Train Epoch: 49 [400/800 (50.0%)]	Loss: 1.3850
+Train Epoch: 49 [440/800 (55.0%)]	Loss: 1.1034
+Train Epoch: 49 [480/800 (60.0%)]	Loss: 0.8493
+Train Epoch: 49 [520/800 (65.0%)]	Loss: 0.8630
+Train Epoch: 49 [560/800 (70.0%)]	Loss: 1.1095
+Train Epoch: 49 [600/800 (75.0%)]	Loss: 0.9084
+Train Epoch: 49 [640/800 (80.0%)]	Loss: 1.0994
+Train Epoch: 49 [680/800 (85.0%)]	Loss: 0.8347
+Train Epoch: 49 [720/800 (90.0%)]	Loss: 1.8899
+Train Epoch: 49 [760/800 (95.0%)]	Loss: 0.9131
+Train Epoch: 49 [800/800 (100.0%)]	Loss: 0.8373
+Done epoch #49, time for this epoch: 87.25612163543701s
+Epoch 49: loss: 1.0387, train accuracy: 6280637.5000, valid accuracy:6244355.5000
+Start epoch #50, learning rate for this epoch: [4.353564672e-07]
+Train Epoch: 50 [40/800 (5.0%)]	Loss: 0.9484
+Train Epoch: 50 [80/800 (10.0%)]	Loss: 1.1379
+Train Epoch: 50 [120/800 (15.0%)]	Loss: 0.8884
+Train Epoch: 50 [160/800 (20.0%)]	Loss: 0.9787
+Train Epoch: 50 [200/800 (25.0%)]	Loss: 0.9318
+Train Epoch: 50 [240/800 (30.0%)]	Loss: 0.9284
+Train Epoch: 50 [280/800 (35.0%)]	Loss: 0.9588
+Train Epoch: 50 [320/800 (40.0%)]	Loss: 0.9517
+Train Epoch: 50 [360/800 (45.0%)]	Loss: 1.4140
+Train Epoch: 50 [400/800 (50.0%)]	Loss: 0.8058
+Train Epoch: 50 [440/800 (55.0%)]	Loss: 1.0987
+Train Epoch: 50 [480/800 (60.0%)]	Loss: 0.9002
+Train Epoch: 50 [520/800 (65.0%)]	Loss: 0.8673
+Train Epoch: 50 [560/800 (70.0%)]	Loss: 1.7101
+Train Epoch: 50 [600/800 (75.0%)]	Loss: 0.9459
+Train Epoch: 50 [640/800 (80.0%)]	Loss: 1.2921
+Train Epoch: 50 [680/800 (85.0%)]	Loss: 1.0587
+Train Epoch: 50 [720/800 (90.0%)]	Loss: 0.8212
+Train Epoch: 50 [760/800 (95.0%)]	Loss: 0.9973
+Train Epoch: 50 [800/800 (100.0%)]	Loss: 1.0539
+Done epoch #50, time for this epoch: 86.94776630401611s
+Epoch 50: loss: 1.0384, train accuracy: 6279498.8750, valid accuracy:6236718.5000
+=========================END STEP 2=========================
+[PROGRESS] STEP 3: Plotting diagrams...
+=========================END STEP 3=========================
+[PROGRESS] STEP 4: Testing...
+./predicted_masks/6ddca6ee1af35b65bd9ea42cfcfedb5e.png
+./predicted_masks/d5060a633a8d5b2b2b55157b7781e2c7.png
+./predicted_masks/e1797c77826f9a7021bab9fc73303988.png
+./predicted_masks/d077bad31c8c5f54ffaa27a623511c38.png
+./predicted_masks/e19769fa2d37d32780fd497e1c0e9082.png
+./predicted_masks/5026b3550534bca540e24f489284b8e6.png
+./predicted_masks/dc0bb223c4eaf3372eae567c94ea04c6.png
+./predicted_masks/4e2a6e51d077bad31c8c5f54ffaa27a6.png
+./predicted_masks/85a04faeeb2b535797395305af926a6f.png
+./predicted_masks/39dda50f954ba59c7de13a35276a4764.png
+./predicted_masks/a9d45c3dbc695325ded465efde988dfb.png
+./predicted_masks/3c3ca4d5060a633a8d5b2b2b55157b77.png
+./predicted_masks/60b246359c68c836f843dcf41f4dce3c.png
+./predicted_masks/ff55177a34fc01019eec999fd84e679b.png
+./predicted_masks/268d4b4ef4d95ceea11957998906d369.png
+./predicted_masks/0619ebebe9e9c9d00a4262b4fe4a5a95.png
+./predicted_masks/3dd311a65d2b46d0a6085835c525af63.png
+./predicted_masks/8cbdf366e057db382b8564872a27301a.png
+./predicted_masks/3f33c3ca4d5060a633a8d5b2b2b55157.png
+./predicted_masks/e73749a0d21db70dd094a7f32574d6c7.png
+./predicted_masks/dc70626ab4ec3d46e602b296cc5cfd26.png
+./predicted_masks/4f437f0019f7e6af7d7147763bdfb928.png
+./predicted_masks/4e8bfb905b78a91391adc0bb223c4eaf.png
+./predicted_masks/41ed86e58224cb76a67d4dcf9596154e.png
+./predicted_masks/625559c7e610b1531871f2fd85a04fae.png
+./predicted_masks/af35b65bd9ea42cfcfedb5eb2a0e4b50.png
+./predicted_masks/0fca6a4248a41e8db8b4ed633b456aaa.png
+./predicted_masks/4ef4d95ceea11957998906d3694abb47.png
+./predicted_masks/afe1f119f21b248d152b672ab3492fc6.png
+./predicted_masks/a6d9ba9d45c3dbc695325ded465efde9.png
+./predicted_masks/f8e5ad89d2844837f2a0f1536ad3f6a5.png
+./predicted_masks/5664c1711b62f15ec83b97bb11e8e0c4.png
+./predicted_masks/782707d7c359e27888daefee82519763.png
+./predicted_masks/bec33b5e3d68f9d4c331587f9b9d49e2.png
+./predicted_masks/6b83ef461c2a337948a41964c1d4f50a.png
+./predicted_masks/fdbc3bbc04a3afe1f119f21b248d152b.png
+./predicted_masks/8954bb13d3727c7e5e1069646f2f0bb8.png
+./predicted_masks/cdf3f33c3ca4d5060a633a8d5b2b2b55.png
+./predicted_masks/cc5cfd263f1f90be28799235026b3550.png
+./predicted_masks/0af3feff05dec1eb3a70b145a7d8d3b6.png
+./predicted_masks/d694539ef2424a9218697283baa3657e.png
+./predicted_masks/0398846f67b5df7cdf3f33c3ca4d5060.png
+./predicted_masks/54ba59c7de13a35276a476420655433a.png
+./predicted_masks/8395e56a6d9ba9d45c3dbc695325ded4.png
+./predicted_masks/9c7976c1182df0de51d32128c358d1fd.png
+./predicted_masks/05734fbeedd0f9da760db74a29abdb04.png
+./predicted_masks/a48847ae8395e56a6d9ba9d45c3dbc69.png
+./predicted_masks/e8bfb905b78a91391adc0bb223c4eaf3.png
+./predicted_masks/df8e26031fbb5e52c41545ba55aadaa7.png
+./predicted_masks/e1e0ae936de314f2d95e6c487ffa651b.png
+./predicted_masks/019410b1fcf0625f608b4ce97629ab55.png
+./predicted_masks/7cb2eb1ef57af2ed9fbb63b28163a745.png
+./predicted_masks/63b8318ecf467d7ad048df39beb17636.png
+./predicted_masks/fb905b78a91391adc0bb223c4eaf3372.png
+./predicted_masks/97e1c0e9082ea2c193ac8d551c149b60.png
+./predicted_masks/7af2ed9fbb63b28163a745959c039830.png
+./predicted_masks/be86f03d900fd197cd955fa095f97845.png
+./predicted_masks/45b21960c94b0aab4c024a573c692195.png
+./predicted_masks/a3657e4314fe384eb2ba3adfda6c1899.png
+./predicted_masks/314fe384eb2ba3adfda6c1899fdc9837.png
+./predicted_masks/1ad4f13ccf1f4b331a412fc44655fb51.png
+./predicted_masks/ca4d5060a633a8d5b2b2b55157b7781e.png
+./predicted_masks/3bbc04a3afe1f119f21b248d152b672a.png
+./predicted_masks/80c643782707d7c359e27888daefee82.png
+./predicted_masks/ea42b4eebc9e5a87e443434ac60af150.png
+./predicted_masks/710d568df17586ad8f3297c819c90895.png
+./predicted_masks/1db239dda50f954ba59c7de13a35276a.png
+./predicted_masks/c5a0808bee60b246359c68c836f843dc.png
+./predicted_masks/e7998934d417cb2eb1ef57af2ed9fbb6.png
+./predicted_masks/80cae6daedd989517cb8041ed86e5822.png
+./predicted_masks/3c84417fda8019410b1fcf0625f608b4.png
+./predicted_masks/343f27ebc5d92b9076135d76d0bbd4ce.png
+./predicted_masks/5beb48f0be11d0309d1dff09b8405734.png
+./predicted_masks/c695325ded465efde988dfb96d081533.png
+./predicted_masks/425b976973f13dd311a65d2b46d0a608.png
+./predicted_masks/5c1346e62522325c1b9c4fc9cbe1eca1.png
+./predicted_masks/8eb5a9a8a8d7fcc9df8e5ad89d284483.png
+./predicted_masks/f7fdb2d45b21960c94b0aab4c024a573.png
+./predicted_masks/26679bff55177a34fc01019eec999fd8.png
+./predicted_masks/fe1f119f21b248d152b672ab3492fc62.png
+./predicted_masks/77e004e8bfb905b78a91391adc0bb223.png
+./predicted_masks/f8e26031fbb5e52c41545ba55aadaa77.png
+./predicted_masks/c656702fa602bb3c7abacdbd7e6afd56.png
+./predicted_masks/633a8d5b2b2b55157b7781e2c706c75c.png
+./predicted_masks/7f32574d6c748c41743c6c08a1d1ad8f.png
+./predicted_masks/f14e1e0ae936de314f2d95e6c487ffa6.png
+./predicted_masks/6ad1468996b4a9ce6d840b53a6558038.png
+./predicted_masks/ad43fe2cd066b9fdbc3bbc04a3afe1f1.png
+./predicted_masks/6679bff55177a34fc01019eec999fd84.png
+./predicted_masks/dd78294679c9cbb2a365b5574868eb60.png
+./predicted_masks/461c2a337948a41964c1d4f50a5f3601.png
+./predicted_masks/1531871f2fd85a04faeeb2b535797395.png
+./predicted_masks/6d3694abb47953b0e4909384b57bb6a0.png
+./predicted_masks/3657e4314fe384eb2ba3adfda6c1899f.png
+./predicted_masks/eff05dec1eb3a70b145a7d8d3b6c0ed7.png
+./predicted_masks/0626ab4ec3d46e602b296cc5cfd263f1.png
+./predicted_masks/faef7fdb2d45b21960c94b0aab4c024a.png
+./predicted_masks/7f0019f7e6af7d7147763bdfb928d788.png
+./predicted_masks/b21960c94b0aab4c024a573c692195f8.png
+./predicted_masks/3425b976973f13dd311a65d2b46d0a60.png
+./predicted_masks/d6bf62f215f0da4ad3a7ab8df9da7386.png
+./predicted_masks/30c2f4fc276ed9f178dc2f4af6266509.png
+./predicted_masks/5b21960c94b0aab4c024a573c692195f.png
+./predicted_masks/f62f215f0da4ad3a7ab8df9da7386835.png
+./predicted_masks/1209db6dcdda5cc8a788edaeb6aa460a.png
+./predicted_masks/98da48d679d7c7c8d3d96fb2b87fbbcf.png
+./predicted_masks/c7e610b1531871f2fd85a04faeeb2b53.png
+./predicted_masks/7cdf3f33c3ca4d5060a633a8d5b2b2b5.png
+./predicted_masks/4c1711b62f15ec83b97bb11e8e0c4416.png
+./predicted_masks/2cd066b9fdbc3bbc04a3afe1f119f21b.png
+./predicted_masks/eb1ef57af2ed9fbb63b28163a745959c.png
+./predicted_masks/2a365b5574868eb60861ee1ff0b8a4f6.png
+./predicted_masks/b70dd094a7f32574d6c748c41743c6c0.png
+./predicted_masks/4fda8daadc8dd23ae214d84b5dec33fd.png
+./predicted_masks/68d4b4ef4d95ceea11957998906d3694.png
+./predicted_masks/7330398846f67b5df7cdf3f33c3ca4d5.png
+./predicted_masks/aeeb2b535797395305af926a6f23c5d6.png
+./predicted_masks/c22268d4b4ef4d95ceea11957998906d.png
+./predicted_masks/ff05dec1eb3a70b145a7d8d3b6c0ed75.png
+./predicted_masks/d3694abb47953b0e4909384b57bb6a05.png
+./predicted_masks/cb1b387133b51209db6dcdda5cc8a788.png
+./predicted_masks/9632a3c6f7f7fb2a643f15bd0249ddcc.png
+./predicted_masks/0a5f3601ad4f13ccf1f4b331a412fc44.png
+./predicted_masks/60a633a8d5b2b2b55157b7781e2c706c.png
+./predicted_masks/6231002ec4a1fe748f3085f1ce88cbdf.png
+./predicted_masks/7fda8019410b1fcf0625f608b4ce9762.png
+./predicted_masks/13dd311a65d2b46d0a6085835c525af6.png
+./predicted_masks/f13dd311a65d2b46d0a6085835c525af.png
+./predicted_masks/2d9e593b6be1ac29adbe86f03d900fd1.png
+./predicted_masks/6240619ebebe9e9c9d00a4262b4fe4a5.png
+./predicted_masks/e56a6d9ba9d45c3dbc695325ded465ef.png
+./predicted_masks/88e16d4ca6160127cd1d5ff99c267599.png
+./predicted_masks/a15fc656702fa602bb3c7abacdbd7e6a.png
+./predicted_masks/8b8ec74baddc22268d4b4ef4d95ceea1.png
+./predicted_masks/cf6644589e532a9ee954f81faedbce39.png
+./predicted_masks/285e26c90e1797c77826f9a7021bab9f.png
+./predicted_masks/fcd6da15fc656702fa602bb3c7abacdb.png
+./predicted_masks/6f67b5df7cdf3f33c3ca4d5060a633a8.png
+./predicted_masks/8fa8625605da2023387fd56c04414eaa.png
+./predicted_masks/7ad1cf2eb9d32a3dc907950289e976c7.png
+./predicted_masks/d6240619ebebe9e9c9d00a4262b4fe4a.png
+./predicted_masks/318ecf467d7ad048df39beb176363408.png
+./predicted_masks/677a6b1f2c6d40b3bbba8f6c704801b3.png
+./predicted_masks/391adc0bb223c4eaf3372eae567c94ea.png
+./predicted_masks/998906d3694abb47953b0e4909384b57.png
+./predicted_masks/dd094a7f32574d6c748c41743c6c08a1.png
+./predicted_masks/c193ac8d551c149b60f2965341caf528.png
+./predicted_masks/2ed9fbb63b28163a745959c03983064a.png
+./predicted_masks/e3c84417fda8019410b1fcf0625f608b.png
+./predicted_masks/a51625559c7e610b1531871f2fd85a04.png
+./predicted_masks/df366e057db382b8564872a27301a654.png
+./predicted_masks/66e057db382b8564872a27301a654864.png
+./predicted_masks/39d6aad6bb0170a40ed32deef71fbe08.png
+./predicted_masks/27738677a6b1f2c6d40b3bbba8f6c704.png
+./predicted_masks/cf464aa36bf7c09a3bb0e5ca159410b9.png
+./predicted_masks/1002ec4a1fe748f3085f1ce88cbdf366.png
+./predicted_masks/02fa602bb3c7abacdbd7e6afd56ea7bc.png
+./predicted_masks/626650908b1cb932a767bf5487ced51b.png
+./predicted_masks/1b62f15ec83b97bb11e8e0c4416c1931.png
+./predicted_masks/e5e8f14e1e0ae936de314f2d95e6c487.png
+./predicted_masks/7b5df7cdf3f33c3ca4d5060a633a8d5b.png
+./predicted_masks/3c692195f853af7f8a4df1ec859759b7.png
+./predicted_masks/71f2fd85a04faeeb2b535797395305af.png
+./predicted_masks/5a51625559c7e610b1531871f2fd85a0.png
+./predicted_masks/50534bca540e24f489284b8e6953ad88.png
+./predicted_masks/05b78a91391adc0bb223c4eaf3372eae.png
+./predicted_masks/395e56a6d9ba9d45c3dbc695325ded46.png
+./predicted_masks/67d4dcf9596154efb7cef748d9cbd617.png
+./predicted_masks/3b8318ecf467d7ad048df39beb176363.png
+./predicted_masks/6f4d4987ea3b4bae5672a230194c5a08.png
+./predicted_masks/a6e51d077bad31c8c5f54ffaa27a6235.png
+./predicted_masks/db5eb2a0e4b50889d874c68c030b9afe.png
+./predicted_masks/4ca6160127cd1d5ff99c267599fc487b.png
+./predicted_masks/4baddc22268d4b4ef4d95ceea1195799.png
+./predicted_masks/15fc656702fa602bb3c7abacdbd7e6af.png
+./predicted_masks/e9082ea2c193ac8d551c149b60f29653.png
+./predicted_masks/559c7e610b1531871f2fd85a04faeeb2.png
+./predicted_masks/eecd70ebce6347c491b37c8c2e5a64a8.png
+./predicted_masks/94a7f32574d6c748c41743c6c08a1d1a.png
+./predicted_masks/82ea2c193ac8d551c149b60f2965341c.png
+./predicted_masks/c41545ba55aadaa77712a48e11d579d9.png
+./predicted_masks/9fc7330398846f67b5df7cdf3f33c3ca.png
+./predicted_masks/72d9e593b6be1ac29adbe86f03d900fd.png
+./predicted_masks/cbb2a365b5574868eb60861ee1ff0b8a.png
+./predicted_masks/0a0317371a966bf4b3466463a3c64db1.png
+./predicted_masks/780fd497e1c0e9082ea2c193ac8d551c.png
+./predicted_masks/936de314f2d95e6c487ffa651b477422.png
+./predicted_masks/692195f853af7f8a4df1ec859759b7c8.png
+./predicted_masks/aafac813fe3ccba3e032dd2948a80c64.png
+./predicted_masks/cb2eb1ef57af2ed9fbb63b28163a7459.png
+./predicted_masks/87133b51209db6dcdda5cc8a788edaeb.png
+./predicted_masks/c4be73749a0d21db70dd094a7f32574d.png
+./predicted_masks/e2cd066b9fdbc3bbc04a3afe1f119f21.png
+./predicted_masks/4417fda8019410b1fcf0625f608b4ce9.png
+./predicted_masks/e4a17af18f72c8e6166a915669c99390.png
+./predicted_masks/be4d18d5401f659532897255ce2dd4ae.png
+./predicted_masks/7936140a2d5fc1443c4e445927738677.png
+./predicted_masks/a6a4248a41e8db8b4ed633b456aaafac.png
+./predicted_masks/5e8f14e1e0ae936de314f2d95e6c487f.png
+./predicted_masks/1c0e9082ea2c193ac8d551c149b60f29.png
+=========================END STEP 4=========================
