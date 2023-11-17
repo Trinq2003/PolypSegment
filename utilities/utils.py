@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import torch.nn.functional as F
 from torchvision.transforms import Resize, ToPILImage, InterpolationMode
 from pynvml import nvmlInit, nvmlDeviceGetHandleByIndex, nvmlDeviceGetMemoryInfo
+import os
 
 def clear_gpu_memory():
     # torch.cuda.memory_summary(device=None, abbreviated=False)
@@ -37,6 +38,10 @@ def weights_init(model):
         torch.nn.init.xavier_uniform_(model.weight)
 
 def save_model(model, optimizer, path):
+    checkpoint_dir = os.path.dirname(path)
+    if not os.path.exists(checkpoint_dir):
+        os.makedirs(checkpoint_dir)
+    
     checkpoint = {
         "model": model.state_dict(),
         "optimizer": optimizer.state_dict(),
