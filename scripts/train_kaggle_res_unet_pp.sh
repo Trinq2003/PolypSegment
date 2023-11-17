@@ -6,7 +6,7 @@ python PolypSegment/main.py \
     --images-path /kaggle/input/bkai-igh-neopolyp/train/train/ \
     --masks-path /kaggle/input/bkai-igh-neopolyp/train_gt/train_gt/ \
     --test-path /kaggle/input/bkai-igh-neopolyp/test/test/ \
-    --num-epochs 50 \
+    --num-epochs 25 \
     --lr 2e-4 \
     --batch-size 4 \
     --display-step 10 \
