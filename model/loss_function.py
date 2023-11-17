@@ -50,40 +50,40 @@ class CEDiceLoss(nn.Module):
         
         return torch.mean(1. - dice_score) + celoss
 
-# class BCEDiceLoss(nn.Module):
-#     def __init__(self, weight=None, size_average=True):
-#         super().__init__()
+class BCEDiceLoss(nn.Module):
+    def __init__(self, weight=None, size_average=True):
+        super().__init__()
 
-#     def forward(self, input, target):
-#         pred = input.view(-1)
-#         truth = target.view(-1)
-#         if not torch.is_tensor(input):
-#             raise TypeError("Input type is not a torch.Tensor. Got {}"
-#                             .format(type(input)))
-#         if not len(input.shape) == 4:
-#             raise ValueError("Invalid input shape, we expect BxNxHxW. Got: {}"
-#                              .format(input.shape))
-#         if not input.shape[-2:] == target.shape[-2:]:
-#             raise ValueError("input and target shapes must be the same. Got: {}"
-#                              .format(input.shape, input.shape))
-#         if not input.device == target.device:
-#             raise ValueError(
-#                 "input and target must be in the same device. Got: {}" .format(
-#                     input.device, target.device))
-#         if not self.weights.shape[1] == input.shape[1]:
-#             raise ValueError("The number of weights must equal the number of classes")
-#         if not torch.sum(self.weights).item() == 1:
-#             raise ValueError("The sum of all weights must equal 1")
+    def forward(self, input, target):
+        pred = input.view(-1)
+        truth = target.view(-1)
+        if not torch.is_tensor(input):
+            raise TypeError("Input type is not a torch.Tensor. Got {}"
+                            .format(type(input)))
+        if not len(input.shape) == 4:
+            raise ValueError("Invalid input shape, we expect BxNxHxW. Got: {}"
+                             .format(input.shape))
+        if not input.shape[-2:] == target.shape[-2:]:
+            raise ValueError("input and target shapes must be the same. Got: {}"
+                             .format(input.shape, input.shape))
+        if not input.device == target.device:
+            raise ValueError(
+                "input and target must be in the same device. Got: {}" .format(
+                    input.device, target.device))
+        if not self.weights.shape[1] == input.shape[1]:
+            raise ValueError("The number of weights must equal the number of classes")
+        if not torch.sum(self.weights).item() == 1:
+            raise ValueError("The sum of all weights must equal 1")
 
-#         # BCE loss
-#         bce_loss = nn.BCELoss()(pred, truth).double()
+        # BCE loss
+        bce_loss = nn.BCELoss()(pred, truth).double()
 
-#         # Dice Loss
-#         dice_coef = (2.0 * (pred * truth).double().sum() + 1) / (
-#             pred.double().sum() + truth.double().sum() + 1
-#         )
+        # Dice Loss
+        dice_coef = (2.0 * (pred * truth).double().sum() + 1) / (
+            pred.double().sum() + truth.double().sum() + 1
+        )
 
-#         return bce_loss + (1 - dice_coef)
+        return bce_loss + (1 - dice_coef)
 
 # class BCEDiceLoss(nn.Module):
 #     def __init__(self, weights=None) -> None:
@@ -182,30 +182,3 @@ class CEDiceLoss(nn.Module):
 #         bceloss = nn.BCEWithLogitsLoss()(input[:, 0, :, :], target.float())
 
 #         return torch.mean(1. - dice_score) + bceloss
-
-class BCEDiceLoss(nn.Module):
-    def __init__(self):
-        super(BCEDiceLoss, self).__init__()
-
-    def forward(self, input, target):
-        # Flatten the input and target tensors
-        input_flat = input.view(input.size(0), -1)
-        target_flat = target.view(target.size(0), -1)
-
-        # Compute binary cross-entropy loss
-        bce_loss = -(target_flat * torch.log(input_flat + 1e-6) + (1 - target_flat) * torch.log(1 - input_flat + 1e-6))
-        bce_loss = torch.mean(bce_loss, dim=1)
-
-        # Compute dice loss
-        smooth = 1e-6
-        input_flat = input_flat.float()
-        target_flat = target_flat.float()
-        intersection = torch.sum(input_flat * target_flat, dim=1)
-        cardinality = torch.sum(input_flat + target_flat, dim=1)
-        dice_loss = 1. - (2. * intersection + smooth) / (cardinality + smooth)
-        dice_loss = torch.mean(dice_loss, dim=1)
-
-        # Combine BCE loss and Dice loss
-        loss = bce_loss + dice_loss
-
-        return torch.mean(loss)
