@@ -1,7 +1,7 @@
 python PolypSegment/main.py \
     --model ResUnetPlusPlus \
-    --checkpoint-path ./checkpoints/unet_model.pth \
-    --pretrained-path ./saved_models/ \
+    --checkpoint-path /kaggle/working/PolypSegment/checkpoints/unet_model.pth \
+    --pretrained-path /kaggle/working/PolypSegment/saved_models/ \
     --infer-path /kaggle/working/PolypSegment/predicted_masks/ \
     --images-path /kaggle/input/bkai-igh-neopolyp/train/train/ \
     --masks-path /kaggle/input/bkai-igh-neopolyp/train_gt/train_gt/ \
