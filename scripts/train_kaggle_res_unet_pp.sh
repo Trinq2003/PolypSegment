@@ -1,5 +1,7 @@
 python PolypSegment/main.py \
     --model ResUnetPlusPlus \
+    --optimizer Adam \
+    --loss-fc CrossEntropyLoss \
     --checkpoint-path /kaggle/working/PolypSegment/checkpoints/unet_model.pth \
     --pretrained-path /kaggle/working/PolypSegment/saved_models/ \
     --infer-path /kaggle/working/PolypSegment/predicted_masks/ \

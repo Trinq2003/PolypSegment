@@ -1,0 +1,263 @@
+
+Start epoch #1, learning rate for this epoch: [0.0002]
+Train Epoch: 1 [40/800 (5.0%)]	Loss: 6.8071
+Train Epoch: 1 [80/800 (10.0%)]	Loss: 6.6639
+Train Epoch: 1 [120/800 (15.0%)]	Loss: 6.6571
+Train Epoch: 1 [160/800 (20.0%)]	Loss: 6.6259
+Train Epoch: 1 [200/800 (25.0%)]	Loss: 6.6236
+Train Epoch: 1 [240/800 (30.0%)]	Loss: 6.6367
+Train Epoch: 1 [280/800 (35.0%)]	Loss: 6.6335
+Train Epoch: 1 [320/800 (40.0%)]	Loss: 6.6051
+Train Epoch: 1 [360/800 (45.0%)]	Loss: 6.6022
+Train Epoch: 1 [400/800 (50.0%)]	Loss: 6.6014
+Train Epoch: 1 [440/800 (55.0%)]	Loss: 6.5971
+Train Epoch: 1 [480/800 (60.0%)]	Loss: 6.6031
+Train Epoch: 1 [520/800 (65.0%)]	Loss: 6.6030
+Train Epoch: 1 [560/800 (70.0%)]	Loss: 6.5966
+Train Epoch: 1 [600/800 (75.0%)]	Loss: 6.6432
+Train Epoch: 1 [640/800 (80.0%)]	Loss: 6.5965
+Train Epoch: 1 [680/800 (85.0%)]	Loss: 6.6030
+Train Epoch: 1 [720/800 (90.0%)]	Loss: 6.5985
+Train Epoch: 1 [760/800 (95.0%)]	Loss: 6.5956
+Train Epoch: 1 [800/800 (100.0%)]	Loss: 6.5977
+Done epoch #1, time for this epoch: 143.30183839797974s
+Epoch 1: loss: 6.6424, train accuracy: 2178476.7500, valid accuracy:2119426.5000
+Start epoch #2, learning rate for this epoch: [0.0002]
+Train Epoch: 2 [40/800 (5.0%)]	Loss: 6.5953
+Train Epoch: 2 [80/800 (10.0%)]	Loss: 6.5973
+Train Epoch: 2 [120/800 (15.0%)]	Loss: 6.5950
+Train Epoch: 2 [160/800 (20.0%)]	Loss: 6.5969
+Train Epoch: 2 [200/800 (25.0%)]	Loss: 6.5960
+Train Epoch: 2 [240/800 (30.0%)]	Loss: 6.5972
+Train Epoch: 2 [280/800 (35.0%)]	Loss: 6.5943
+Train Epoch: 2 [320/800 (40.0%)]	Loss: 6.5937
+Train Epoch: 2 [360/800 (45.0%)]	Loss: 6.6014
+Train Epoch: 2 [400/800 (50.0%)]	Loss: 6.5947
+Train Epoch: 2 [440/800 (55.0%)]	Loss: 6.5946
+Train Epoch: 2 [480/800 (60.0%)]	Loss: 6.5942
+Train Epoch: 2 [520/800 (65.0%)]	Loss: 6.5940
+Train Epoch: 2 [560/800 (70.0%)]	Loss: 6.5937
+Train Epoch: 2 [600/800 (75.0%)]	Loss: 6.5939
+Train Epoch: 2 [640/800 (80.0%)]	Loss: 6.5998
+Train Epoch: 2 [680/800 (85.0%)]	Loss: 6.5934
+Train Epoch: 2 [720/800 (90.0%)]	Loss: 6.5934
+Train Epoch: 2 [760/800 (95.0%)]	Loss: 6.5934
+Train Epoch: 2 [800/800 (100.0%)]	Loss: 6.5926
+Done epoch #2, time for this epoch: 146.3646240234375s
+Epoch 2: loss: 6.5953, train accuracy: 2028318.8750, valid accuracy:2047606.0000
+Start epoch #3, learning rate for this epoch: [0.0002]
+Train Epoch: 3 [40/800 (5.0%)]	Loss: 6.5934
+Train Epoch: 3 [80/800 (10.0%)]	Loss: 6.5938
+Train Epoch: 3 [120/800 (15.0%)]	Loss: 6.5930
+Train Epoch: 3 [160/800 (20.0%)]	Loss: 6.5931
+Train Epoch: 3 [200/800 (25.0%)]	Loss: 6.5927
+Train Epoch: 3 [240/800 (30.0%)]	Loss: 6.5926
+Train Epoch: 3 [280/800 (35.0%)]	Loss: 6.5927
+Train Epoch: 3 [320/800 (40.0%)]	Loss: 6.5926
+Train Epoch: 3 [360/800 (45.0%)]	Loss: 6.5923
+Train Epoch: 3 [400/800 (50.0%)]	Loss: 6.5933
+Train Epoch: 3 [440/800 (55.0%)]	Loss: 6.5928
+Train Epoch: 3 [480/800 (60.0%)]	Loss: 6.5925
+Train Epoch: 3 [520/800 (65.0%)]	Loss: 6.5934
+Train Epoch: 3 [560/800 (70.0%)]	Loss: 6.5930
+Train Epoch: 3 [600/800 (75.0%)]	Loss: 6.5927
+Train Epoch: 3 [640/800 (80.0%)]	Loss: 6.5921
+Train Epoch: 3 [680/800 (85.0%)]	Loss: 6.5924
+Train Epoch: 3 [720/800 (90.0%)]	Loss: 6.5933
+Train Epoch: 3 [760/800 (95.0%)]	Loss: 6.5937
+Train Epoch: 3 [800/800 (100.0%)]	Loss: 6.5936
+Done epoch #3, time for this epoch: 146.40788888931274s
+Epoch 3: loss: 6.5931, train accuracy: 1707013.6250, valid accuracy:1705127.0000
+Start epoch #4, learning rate for this epoch: [0.0002]
+Train Epoch: 4 [40/800 (5.0%)]	Loss: 6.5924
+Train Epoch: 4 [80/800 (10.0%)]	Loss: 6.5926
+Train Epoch: 4 [120/800 (15.0%)]	Loss: 6.5938
+Train Epoch: 4 [160/800 (20.0%)]	Loss: 6.5922
+Train Epoch: 4 [200/800 (25.0%)]	Loss: 6.5925
+Train Epoch: 4 [240/800 (30.0%)]	Loss: 6.5925
+Train Epoch: 4 [280/800 (35.0%)]	Loss: 6.5923
+Train Epoch: 4 [320/800 (40.0%)]	Loss: 6.5923
+Train Epoch: 4 [360/800 (45.0%)]	Loss: 6.5926
+Train Epoch: 4 [400/800 (50.0%)]	Loss: 6.5922
+Train Epoch: 4 [440/800 (55.0%)]	Loss: 6.5923
+Train Epoch: 4 [480/800 (60.0%)]	Loss: 6.5921
+Train Epoch: 4 [520/800 (65.0%)]	Loss: 6.5926
+Train Epoch: 4 [560/800 (70.0%)]	Loss: 6.5924
+Train Epoch: 4 [600/800 (75.0%)]	Loss: 6.5920
+Train Epoch: 4 [640/800 (80.0%)]	Loss: 6.5920
+Train Epoch: 4 [680/800 (85.0%)]	Loss: 6.5922
+Train Epoch: 4 [720/800 (90.0%)]	Loss: 6.6007
+Train Epoch: 4 [760/800 (95.0%)]	Loss: 6.5927
+Train Epoch: 4 [800/800 (100.0%)]	Loss: 6.5923
+Done epoch #4, time for this epoch: 147.3541600704193s
+Epoch 4: loss: 6.5926, train accuracy: 1905637.0000, valid accuracy:1898062.0000
+Start epoch #5, learning rate for this epoch: [0.00012]
+Train Epoch: 5 [40/800 (5.0%)]	Loss: 6.5920
+Train Epoch: 5 [80/800 (10.0%)]	Loss: 6.5922
+Train Epoch: 5 [120/800 (15.0%)]	Loss: 6.5922
+Train Epoch: 5 [160/800 (20.0%)]	Loss: 6.5926
+Train Epoch: 5 [200/800 (25.0%)]	Loss: 6.5920
+Train Epoch: 5 [240/800 (30.0%)]	Loss: 6.5927
+Train Epoch: 5 [280/800 (35.0%)]	Loss: 6.5920
+Train Epoch: 5 [320/800 (40.0%)]	Loss: 6.5921
+Train Epoch: 5 [360/800 (45.0%)]	Loss: 6.5919
+Train Epoch: 5 [400/800 (50.0%)]	Loss: 6.5922
+Train Epoch: 5 [440/800 (55.0%)]	Loss: 6.5923
+Train Epoch: 5 [480/800 (60.0%)]	Loss: 6.5923
+Train Epoch: 5 [520/800 (65.0%)]	Loss: 6.5920
+Train Epoch: 5 [560/800 (70.0%)]	Loss: 6.5922
+Train Epoch: 5 [600/800 (75.0%)]	Loss: 6.5921
+Train Epoch: 5 [640/800 (80.0%)]	Loss: 6.6008
+Train Epoch: 5 [680/800 (85.0%)]	Loss: 6.5923
+Train Epoch: 5 [720/800 (90.0%)]	Loss: 6.5922
+Train Epoch: 5 [760/800 (95.0%)]	Loss: 6.5920
+Train Epoch: 5 [800/800 (100.0%)]	Loss: 6.5925
+Done epoch #5, time for this epoch: 149.4081165790558s
+Epoch 5: loss: 6.5924, train accuracy: 2527492.1250, valid accuracy:2509096.5000
+Start epoch #6, learning rate for this epoch: [0.00012]
+Train Epoch: 6 [40/800 (5.0%)]	Loss: 6.5919
+Train Epoch: 6 [80/800 (10.0%)]	Loss: 6.5921
+Train Epoch: 6 [120/800 (15.0%)]	Loss: 6.5919
+Train Epoch: 6 [160/800 (20.0%)]	Loss: 6.5919
+Train Epoch: 6 [200/800 (25.0%)]	Loss: 6.5919
+Train Epoch: 6 [240/800 (30.0%)]	Loss: 6.5919
+Train Epoch: 6 [280/800 (35.0%)]	Loss: 6.5920
+Train Epoch: 6 [320/800 (40.0%)]	Loss: 6.6001
+Train Epoch: 6 [360/800 (45.0%)]	Loss: 6.5923
+Train Epoch: 6 [400/800 (50.0%)]	Loss: 6.5919
+Train Epoch: 6 [440/800 (55.0%)]	Loss: 6.5925
+Train Epoch: 6 [480/800 (60.0%)]	Loss: 6.5920
+Train Epoch: 6 [520/800 (65.0%)]	Loss: 6.5920
+Train Epoch: 6 [560/800 (70.0%)]	Loss: 6.5920
+Train Epoch: 6 [600/800 (75.0%)]	Loss: 6.5920
+Train Epoch: 6 [640/800 (80.0%)]	Loss: 6.5920
+Train Epoch: 6 [680/800 (85.0%)]	Loss: 6.5919
+Train Epoch: 6 [720/800 (90.0%)]	Loss: 6.5919
+Train Epoch: 6 [760/800 (95.0%)]	Loss: 6.5919
+Train Epoch: 6 [800/800 (100.0%)]	Loss: 6.5918
+Done epoch #6, time for this epoch: 149.46870398521423s
+Epoch 6: loss: 6.5921, train accuracy: 2139771.5000, valid accuracy:2164212.0000
+Start epoch #7, learning rate for this epoch: [0.00012]
+Train Epoch: 7 [40/800 (5.0%)]	Loss: 6.5920
+Train Epoch: 7 [80/800 (10.0%)]	Loss: 6.5924
+Train Epoch: 7 [120/800 (15.0%)]	Loss: 6.5921
+Train Epoch: 7 [160/800 (20.0%)]	Loss: 6.5921
+Train Epoch: 7 [200/800 (25.0%)]	Loss: 6.5927
+Train Epoch: 7 [240/800 (30.0%)]	Loss: 6.5925
+Train Epoch: 7 [280/800 (35.0%)]	Loss: 6.5919
+Train Epoch: 7 [320/800 (40.0%)]	Loss: 6.5919
+Train Epoch: 7 [360/800 (45.0%)]	Loss: 6.5921
+Train Epoch: 7 [400/800 (50.0%)]	Loss: 6.5918
+Train Epoch: 7 [440/800 (55.0%)]	Loss: 6.5920
+Train Epoch: 7 [480/800 (60.0%)]	Loss: 6.5919
+Train Epoch: 7 [520/800 (65.0%)]	Loss: 6.5918
+Train Epoch: 7 [560/800 (70.0%)]	Loss: 6.5918
+Train Epoch: 7 [600/800 (75.0%)]	Loss: 6.5919
+Train Epoch: 7 [640/800 (80.0%)]	Loss: 6.5919
+Train Epoch: 7 [680/800 (85.0%)]	Loss: 6.5927
+Train Epoch: 7 [720/800 (90.0%)]	Loss: 6.5918
+Train Epoch: 7 [760/800 (95.0%)]	Loss: 6.5919
+Train Epoch: 7 [800/800 (100.0%)]	Loss: 6.5918
+Done epoch #7, time for this epoch: 148.26680517196655s
+Epoch 7: loss: 6.5920, train accuracy: 2337238.5000, valid accuracy:2334063.0000
+Start epoch #8, learning rate for this epoch: [0.00012]
+Train Epoch: 8 [40/800 (5.0%)]	Loss: 6.5918
+Train Epoch: 8 [80/800 (10.0%)]	Loss: 6.5918
+Train Epoch: 8 [120/800 (15.0%)]	Loss: 6.5919
+Train Epoch: 8 [160/800 (20.0%)]	Loss: 6.5918
+Train Epoch: 8 [200/800 (25.0%)]	Loss: 6.5922
+Train Epoch: 8 [240/800 (30.0%)]	Loss: 6.5920
+Train Epoch: 8 [280/800 (35.0%)]	Loss: 6.5920
+Train Epoch: 8 [320/800 (40.0%)]	Loss: 6.5921
+Train Epoch: 8 [360/800 (45.0%)]	Loss: 6.5920
+Train Epoch: 8 [400/800 (50.0%)]	Loss: 6.5923
+Train Epoch: 8 [440/800 (55.0%)]	Loss: 6.5921
+Train Epoch: 8 [480/800 (60.0%)]	Loss: 6.5919
+Train Epoch: 8 [520/800 (65.0%)]	Loss: 6.5919
+Train Epoch: 8 [560/800 (70.0%)]	Loss: 6.5919
+Train Epoch: 8 [600/800 (75.0%)]	Loss: 6.5918
+Train Epoch: 8 [640/800 (80.0%)]	Loss: 6.5919
+Train Epoch: 8 [680/800 (85.0%)]	Loss: 6.5919
+Train Epoch: 8 [720/800 (90.0%)]	Loss: 6.5919
+Train Epoch: 8 [760/800 (95.0%)]	Loss: 6.5919
+Train Epoch: 8 [800/800 (100.0%)]	Loss: 6.5919
+Done epoch #8, time for this epoch: 155.99544262886047s
+Epoch 8: loss: 6.5920, train accuracy: 2287947.5000, valid accuracy:2286141.5000
+Start epoch #9, learning rate for this epoch: [7.2e-05]
+Train Epoch: 9 [40/800 (5.0%)]	Loss: 6.5919
+Train Epoch: 9 [80/800 (10.0%)]	Loss: 6.5920
+Train Epoch: 9 [120/800 (15.0%)]	Loss: 6.5920
+Train Epoch: 9 [160/800 (20.0%)]	Loss: 6.5922
+Train Epoch: 9 [200/800 (25.0%)]	Loss: 6.5930
+Train Epoch: 9 [240/800 (30.0%)]	Loss: 6.5936
+Train Epoch: 9 [280/800 (35.0%)]	Loss: 6.5927
+Train Epoch: 9 [320/800 (40.0%)]	Loss: 6.5922
+Train Epoch: 9 [360/800 (45.0%)]	Loss: 6.5920
+Train Epoch: 9 [400/800 (50.0%)]	Loss: 6.5920
+Train Epoch: 9 [440/800 (55.0%)]	Loss: 6.5923
+Train Epoch: 9 [480/800 (60.0%)]	Loss: 6.5925
+Train Epoch: 9 [520/800 (65.0%)]	Loss: 6.5919
+Train Epoch: 9 [560/800 (70.0%)]	Loss: 6.5920
+Train Epoch: 9 [600/800 (75.0%)]	Loss: 6.5924
+Train Epoch: 9 [640/800 (80.0%)]	Loss: 6.5922
+Train Epoch: 9 [680/800 (85.0%)]	Loss: 6.5933
+Train Epoch: 9 [720/800 (90.0%)]	Loss: 6.5919
+Train Epoch: 9 [760/800 (95.0%)]	Loss: 6.5921
+Train Epoch: 9 [800/800 (100.0%)]	Loss: 6.5920
+Done epoch #9, time for this epoch: 148.65508317947388s
+Epoch 9: loss: 6.5924, train accuracy: 2213238.3750, valid accuracy:2222496.0000
+Start epoch #10, learning rate for this epoch: [7.2e-05]
+Train Epoch: 10 [40/800 (5.0%)]	Loss: 6.5923
+Train Epoch: 10 [80/800 (10.0%)]	Loss: 6.5921
+Train Epoch: 10 [120/800 (15.0%)]	Loss: 6.5921
+Train Epoch: 10 [160/800 (20.0%)]	Loss: 6.5919
+Train Epoch: 10 [200/800 (25.0%)]	Loss: 6.5923
+Train Epoch: 10 [240/800 (30.0%)]	Loss: 6.5922
+Train Epoch: 10 [280/800 (35.0%)]	Loss: 6.5919
+Train Epoch: 10 [320/800 (40.0%)]	Loss: 6.5925
+Train Epoch: 10 [360/800 (45.0%)]	Loss: 6.5919
+Train Epoch: 10 [400/800 (50.0%)]	Loss: 6.5918
+Train Epoch: 10 [440/800 (55.0%)]	Loss: 6.5920
+Train Epoch: 10 [480/800 (60.0%)]	Loss: 6.5919
+Train Epoch: 10 [520/800 (65.0%)]	Loss: 6.5919
+Train Epoch: 10 [560/800 (70.0%)]	Loss: 6.5919
+Train Epoch: 10 [600/800 (75.0%)]	Loss: 6.5920
+Train Epoch: 10 [640/800 (80.0%)]	Loss: 6.5919
+Train Epoch: 10 [680/800 (85.0%)]	Loss: 6.5919
+Train Epoch: 10 [720/800 (90.0%)]	Loss: 6.5925
+Train Epoch: 10 [760/800 (95.0%)]	Loss: 6.5922
+Train Epoch: 10 [800/800 (100.0%)]	Loss: 6.5920
+Done epoch #10, time for this epoch: 150.80842685699463s
+Epoch 10: loss: 6.5921, train accuracy: 2259525.3750, valid accuracy:2296287.0000
+=========================END STEP 2=========================
+[PROGRESS] STEP 3: Plotting diagrams...
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Traceback (most recent call last):
+  File "/home/wallace/Code/HUST/UNET/main.py", line 168, in <module>
+    for i, (data, path, h, w) in enumerate(test_dataloader):
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/wallace/Code/HUST/UNET/data/test_dataloader.py", line 20, in __getitem__
+    data = self.transform(data) / 255
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 277, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+  File "/home/wallace/miniconda3/envs/deep_learning_project/lib/python3.10/site-packages/torchvision/transforms/functional.py", line 361, in normalize
+    raise TypeError(f"img should be Tensor Image. Got {type(tensor)}")
+TypeError: img should be Tensor Image. Got <class 'PIL.Image.Image'>
+=========================END STEP 3=========================
+[PROGRESS] STEP 4: Testing...

@@ -5,7 +5,10 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--model", help="The name of used model", default='ResUnetPlusPlus')
 
 # Loss function
-# parser.add_argument("--loss-fc", help="The name of used loss function", default='BCEDiceLoss')
+parser.add_argument("--loss-fc", help="The name of used loss function", default='CrossEntropy')
+
+# Optimizer
+parser.add_argument("--optimizer", help="The name of used optimizer", default='Adam')
 
 # Dataset
 parser.add_argument("--checkpoint-path", help="Check point directory", default='./checkpoints/')

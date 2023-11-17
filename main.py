@@ -28,7 +28,7 @@ from model.modules import *
 from model.unet import UNet
 from model.res_unet import ResUnet
 from model.res_unet_plus_plus import ResUnetPlusPlus
-from model.loss_function import CEDiceLoss, BCEDiceLoss
+from model.loss_function import *
 
 from utilities import utils, test, train, arg_parser
 
@@ -39,6 +39,8 @@ args = arg_parser.parser.parse_args()
 
 # Set hyperparameters
 model_name = args.model
+loss_fc_name = args.loss_fc
+optimizer_name = args.optimizer
 
 num_classes = 3
 epochs = args.num_epochs
@@ -69,11 +71,15 @@ print(f"[PROGRESS] STEP 1: Loading data...")
 #                      PILToTensor()])
 transform = transforms.Compose([
     transforms.Resize((256, 256)),
-    transforms.RandomHorizontalFlip(),
-    transforms.RandomVerticalFlip(),
+    transforms.RandomHorizontalFlip(p=0.5),
+    transforms.RandomVerticalFlip(p=0.5),
     transforms.GaussianBlur(3),
     transforms.ToTensor(),
-    # transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+])
+test_transform = transforms.Compose([
+    transforms.Resize((256,256)),
+    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 ])
 
 unet_dataset = UNetDataClass(images_path, masks_path, transform)
@@ -90,27 +96,30 @@ print("="*25 + "END STEP 1" + "="*25)
 
 # Model
 print(f"[PROGRESS] STEP 2: Initializing model...")
-weights = torch.Tensor([[0.4, 0.55, 0.05]]).cuda()
 if (model_name.lower() == "unet"):
     model = UNet()
-    # Loss function
-    loss_function = CEDiceLoss(weights)
-    print("[INFO] Using CEDiceLoss")
 elif (model_name.lower() == "resunet"):
     model = ResUnet(channel=3, filters=[64, 128, 256, 512])
-    loss_function = CEDiceLoss(weights)
-    print("[INFO] Using BCEDiceLoss")
 elif (model_name.lower() == "resunetplusplus"):
     model = ResUnetPlusPlus(channel=3, filters=[32, 64, 128, 256, 512])
-    loss_function = CEDiceLoss(weights)
-    print("[INFO] Using BCEDiceLoss")
+
+if (loss_fc_name.lower() == "crossentropyloss"):
+    loss_function = CrossEntropyLoss()
+else:
+    weights = torch.Tensor([[0.4, 0.55, 0.05]]).cuda()
+    if (loss_fc_name.lower() == "cediceloss"):
+        loss_function = CEDiceLoss(weights)
+    elif (loss_fc_name.lower() == "bcediceloss"):
+        loss_function = BCEDiceLoss(weights)
+print(f"[INFO] Loss function used: {loss_fc_name.lower()}")
 
 model.apply(utils.weights_init)
 model = nn.DataParallel(model)
 model.to(device)
 
 # Optimizer
-optimizer = optim.Adam(params=model.parameters(), lr=learning_rate)
+if (optimizer_name.lower() == "adam"):
+    optimizer = optim.Adam(params=model.parameters(), lr=learning_rate)
 learing_rate_scheduler = lr_scheduler.StepLR(optimizer, step_size=4, gamma=0.6)
 
 print("="*25 + "END STEP 2" + "="*25)
@@ -151,14 +160,12 @@ print("="*25 + "END STEP 3" + "="*25)
 
 # Testing
 print(f"[PROGRESS] STEP 4: Testing...")
-test_transform = Compose([Resize((256, 256), interpolation=InterpolationMode.BILINEAR),
-                     PILToTensor()])
 unet_test_dataset = UNetTestDataClass(images_path=test_images_path, transform=test_transform)
 test_dataloader = DataLoader(unet_test_dataset, batch_size=batch_size, shuffle=True)
 
-for i, (data, path, h, w) in enumerate(test_dataloader):
-    img = data
-    break
+# for i, (data, path, h, w) in enumerate(test_dataloader):
+#     img = data
+#     break
 
 # utils.prediction_visualization(model=model, device=device, img=img)
 utils.save_prediction_image(model=model, device=device, test_dataloader=test_dataloader, infer_path=inference_path)

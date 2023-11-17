@@ -1,12 +1,14 @@
 python main.py \
     --model ResUnetPlusPlus \
-    --checkpoint-path ./checkpoints/unet_model.pth \
+    --optimizer Adam \
+    --loss-fc CrossEntropyLoss \
+    --checkpoint-path ./checkpoints/resunetpp_model.pth \
     --pretrained-path ./saved_models/ \
     --infer-path ./predicted_masks/ \
     --images-path ./data/train/train/ \
     --masks-path ./data/train_gt/train_gt/ \
     --test-path ./data/test/test/ \
-    --num-epochs 2 \
+    --num-epochs 5 \
     --lr 2e-4 \
     --batch-size 4 \
     --display-step 10 \

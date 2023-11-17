@@ -3,6 +3,16 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torchgeometry.losses import one_hot
 
+class CrossEntropyLoss(nn.Module):
+    def __init__(self):
+        super(CrossEntropyLoss, self).__init__()
+        self.criterion = nn.CrossEntropyLoss()
+        
+    def forward(self, input, target):
+        target = target.unsqueeze(1).expand(-1, input.size(1), -1, -1)
+        loss = self.criterion(input, target.float())
+        return loss
+
 class CEDiceLoss(nn.Module):
     def __init__(self, weights) -> None:
         super(CEDiceLoss, self).__init__()
