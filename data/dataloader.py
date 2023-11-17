@@ -3,6 +3,7 @@ from torch.utils.data import Dataset, DataLoader, random_split
 from torchvision.transforms import Resize, PILToTensor, Compose, InterpolationMode
 from PIL import Image
 import os
+import matplotlib.pyplot as plt
 
 class UNetDataClass(Dataset):
     def __init__(self, images_path, masks_path, transform):
@@ -58,3 +59,19 @@ if __name__ == "__main__":
     
     print(f"[INFO] Train dataloader: {len(train_dataloader)} batches")
     print(f"[INFO] Valid dataloader: {len(valid_dataloader)} batches")
+
+    for i, (data,targets) in enumerate(train_dataloader):
+        img = data
+        mask = targets
+        break
+
+    print(f"[INFO] Dimesions of train images: {img.size()}")
+    print(f"[INFO] Dimesions of valid images: {mask.size()}")
+    print(f"[INFO] Data type of train images: {img.type()}")
+    print(f"[INFO] Data type of valid images: {mask.type()}") 
+
+    plt.subplot(1, 2, 1)
+    plt.imshow(img[0].permute(1, 2, 0))
+    plt.subplot(1, 2, 2)
+    plt.imshow(mask[0])
+    plt.show()

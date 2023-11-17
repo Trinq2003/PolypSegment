@@ -31,10 +31,13 @@ def train(model, device, loss_function, optimizer, train_dataloader, valid_datal
                 raise exception
 
         # Backpropagation, compute gradients
+        # try:
+        #     loss = loss_function(outputs, targets.float())
+        # except:
+        #     loss = loss_function(outputs, targets.long())
         loss = loss_function(outputs, targets.long())
-        loss.backward()
 
-        # Apply gradients
+        loss.backward()
         optimizer.step()
         
         # Save loss
@@ -54,7 +57,7 @@ def train(model, device, loss_function, optimizer, train_dataloader, valid_datal
         for data, target in valid_dataloader:
             data, target = data.to(device), target.to(device)
             test_output = model(data)
-            test_loss = loss_function(test_output, target)
+            test_loss = loss_function(test_output.float(), target)
             test_loss_epoch += test_loss.item()
             
     test_loss_epoch/= (i+1)

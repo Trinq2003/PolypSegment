@@ -16,6 +16,7 @@ import torch.optim as optim
 from torch.optim import lr_scheduler
 from torch import Tensor
 from torch.utils.data import Dataset, DataLoader, random_split
+import torchvision.transforms as transforms
 from torchvision.transforms import Resize, PILToTensor, ToPILImage, Compose, InterpolationMode
 from pynvml import nvmlInit, nvmlDeviceGetHandleByIndex, nvmlDeviceGetMemoryInfo
 from collections import OrderedDict
@@ -24,8 +25,10 @@ import wandb
 from data.dataloader import UNetDataClass
 from data.test_dataloader import UNetTestDataClass
 from model.modules import *
-from model.model import UNet, ResUnet, ResUnetPlusPlus
-from model.CEDiceloss import CEDiceLoss
+from model.unet import UNet
+from model.res_unet import ResUnet
+from model.res_unet_plus_plus import ResUnetPlusPlus
+from model.loss_function import CEDiceLoss, BCEDiceLoss
 
 from utilities import utils, test, train, arg_parser
 
@@ -62,8 +65,17 @@ last_loss = 9999999999999
 
 # Dataloader
 print(f"[PROGRESS] STEP 1: Loading data...")
-transform = Compose([Resize((256, 256), interpolation=InterpolationMode.BILINEAR),
-                     PILToTensor()])
+# transform = Compose([Resize((256, 256), interpolation=InterpolationMode.BILINEAR),
+#                      PILToTensor()])
+transform = transforms.Compose([
+    transforms.Resize((256, 256)),
+    transforms.RandomHorizontalFlip(),
+    transforms.RandomVerticalFlip(),
+    transforms.GaussianBlur(3),
+    transforms.ToTensor(),
+    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+])
+
 unet_dataset = UNetDataClass(images_path, masks_path, transform)
 print(f"[INFO] Size of dataset: {len(unet_dataset)}")
 train_set, valid_set = random_split(unet_dataset, 
@@ -78,20 +90,24 @@ print("="*25 + "END STEP 1" + "="*25)
 
 # Model
 print(f"[PROGRESS] STEP 2: Initializing model...")
-if (model_name == "UNet"):
+weights = torch.Tensor([[0.4, 0.55, 0.05]]).cuda()
+if (model_name.lower() == "unet"):
     model = UNet()
-elif (model_name == "ResUnet"):
+    # Loss function
+    loss_function = CEDiceLoss(weights)
+    print("[INFO] Using CEDiceLoss")
+elif (model_name.lower() == "resunet"):
     model = ResUnet(channel=3, filters=[64, 128, 256, 512])
-elif (model_name == "ResUnetPlusPlus"):
-    model = ResUnetPlusPlus(channel=3, filters=[64, 128, 256, 512])
+    loss_function = CEDiceLoss(weights)
+    print("[INFO] Using BCEDiceLoss")
+elif (model_name.lower() == "resunetplusplus"):
+    model = ResUnetPlusPlus(channel=3, filters=[32, 64, 128, 256, 512])
+    loss_function = CEDiceLoss(weights)
+    print("[INFO] Using BCEDiceLoss")
 
 model.apply(utils.weights_init)
-moedl = nn.DataParallel(model)
+model = nn.DataParallel(model)
 model.to(device)
-
-# Loss function
-weights = torch.Tensor([[0.4, 0.55, 0.05]]).cuda()
-loss_function = CEDiceLoss(weights)
 
 # Optimizer
 optimizer = optim.Adam(params=model.parameters(), lr=learning_rate)
@@ -100,7 +116,7 @@ learing_rate_scheduler = lr_scheduler.StepLR(optimizer, step_size=4, gamma=0.6)
 print("="*25 + "END STEP 2" + "="*25)
 
 # Training
-print(f"[PROGRESS] DTEP 3: Training...")
+print(f"[PROGRESS] STEP 3: Training...")
 wandb.login(key = "09d9c01b499874346601e6ec425a8c58a6f82000")
 wandb.init(project="PolypSegment")
 
@@ -119,6 +135,7 @@ for epoch in range(epochs):
     train_loss_array.append(train_loss_epoch)
     test_loss_array.append(test_loss_epoch)
     wandb.log({"Train loss": train_loss_epoch, "Valid loss": test_loss_epoch})
+    # print(f"[INFO] Train loss: {train_loss_epoch}, Valid loss: {test_loss_epoch}")
     train_accuracy.append(test.test(model=model, device=device, dataloader=train_dataloader))
     valid_accuracy.append(test.test(model=model, device=device, dataloader=valid_dataloader))
     print("Epoch {}: loss: {:.4f}, train accuracy: {:.4f}, valid accuracy:{:.4f}".format(epoch + 1, 
