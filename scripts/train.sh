@@ -8,7 +8,7 @@ python main.py \
     --images-path ./data/train/train/ \
     --masks-path ./data/train_gt/train_gt/ \
     --test-path ./data/test/test/ \
-    --num-epochs 5 \
+    --num-epochs 1 \
     --lr 2e-4 \
     --batch-size 4 \
     --display-step 10 \
