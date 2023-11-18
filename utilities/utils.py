@@ -11,6 +11,8 @@ import torch.nn.functional as F
 from torchvision.transforms import Resize, ToPILImage, InterpolationMode
 from pynvml import nvmlInit, nvmlDeviceGetHandleByIndex, nvmlDeviceGetMemoryInfo
 import os
+import collections
+import datetime
 
 def clear_gpu_memory():
     # torch.cuda.memory_summary(device=None, abbreviated=False)
@@ -50,8 +52,17 @@ def save_model(model, optimizer, path):
 
 def load_model(model, optimizer, path):
     checkpoint = torch.load(path)
-    model.load_state_dict(checkpoint["model"])
-    optimizer.load_state_dict(checkpoint['optimizer'])
+    try:
+        model.load_state_dict(checkpoint["model"])
+        optimizer.load_state_dict(checkpoint['optimizer'])
+    except RuntimeError: 
+        # Remove ".module" from the keys of state_dict
+        new_state_dict = collections.OrderedDict()
+        for k, v in checkpoint["model"].items():
+            name = k[7:]
+            new_state_dict[name] = v
+        model.load_state_dict(new_state_dict)
+        optimizer.load_state_dict(checkpoint['optimizer'])
     return model, optimizer
 
 def learning_curve_plotting(epochs, train_loss_array):
@@ -102,6 +113,7 @@ def prediction_visualization(model, device, img):
         arr[i][1].imshow(F.one_hot(torch.argmax(predict[i], 0).cpu()).float())
 
 def save_prediction_image(model, device, test_dataloader, infer_path):
+    model.to(device)
     model.eval()
     if not os.path.isdir(infer_path):
         os.mkdir(infer_path)
@@ -167,4 +179,9 @@ def prediction_to_csv(infer_path):
     df = pd.DataFrame(columns=['Id', 'Expected'])
     df['Id'] = res['ids']
     df['Expected'] = res['strings']
-    df.to_csv(r'output.csv', index=False)
+    
+    # Generate the file name
+    now = datetime.datetime.now()
+    file_name = f"output_{now.year}y_{now.month}m_{now.day}d_{now.hour}h_{now.minute}m_{now.second}s.csv"
+    
+    df.to_csv(file_name, index=False)

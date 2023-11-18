@@ -28,8 +28,8 @@ class UNetDataClass(Dataset):
         label = Image.open(mask_path)
         
         # Normalize
-        data = self.transform(data) / 255
-        label = self.transform(label) / 255
+        data = self.transform(data)
+        label = self.transform(label)
         
         label = torch.where(label>0.65, 1.0, 0.0)
         

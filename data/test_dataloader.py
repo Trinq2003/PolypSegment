@@ -17,7 +17,7 @@ class UNetTestDataClass(Dataset):
         data = Image.open(img_path)
         h = data.size[1]
         w = data.size[0]
-        data = self.transform(data) / 255        
+        data = self.transform(data)      
         return data, img_path, h, w
     
     def __len__(self):

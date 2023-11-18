@@ -1,0 +1,8 @@
+/checkpoints
+/data/test
+/data/train
+/data/train_gt
+/predicted_masks
+/wandb
+
+**.csv
